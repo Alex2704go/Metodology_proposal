@@ -1,0 +1,55 @@
+conflict_topology:
+  version: 0.3
+  status: preregistered_after_admission_state_audit_before_rerun
+  frozen_partition: CEOS_Structural_Representation_Families_v0.2
+  nodes: [global, local, composition, structure, symmetry, observer]
+  node_packet: [nearest_family, margin, support_percentile, ood_flag]
+  edge:
+    agreement: same_family
+    conflict: different_family
+  topology_signature:
+    family_label_invariant: true
+    channel_order: [global, local, composition, structure, symmetry, observer]
+  descriptors:
+    - unique_supported_families
+    - pairwise_conflict_fraction
+    - global_local_disagreement
+    - block_disagreement_count
+    - channel_ood_count
+    - multi_axis_conflict
+  boundary:
+    low_margin_rule: global_margin_lt_0.05
+    assignment_state_boundary:
+      - builder_valid
+      - exact_replay
+      - global_support_percentile_lte_99
+      - global_margin_lt_0.05
+    relational_boundary:
+      - assignment_state_BOUNDARY
+      - global_local_disagreement
+      - at_least_two_of_composition_structure_symmetry_disagree_with_global
+    multi_axis_conflict: global_local_disagreement_and_at_least_two_of_composition_structure_symmetry_disagree_with_global
+  neighborhood:
+    space: frozen_ORGANIZATION_75_observables
+    full_representation_space: forbidden
+    minimum_k: 25
+    include_all_distance_ties_at_kth_radius: true
+    distance_tie_tolerance: 1.0e-12
+    family_vote_tie_break: nearest_neighbor_family
+  nulls:
+    channel_packet_alignment_null:
+      repetitions: 100
+      preserve_global_boundary_flags: true
+      independently_permute: [local, composition, structure, symmetry, observer]
+    representation_block_alignment_null:
+      repetitions: 30
+      independently_permute: [composition, structure, symmetry]
+      recompute_global_margin_with_frozen_centroids: true
+  candidate_admission:
+    relational_boundary_population_supported_if:
+      - observed_boundary_conflict_difference_above_packet_null_q95
+      - multi_axis_conflict_odds_ratio_gt_2
+      - fisher_exact_p_lt_0.01
+  interpretation:
+    physical_phase_boundary_claim: forbidden
+    mechanism_claim: forbidden

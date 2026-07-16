@@ -1,0 +1,787 @@
+{
+  "records": 3000,
+  "raw_candidate_features": 161,
+  "retained_features": 105,
+  "block_counts": {
+    "composition_shape": 11,
+    "structure_topology": 5,
+    "structure_numeric": 20,
+    "symmetry_record": 39,
+    "availability_state": 2,
+    "scalar_observers": 9,
+    "capability_map": 18,
+    "provenance_shape": 1
+  },
+  "removed_constants": [
+    "structure.depth",
+    "structure.charge.count",
+    "structure.charge.mean",
+    "structure.charge.std",
+    "structure.charge.min",
+    "structure.charge.max",
+    "structure.lattice.a.count",
+    "structure.lattice.a.std",
+    "structure.lattice.alpha.count",
+    "structure.lattice.alpha.std",
+    "structure.lattice.b.count",
+    "structure.lattice.b.std",
+    "structure.lattice.beta.count",
+    "structure.lattice.beta.std",
+    "structure.lattice.c.count",
+    "structure.lattice.c.std",
+    "structure.lattice.gamma.count",
+    "structure.lattice.gamma.std",
+    "structure.lattice.matrix[][].count",
+    "structure.lattice.volume.count",
+    "structure.lattice.volume.std",
+    "structure.sites[].species[].occu.mean",
+    "structure.sites[].species[].occu.std",
+    "structure.sites[].species[].occu.min",
+    "structure.sites[].species[].occu.max",
+    "symmetry.angle_tolerance",
+    "symmetry.symprec",
+    "has_props.chemenv",
+    "has_props.magnetism",
+    "has_props.materials",
+    "has_props.oxi_states",
+    "origins.keyset_variants",
+    "builder_meta.slot_count",
+    "builder_meta.populated"
+  ],
+  "removed_exact_duplicates": [
+    {
+      "removed": "composition.sorted_share_1",
+      "kept": "composition.max_share"
+    },
+    {
+      "removed": "structure.lattice.a.min",
+      "kept": "structure.lattice.a.mean"
+    },
+    {
+      "removed": "structure.lattice.a.max",
+      "kept": "structure.lattice.a.mean"
+    },
+    {
+      "removed": "structure.lattice.alpha.min",
+      "kept": "structure.lattice.alpha.mean"
+    },
+    {
+      "removed": "structure.lattice.alpha.max",
+      "kept": "structure.lattice.alpha.mean"
+    },
+    {
+      "removed": "structure.lattice.b.min",
+      "kept": "structure.lattice.b.mean"
+    },
+    {
+      "removed": "structure.lattice.b.max",
+      "kept": "structure.lattice.b.mean"
+    },
+    {
+      "removed": "structure.lattice.beta.min",
+      "kept": "structure.lattice.beta.mean"
+    },
+    {
+      "removed": "structure.lattice.beta.max",
+      "kept": "structure.lattice.beta.mean"
+    },
+    {
+      "removed": "structure.lattice.c.min",
+      "kept": "structure.lattice.c.mean"
+    },
+    {
+      "removed": "structure.lattice.c.max",
+      "kept": "structure.lattice.c.mean"
+    },
+    {
+      "removed": "structure.lattice.gamma.min",
+      "kept": "structure.lattice.gamma.mean"
+    },
+    {
+      "removed": "structure.lattice.gamma.max",
+      "kept": "structure.lattice.gamma.mean"
+    },
+    {
+      "removed": "structure.lattice.volume.min",
+      "kept": "structure.lattice.volume.mean"
+    },
+    {
+      "removed": "structure.lattice.volume.max",
+      "kept": "structure.lattice.volume.mean"
+    },
+    {
+      "removed": "structure.sites[].xyz[].count",
+      "kept": "structure.sites[].abc[].count"
+    },
+    {
+      "removed": "volume",
+      "kept": "structure.lattice.volume.mean"
+    },
+    {
+      "removed": "nelements",
+      "kept": "composition.key_count"
+    }
+  ],
+  "removed_within_block_correlations": [
+    {
+      "removed": "structure.object_nodes",
+      "kept": "structure.leaves"
+    },
+    {
+      "removed": "structure.list_nodes",
+      "kept": "structure.leaves"
+    },
+    {
+      "removed": "structure.list_size_max",
+      "kept": "structure.leaves"
+    },
+    {
+      "removed": "structure.sites[].species[].occu.count",
+      "kept": "structure.sites[].abc[].count"
+    }
+  ],
+  "nonfinite_after_processing": 0,
+  "duplicate_vector_rows_beyond_first": 0,
+  "feature_names": [
+    "composition.key_count",
+    "composition.entropy",
+    "composition.max_share",
+    "composition.min_share",
+    "composition.l2",
+    "composition.sorted_share_2",
+    "composition.sorted_share_3",
+    "composition.sorted_share_4",
+    "composition.sorted_share_5",
+    "composition.sorted_share_6",
+    "composition.sorted_share_7",
+    "structure.leaves",
+    "structure.dict_size_mean",
+    "structure.dict_size_std",
+    "structure.list_size_mean",
+    "structure.list_size_std",
+    "structure.lattice.a.mean",
+    "structure.lattice.alpha.mean",
+    "structure.lattice.b.mean",
+    "structure.lattice.beta.mean",
+    "structure.lattice.c.mean",
+    "structure.lattice.gamma.mean",
+    "structure.lattice.matrix[][].mean",
+    "structure.lattice.matrix[][].std",
+    "structure.lattice.matrix[][].min",
+    "structure.lattice.matrix[][].max",
+    "structure.lattice.volume.mean",
+    "structure.sites[].abc[].count",
+    "structure.sites[].abc[].mean",
+    "structure.sites[].abc[].std",
+    "structure.sites[].abc[].min",
+    "structure.sites[].abc[].max",
+    "structure.sites[].xyz[].mean",
+    "structure.sites[].xyz[].std",
+    "structure.sites[].xyz[].min",
+    "structure.sites[].xyz[].max",
+    "symmetry.crystal_system==Cubic",
+    "symmetry.crystal_system==Hexagonal",
+    "symmetry.crystal_system==Monoclinic",
+    "symmetry.crystal_system==Orthorhombic",
+    "symmetry.crystal_system==Tetragonal",
+    "symmetry.crystal_system==Triclinic",
+    "symmetry.crystal_system==Trigonal",
+    "symmetry.number",
+    "symmetry.point_group==-1",
+    "symmetry.point_group==-3",
+    "symmetry.point_group==-3m",
+    "symmetry.point_group==-4",
+    "symmetry.point_group==-42m",
+    "symmetry.point_group==-43m",
+    "symmetry.point_group==-6",
+    "symmetry.point_group==-6m2",
+    "symmetry.point_group==1",
+    "symmetry.point_group==2",
+    "symmetry.point_group==2/m",
+    "symmetry.point_group==222",
+    "symmetry.point_group==23",
+    "symmetry.point_group==3",
+    "symmetry.point_group==32",
+    "symmetry.point_group==3m",
+    "symmetry.point_group==4",
+    "symmetry.point_group==4/m",
+    "symmetry.point_group==4/mmm",
+    "symmetry.point_group==422",
+    "symmetry.point_group==432",
+    "symmetry.point_group==4mm",
+    "symmetry.point_group==6/m",
+    "symmetry.point_group==6/mmm",
+    "symmetry.point_group==622",
+    "symmetry.point_group==6mm",
+    "symmetry.point_group==m",
+    "symmetry.point_group==m-3",
+    "symmetry.point_group==m-3m",
+    "symmetry.point_group==mm2",
+    "symmetry.point_group==mmm",
+    "band_gap__MISSING",
+    "band_gap",
+    "formation_energy_per_atom__MISSING",
+    "formation_energy_per_atom",
+    "density",
+    "is_magnetic==True",
+    "ordering==AFM",
+    "ordering==FM",
+    "ordering==FiM",
+    "ordering==NM",
+    "ordering==Unknown",
+    "has_props.absorption",
+    "has_props.bandstructure",
+    "has_props.charge_density",
+    "has_props.dielectric",
+    "has_props.dos",
+    "has_props.elasticity",
+    "has_props.electronic_structure",
+    "has_props.eos",
+    "has_props.grain_boundaries",
+    "has_props.insertion_electrodes",
+    "has_props.phonon",
+    "has_props.piezoelectric",
+    "has_props.provenance",
+    "has_props.substrates",
+    "has_props.surface_properties",
+    "has_props.thermo",
+    "has_props.xas",
+    "has_props.active_count",
+    "origins.length"
+  ],
+  "blocks": [
+    "composition_shape",
+    "composition_shape",
+    "composition_shape",
+    "composition_shape",
+    "composition_shape",
+    "composition_shape",
+    "composition_shape",
+    "composition_shape",
+    "composition_shape",
+    "composition_shape",
+    "composition_shape",
+    "structure_topology",
+    "structure_topology",
+    "structure_topology",
+    "structure_topology",
+    "structure_topology",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "structure_numeric",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "symmetry_record",
+    "availability_state",
+    "scalar_observers",
+    "availability_state",
+    "scalar_observers",
+    "scalar_observers",
+    "scalar_observers",
+    "scalar_observers",
+    "scalar_observers",
+    "scalar_observers",
+    "scalar_observers",
+    "scalar_observers",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "capability_map",
+    "provenance_shape"
+  ],
+  "scaling": [
+    {
+      "median": 3.0,
+      "scale": 2.0
+    },
+    {
+      "median": 0.8675632284814612,
+      "scale": 0.4414139133437309
+    },
+    {
+      "median": 0.6153846153846154,
+      "scale": 0.22492163009404387
+    },
+    {
+      "median": 0.18181818181818182,
+      "scale": 0.2424242424242424
+    },
+    {
+      "median": 0.7071067811865476,
+      "scale": 0.1469410134335316
+    },
+    {
+      "median": 0.25,
+      "scale": 0.1515151515151515
+    },
+    {
+      "median": 0.08695652173913043,
+      "scale": 0.15666118421052633
+    },
+    {
+      "median": 0.0,
+      "scale": 0.05555555555555555
+    },
+    {
+      "median": 0.0,
+      "scale": 0.014013693853969635
+    },
+    {
+      "median": 0.0,
+      "scale": 0.004225593276740382
+    },
+    {
+      "median": 0.0,
+      "scale": 0.0012538981470536959
+    },
+    {
+      "median": 182.0,
+      "scale": 230.0
+    },
+    {
+      "median": 2.7564102564102564,
+      "scale": 0.14358974358974352
+    },
+    {
+      "median": 1.9920830960902198,
+      "scale": 0.4612679778044422
+    },
+    {
+      "median": 2.6481481481481484,
+      "scale": 0.017973856209150263
+    },
+    {
+      "median": 2.047196885783885,
+      "scale": 1.5327460369310453
+    },
+    {
+      "median": 6.222728601298227,
+      "scale": 3.4401627637257235
+    },
+    {
+      "median": 90.0,
+      "scale": 4.43239354396394
+    },
+    {
+      "median": 7.026168576112893,
+      "scale": 3.722989649476153
+    },
+    {
+      "median": 90.0,
+      "scale": 9.864715889307263e-05
+    },
+    {
+      "median": 8.496075145248813,
+      "scale": 4.816323980253516
+    },
+    {
+      "median": 90.0,
+      "scale": 18.445682140789458
+    },
+    {
+      "median": 2.060016055555556,
+      "scale": 1.455130099963839
+    },
+    {
+      "median": 3.7603082266940246,
+      "scale": 1.689570681937083
+    },
+    {
+      "median": -1.830228785,
+      "scale": 4.776698437082302
+    },
+    {
+      "median": 8.453297395,
+      "scale": 4.966588500000002
+    },
+    {
+      "median": 304.6784524346821,
+      "scale": 423.84803190353534
+    },
+    {
+      "median": 48.0,
+      "scale": 66.0
+    },
+    {
+      "median": 0.47916658312500005,
+      "scale": 0.08333333333333381
+    },
+    {
+      "median": 0.28604340558054436,
+      "scale": 0.017559903241011365
+    },
+    {
+      "median": 0.0,
+      "scale": 0.0063239975
+    },
+    {
+      "median": 0.9730298898350151,
+      "scale": 0.11871044153663335
+    },
+    {
+      "median": 2.7831075002965804,
+      "scale": 2.401710260129399
+    },
+    {
+      "median": 2.6060035842519986,
+      "scale": 1.4374209094184849
+    },
+    {
+      "median": -1.590955150225622e-05,
+      "scale": 3.340185247186671
+    },
+    {
+      "median": 8.2977879931085,
+      "scale": 5.963171348711649
+    },
+    {
+      "median": 0.0,
+      "scale": 0.3292008842974487
+    },
+    {
+      "median": 0.0,
+      "scale": 0.32805419606454594
+    },
+    {
+      "median": 0.0,
+      "scale": 0.40198617997250713
+    },
+    {
+      "median": 0.0,
+      "scale": 0.4235814233677183
+    },
+    {
+      "median": 0.0,
+      "scale": 0.3459465276599839
+    },
+    {
+      "median": 0.0,
+      "scale": 0.2783850251400427
+    },
+    {
+      "median": 0.0,
+      "scale": 0.29043243620504927
+    },
+    {
+      "median": 70.0,
+      "scale": 153.0
+    },
+    {
+      "median": 0.0,
+      "scale": 0.18876175460087244
+    },
+    {
+      "median": 0.0,
+      "scale": 0.11886079626558495
+    },
+    {
+      "median": 0.0,
+      "scale": 0.2273284456952588
+    },
+    {
+      "median": 0.0,
+      "scale": 0.051570878948836565
+    },
+    {
+      "median": 0.0,
+      "scale": 0.14226579193732963
+    },
+    {
+      "median": 0.0,
+      "scale": 0.13652472303579305
+    },
+    {
+      "median": 0.0,
+      "scale": 0.07053367989832944
+    },
+    {
+      "median": 0.0,
+      "scale": 0.145592658545073
+    },
+    {
+      "median": 0.0,
+      "scale": 0.21305998112164462
+    },
+    {
+      "median": 0.0,
+      "scale": 0.1551071314357345
+    },
+    {
+      "median": 0.0,
+      "scale": 0.3374003556607491
+    },
+    {
+      "median": 0.0,
+      "scale": 0.11327400407860577
+    },
+    {
+      "median": 0.0,
+      "scale": 0.068153421696118
+    },
+    {
+      "median": 0.0,
+      "scale": 0.063118935352238
+    },
+    {
+      "median": 0.0,
+      "scale": 0.07932983185550203
+    },
+    {
+      "median": 0.0,
+      "scale": 0.11749042514179611
+    },
+    {
+      "median": 0.0,
+      "scale": 0.051570878948836565
+    },
+    {
+      "median": 0.0,
+      "scale": 0.11327400407860577
+    },
+    {
+      "median": 0.0,
+      "scale": 0.28522427822485397
+    },
+    {
+      "median": 0.0,
+      "scale": 0.068153421696118
+    },
+    {
+      "median": 0.0,
+      "scale": 0.04824820088758635
+    },
+    {
+      "median": 0.0,
+      "scale": 0.0872232130163117
+    },
+    {
+      "median": 0.0,
+      "scale": 0.03160696125855822
+    },
+    {
+      "median": 0.0,
+      "scale": 0.26973876250921003
+    },
+    {
+      "median": 0.0,
+      "scale": 0.057638721552635275
+    },
+    {
+      "median": 0.0,
+      "scale": 0.10888526071052962
+    },
+    {
+      "median": 0.0,
+      "scale": 0.21305998112164462
+    },
+    {
+      "median": 0.0,
+      "scale": 0.09615727857121491
+    },
+    {
+      "median": 0.0,
+      "scale": 0.2783850251400427
+    },
+    {
+      "median": 0.0,
+      "scale": 0.21163884331568247
+    },
+    {
+      "median": 0.0,
+      "scale": 0.380820167533181
+    },
+    {
+      "median": 0.0,
+      "scale": 0.025811280910141253
+    },
+    {
+      "median": 0.0,
+      "scale": 1.01235
+    },
+    {
+      "median": 0.0,
+      "scale": 0.03160696125855822
+    },
+    {
+      "median": -0.7384644475000002,
+      "scale": 1.4714578888980552
+    },
+    {
+      "median": 5.77851114827707,
+      "scale": 5.143981109555153
+    },
+    {
+      "median": 0.0,
+      "scale": 1.0
+    },
+    {
+      "median": 0.0,
+      "scale": 0.10430244484191156
+    },
+    {
+      "median": 0.0,
+      "scale": 0.41265953144073736
+    },
+    {
+      "median": 0.0,
+      "scale": 0.23562470159132298
+    },
+    {
+      "median": 0.0,
+      "scale": 1.0
+    },
+    {
+      "median": 0.0,
+      "scale": 1.0
+    },
+    {
+      "median": 0.0,
+      "scale": 0.063118935352238
+    },
+    {
+      "median": 1.0,
+      "scale": 1.0
+    },
+    {
+      "median": 1.0,
+      "scale": 1.0
+    },
+    {
+      "median": 0.0,
+      "scale": 0.20134850936180834
+    },
+    {
+      "median": 0.0,
+      "scale": 1.0
+    },
+    {
+      "median": 0.0,
+      "scale": 0.30655342111938666
+    },
+    {
+      "median": 1.0,
+      "scale": 0.025811280910141253
+    },
+    {
+      "median": 0.0,
+      "scale": 0.15713546880178123
+    },
+    {
+      "median": 0.0,
+      "scale": 0.12155245781143219
+    },
+    {
+      "median": 0.0,
+      "scale": 0.2584879107424562
+    },
+    {
+      "median": 0.0,
+      "scale": 0.38251274488570963
+    },
+    {
+      "median": 0.0,
+      "scale": 0.13173669024062942
+    },
+    {
+      "median": 1.0,
+      "scale": 0.31982477841607093
+    },
+    {
+      "median": 0.0,
+      "scale": 1.0
+    },
+    {
+      "median": 0.0,
+      "scale": 0.18036968210378987
+    },
+    {
+      "median": 1.0,
+      "scale": 0.03160696125855822
+    },
+    {
+      "median": 0.0,
+      "scale": 1.0
+    },
+    {
+      "median": 10.0,
+      "scale": 4.0
+    },
+    {
+      "median": 5.0,
+      "scale": 4.0
+    }
+  ],
+  "forbidden_feature_checks": {
+    "material_id_present": false,
+    "formula_present": false,
+    "object_id_present": false,
+    "element_identity_features": false
+  }
+}

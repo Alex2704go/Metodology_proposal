@@ -1,0 +1,1172 @@
+{
+  "registry_version": "0.1",
+  "identity_rule": "RP- + first 10 uppercase hex of SHA256(canonical signature)",
+  "family_label_invariant": true,
+  "literature_mapping_status": "LOCKED",
+  "pattern_count": 52,
+  "population_count": 3000,
+  "entries": [
+    {
+      "relation_pattern_id": "RP-47B2D58500",
+      "canonical_signature": "{G,C,O}|{L,S,Y}",
+      "population_count": 7,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-23616E0446",
+      "canonical_signature": "{G,C,S,O}|{L,Y}",
+      "population_count": 4,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-1C139BB53C",
+      "canonical_signature": "{G,C,S,O}|{L}|{Y}",
+      "population_count": 2,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-2697A4584C",
+      "canonical_signature": "{G,C,S,Y,O}|{L}",
+      "population_count": 5,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-909FFF3023",
+      "canonical_signature": "{G,C,S}|{L,O}|{Y}",
+      "population_count": 3,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-8BC8FDA58A",
+      "canonical_signature": "{G,C,S}|{L,Y,O}",
+      "population_count": 1,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-A6DDC699B7",
+      "canonical_signature": "{G,C,S}|{L,Y}|{O}",
+      "population_count": 3,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-92B9689AED",
+      "canonical_signature": "{G,C,S}|{L}|{Y,O}",
+      "population_count": 2,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-242F632611",
+      "canonical_signature": "{G,C,S}|{L}|{Y}|{O}",
+      "population_count": 1,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-6A453F626C",
+      "canonical_signature": "{G,C,Y,O}|{L,S}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-DCF7D13C5F",
+      "canonical_signature": "{G,C}|{L,S,Y}|{O}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 1,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-FF7CD6751A",
+      "canonical_signature": "{G,C}|{L,S}|{Y}|{O}",
+      "population_count": 1,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-484B7FBA75",
+      "canonical_signature": "{G,L,C,O}|{S,Y}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-42FC80BEB3",
+      "canonical_signature": "{G,L,C,O}|{S}|{Y}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-34E0A821F1",
+      "canonical_signature": "{G,L,C,S,O}|{Y}",
+      "population_count": 178,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-533DB6167A",
+      "canonical_signature": "{G,L,C,S,Y,O}",
+      "population_count": 259,
+      "boundary_count": 3,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-C41C204B82",
+      "canonical_signature": "{G,L,C,S,Y}|{O}",
+      "population_count": 566,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-E5A71975A5",
+      "canonical_signature": "{G,L,C,S}|{Y,O}",
+      "population_count": 138,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-55C9F04F0A",
+      "canonical_signature": "{G,L,C,S}|{Y}|{O}",
+      "population_count": 157,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-BE8D6F1A4C",
+      "canonical_signature": "{G,L,C,Y,O}|{S}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-1037C8DE82",
+      "canonical_signature": "{G,L,C,Y}|{S,O}",
+      "population_count": 2,
+      "boundary_count": 2,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-6316E3C8A1",
+      "canonical_signature": "{G,L,C,Y}|{S}|{O}",
+      "population_count": 2,
+      "boundary_count": 2,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-E38EA636CE",
+      "canonical_signature": "{G,L,C}|{S}|{Y}|{O}",
+      "population_count": 1,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-95A66BF20D",
+      "canonical_signature": "{G,L,O}|{C,Y}|{S}",
+      "population_count": 1,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-5AE71BCF1C",
+      "canonical_signature": "{G,L,S,O}|{C,Y}",
+      "population_count": 105,
+      "boundary_count": 3,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-49EF6287A6",
+      "canonical_signature": "{G,L,S,O}|{C}|{Y}",
+      "population_count": 122,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-C4271424EC",
+      "canonical_signature": "{G,L,S,Y,O}|{C}",
+      "population_count": 270,
+      "boundary_count": 2,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-53E2608A5A",
+      "canonical_signature": "{G,L,S,Y}|{C,O}",
+      "population_count": 224,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-F8681A3577",
+      "canonical_signature": "{G,L,S,Y}|{C}|{O}",
+      "population_count": 339,
+      "boundary_count": 2,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-423FC37208",
+      "canonical_signature": "{G,L,S}|{C,O}|{Y}",
+      "population_count": 95,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-A24F238B9B",
+      "canonical_signature": "{G,L,S}|{C,Y,O}",
+      "population_count": 99,
+      "boundary_count": 3,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-25AFB8F011",
+      "canonical_signature": "{G,L,S}|{C,Y}|{O}",
+      "population_count": 130,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-D70B4B5521",
+      "canonical_signature": "{G,L,S}|{C}|{Y,O}",
+      "population_count": 167,
+      "boundary_count": 2,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-1530405A68",
+      "canonical_signature": "{G,L,S}|{C}|{Y}|{O}",
+      "population_count": 80,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-2D5AA13D77",
+      "canonical_signature": "{G,L,Y}|{C,O}|{S}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-6833C0D67C",
+      "canonical_signature": "{G,L,Y}|{C,S}|{O}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-CCE73D3451",
+      "canonical_signature": "{G,L,Y}|{C}|{S,O}",
+      "population_count": 2,
+      "boundary_count": 2,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-03B00C4FB9",
+      "canonical_signature": "{G,L}|{C,O}|{S,Y}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-09F3B6C651",
+      "canonical_signature": "{G,L}|{C,Y,O}|{S}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-55242FFB6E",
+      "canonical_signature": "{G,O}|{L,S}|{C,Y}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 1,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-D5C55152DD",
+      "canonical_signature": "{G,S,O}|{L,C,Y}",
+      "population_count": 5,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-B8184D8573",
+      "canonical_signature": "{G,S,O}|{L,Y}|{C}",
+      "population_count": 2,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-ECA3D79799",
+      "canonical_signature": "{G,S,Y,O}|{L,C}",
+      "population_count": 2,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-3BDDE1EFD9",
+      "canonical_signature": "{G,S,Y,O}|{L}|{C}",
+      "population_count": 1,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-F6CCDB6DBB",
+      "canonical_signature": "{G,S,Y}|{L,C,O}",
+      "population_count": 1,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-5865E73673",
+      "canonical_signature": "{G,S,Y}|{L,C}|{O}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-65B3192746",
+      "canonical_signature": "{G,S,Y}|{L}|{C,O}",
+      "population_count": 2,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-7BE55C4216",
+      "canonical_signature": "{G,S}|{L,C,Y,O}",
+      "population_count": 3,
+      "boundary_count": 3,
+      "relational_boundary_count": 3,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-6E1BC31651",
+      "canonical_signature": "{G,S}|{L,C,Y}|{O}",
+      "population_count": 4,
+      "boundary_count": 2,
+      "relational_boundary_count": 2,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-D63B707A23",
+      "canonical_signature": "{G,S}|{L,C}|{Y}|{O}",
+      "population_count": 1,
+      "boundary_count": 1,
+      "relational_boundary_count": 1,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-37074D416B",
+      "canonical_signature": "{G,S}|{L,Y}|{C,O}",
+      "population_count": 1,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    },
+    {
+      "relation_pattern_id": "RP-4C75A8BAC9",
+      "canonical_signature": "{G,S}|{L}|{C,O}|{Y}",
+      "population_count": 1,
+      "boundary_count": 0,
+      "relational_boundary_count": 0,
+      "interpretation_boundary": {
+        "supports": [
+          "family-label-invariant organizational agreement/disagreement pattern in conflict_topology_v0.3"
+        ],
+        "does_not_support": [
+          "physical mechanism",
+          "thermodynamic phase",
+          "microscopic Hamiltonian",
+          "causal explanation",
+          "prediction of untested properties",
+          "universal validity outside current WORLD"
+        ],
+        "scope": "3,000-object pilot under registered CEOS methodology",
+        "literature_mapping_status": "LOCKED"
+      }
+    }
+  ],
+  "selected_examples": [
+    {
+      "formula": "LiMnVF6",
+      "relation_pattern_id": "RP-6E1BC31651",
+      "registered_in_training_population": true,
+      "canonical_signature": "{G,S}|{L,C,Y}|{O}",
+      "admission_state": "BOUNDARY",
+      "named_relation_pattern": "RELATIONAL_BOUNDARY"
+    },
+    {
+      "formula": "B10H14C10S(OF2)3",
+      "relation_pattern_id": "RP-E5A71975A5",
+      "registered_in_training_population": true,
+      "canonical_signature": "{G,L,C,S}|{Y,O}",
+      "admission_state": "OOD",
+      "named_relation_pattern": null
+    }
+  ]
+}

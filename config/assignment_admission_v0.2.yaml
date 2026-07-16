@@ -1,0 +1,54 @@
+assignment_admission:
+  version: 0.2
+  ontology:
+    subject: Object_x_EvidenceContext
+    partition_admission: global
+    assignment_admission: per_object
+  evidence_axes:
+    builder_confidence:
+      weight: 1.0
+      pass_if: builder_admitted_and_raw_replay_exact_and_scaled_replay_exact_and_deterministic
+    cross_view_agreement:
+      weight: 1.0
+      pass_if: ORGANIZATION_equals_OBSERVER_AUGMENTED
+    in_distribution:
+      weight: 1.0
+      pass_if: nearest_centroid_training_distance_percentile_lte_99
+    margin:
+      weight: 1.0
+      pass:
+        minimum: 0.10
+        score: 1.0
+      warning:
+        minimum: 0.05
+        maximum_exclusive: 0.10
+        score: 0.5
+      fail:
+        maximum_exclusive: 0.05
+        score: 0.0
+  state_precedence:
+    - REJECTED
+    - OOD
+    - BOUNDARY
+    - CANDIDATE
+    - ADMITTED
+  state_rules:
+    REJECTED: builder_or_integrity_or_exact_replay_failure
+    OOD: valid_transform_but_distance_percentile_gt_99
+    BOUNDARY: valid_in_distribution_transform_but_margin_lt_0.05
+    CANDIDATE: evidence_incomplete_or_cross_view_disagreement_or_margin_warning
+    ADMITTED: all_four_evidence_axes_pass
+  outputs:
+    nearest_family: always_if_transform_valid
+    admissible_family: only_if_state_ADMITTED
+    admission_withheld_reason: required_if_admissible_family_is_null
+  warning: Evidence_Weight_is_a_summary_not_an_admission_rule
+
+  interpretation_boundary:
+    required: true
+    supports_required: true
+    does_not_support_required: true
+    literature_mapping_status: LOCKED
+  knowledge_state:
+    axes: [admission_state, relation_pattern]
+    relation_pattern_not_evaluated_is_not_absent: true

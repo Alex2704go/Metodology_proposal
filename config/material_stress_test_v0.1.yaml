@@ -1,0 +1,26 @@
+stress_test:
+  version: 0.1
+  status: preregistered_before_pool_download
+  source: Materials Project summary API
+  pool:
+    sort: material_id
+    skip: 100000
+    limit: 1000
+    exclude_training_ids: true
+    exclude_previous_example_ids: true
+  blindness:
+    formula_used_for_selection: false
+    material_id_used_as_observable: false
+    element_identity_used_as_observable: false
+  primary_view: ORGANIZATION
+  frozen_transform: world_vectors_v0.2
+  selectors:
+    - id: DISTANT_OBJECT
+      rule: maximum_distance_to_nearest_frozen_centroid
+    - id: BOUNDARY_OBJECT
+      rule: minimum_normalized_margin_between_two_nearest_frozen_centroids
+      require_distinct_from: DISTANT_OBJECT
+  admission:
+    exact_training_replay_required: true
+    refit_preprocessing: forbidden
+    builder_admission_required: true

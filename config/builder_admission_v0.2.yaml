@@ -1,0 +1,21 @@
+builder_admission:
+  version: 0.2
+  status: admitted
+  exact_tolerance: 0.0
+  gates:
+    field_permutation: pass
+    nested_object_permutation: pass
+    key_order_permutation: pass
+    serialization_audit: pass
+    replay_exact: pass
+    no_id_leakage: pass
+    frozen_preprocessing: pass
+    deterministic_transform: pass
+  semantics:
+    field_permutation: reorder top-level serialized fields without changing values
+    nested_object_permutation: recursively permute list-member order within nested objects
+    key_order_permutation: recursively reorder dictionary keys
+    serialization_audit: canonical JSON serialization and parse roundtrip
+  invalidation_rule: >-
+    Any Builder or preprocessing code change revokes downstream admission until all
+    Builder gates and frozen-partition checks are rerun.

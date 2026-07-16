@@ -1,0 +1,21 @@
+{
+  "source": "Materials Project",
+  "api_version": null,
+  "extracted_at": null,
+  "query": null,
+  "requested_fields": [],
+  "sampling": {
+    "strategy": null,
+    "population_size": null,
+    "sample_size": null,
+    "seed": 420042
+  },
+  "files": [
+    {
+      "path": null,
+      "format": null,
+      "records": null,
+      "sha256": null
+    }
+  ]
+}

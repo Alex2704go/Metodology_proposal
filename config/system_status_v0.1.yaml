@@ -1,0 +1,31 @@
+system_status:
+  assessed_at: 2026-07-16
+  trigger: system_null_ladder_v0.1
+  components:
+    claim_type_system_v0.1:
+      state: REASSESSMENT_REQUIRED
+      critical_breaches: true
+    cross_mapping_passport_schema_v0.1:
+      state: REASSESSMENT_REQUIRED
+      critical_breaches: true
+      real_mappings_admitted: 0
+    document_contract_v0.1:
+      state: REASSESSMENT_REQUIRED
+      structural_lint_still_valid: true
+      semantic_enforcement_claim_valid: false
+    builder_admission_v0.2:
+      state: ADMITTED
+      affected_by_current_attack: false
+    structural_families_v0.2:
+      state: ADMITTED
+      affected_by_current_attack: false
+    assignment_admission_v0.2:
+      state: ADMITTED_WITH_SCOPE
+      affected_by_current_attack: false
+    conflict_topology_v0.3:
+      state: ADMITTED_WITH_SCOPE
+      affected_by_current_attack: false
+  next_gate:
+    target: system_governance_v0.2
+    regression_attacks_required: 16
+    acceptance: all_controls_pass_and_all_invalid_attacks_rejected

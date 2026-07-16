@@ -1,0 +1,60 @@
+governance:
+  version: 0.2
+  status: CANDIDATE
+  lifecycle_state_machine:
+    states: [NOT_TESTED, QUALIFIED, ADMITTED, REASSESSMENT_REQUIRED, RETIRED]
+    initial: NOT_TESTED
+    allowed_transitions:
+      QUALIFY:
+        from: [NOT_TESTED, REASSESSMENT_REQUIRED]
+        to: QUALIFIED
+        requires: [qualification_evidence_refs]
+      ADMIT:
+        from: [QUALIFIED]
+        to: ADMITTED
+        requires: [admission_evidence_refs, counterexample_search_ref]
+      FAIL:
+        from: [NOT_TESTED, QUALIFIED, ADMITTED, REASSESSMENT_REQUIRED]
+        to: REASSESSMENT_REQUIRED
+        requires: [failure_evidence_refs]
+      RETIRE:
+        from: [QUALIFIED, ADMITTED, REASSESSMENT_REQUIRED]
+        to: RETIRED
+        requires: [retirement_reason_ref]
+  proof_objects:
+    EvidenceRef:
+      required: [artifact_id, expected_sha256, evidence_type, protocol_version, validator_id]
+    ProvenanceRef:
+      required: [artifact_id, expected_sha256, provenance_role]
+    AntecedentRef:
+      required: [claim_id, expected_content_digest, expected_version]
+  identities:
+    types: [WORLD_ID, DATASET_ID, OBSERVER_ID, BUILDER_ID]
+    independence_requires:
+      - registered_identity
+      - distinct_independence_group
+      - no_shared_lineage_root
+  claim_graph:
+    content_addressed: true
+    antecedents_pinned: true
+    acyclic: true
+  interpretation_boundary:
+    controlled_claim_types: true
+    supports_and_prohibits_disjoint: true
+    required_prohibitions:
+      - PHYSICAL_MECHANISM
+      - THERMODYNAMIC_PHASE
+      - MICROSCOPIC_HAMILTONIAN
+      - CAUSAL_EXPLANATION
+      - PREDICTION_UNTESTED_PROPERTIES
+      - EVIDENCE_INHERITANCE
+  artifact_governance:
+    protected_roots: [reports, derived, figures]
+    every_artifact_registered: true
+    claim_bearing_requires_claim_passport: true
+  mapping:
+    endpoints_typed_neutrally: true
+    direction_binds_construction_origin: true
+    status_derived_from_lifecycle: true
+    maturity_event_sourced: true
+    counterexample_search_proof_required_for_admission: true

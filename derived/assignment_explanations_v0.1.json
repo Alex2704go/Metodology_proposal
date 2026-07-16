@@ -1,0 +1,513 @@
+{
+  "protocol": "assignment_explanation_v0.1",
+  "probabilities_used": false,
+  "distance_statement": "All block distances are in frozen scaled organizational-observable coordinates.",
+  "objects": [
+    {
+      "selector": "DISTANT_OBJECT",
+      "object_id": "Stress Object 0980",
+      "formula": "B10H14C10S(OF2)3",
+      "channels": {
+        "representation": {
+          "nearest_family": "F-002",
+          "second_family": "F-001",
+          "distances": {
+            "F-001": 5.029423938753113,
+            "F-002": 4.737457128815928,
+            "F-003": 5.97249261319403,
+            "F-004": 7.439548473255962
+          },
+          "nearest_distance": 4.737457128815928,
+          "second_distance": 5.029423938753113,
+          "margin": 0.0580517398200302,
+          "training_distance_percentile": 99.9,
+          "ood_flag": true
+        },
+        "composition": {
+          "nearest_family": "F-002",
+          "second_family": "F-003",
+          "distances": {
+            "F-001": 2.4347129197653676,
+            "F-002": 2.3566582399926377,
+            "F-003": 2.3971945946806965,
+            "F-004": 3.1646811145681637
+          },
+          "nearest_distance": 2.3566582399926377,
+          "second_distance": 2.3971945946806965,
+          "margin": 0.016909914104591625,
+          "training_distance_percentile": 99.26666666666667,
+          "ood_flag": true
+        },
+        "structure": {
+          "nearest_family": "F-002",
+          "second_family": "F-001",
+          "distances": {
+            "F-001": 4.361433822773639,
+            "F-002": 4.060353243269054,
+            "F-003": 5.44493160024447,
+            "F-004": 6.6865407836629185
+          },
+          "nearest_distance": 4.060353243269054,
+          "second_distance": 4.361433822773639,
+          "margin": 0.06903247687317773,
+          "training_distance_percentile": 99.7,
+          "ood_flag": true
+        },
+        "symmetry": {
+          "nearest_family": "F-003",
+          "second_family": "F-001",
+          "distances": {
+            "F-001": 0.5875143943739527,
+            "F-002": 0.6349752177196657,
+            "F-003": 0.5261615327540619,
+            "F-004": 0.7885729372944561
+          },
+          "nearest_distance": 0.5261615327540619,
+          "second_distance": 0.5875143943739527,
+          "margin": 0.10442784416399395,
+          "training_distance_percentile": 33.266666666666666,
+          "ood_flag": false
+        },
+        "observer": {
+          "nearest_family": "F-003",
+          "second_family": "F-002",
+          "distances": {
+            "F-001": 1.2443853452145073,
+            "F-002": 1.2443295493673299,
+            "F-003": 1.2392666810777964,
+            "F-004": 1.4106759683329109
+          },
+          "nearest_distance": 1.2392666810777964,
+          "second_distance": 1.2443295493673299,
+          "margin": 0.004068751957311964,
+          "training_distance_percentile": 87.8,
+          "ood_flag": false
+        }
+      },
+      "neighborhoods": {
+        "representation": {
+          "5": {
+            "radius": 2.428874314440671,
+            "training_percentile": 99.03333333333333,
+            "training_median_radius": 0.966220196831457,
+            "radius_over_training_median": 2.5137896334662857,
+            "relative_density_proxy": 0.39780576174175714
+          },
+          "10": {
+            "radius": 2.9268177901437338,
+            "training_percentile": 99.23333333333333,
+            "training_median_radius": 1.1531092523821087,
+            "radius_over_training_median": 2.538196432035797,
+            "relative_density_proxy": 0.39398053963758584
+          },
+          "25": {
+            "radius": 3.3844816844849266,
+            "training_percentile": 99.46666666666667,
+            "training_median_radius": 1.4087099581355873,
+            "radius_over_training_median": 2.402539759826964,
+            "relative_density_proxy": 0.41622620225511964
+          },
+          "neighbor_family_counts_k25": {
+            "F-002": 13,
+            "F-001": 12
+          },
+          "effective_neighbor_count_k25": 25,
+          "nearest_neighbor_distance": 2.099152013402626
+        },
+        "composition": {
+          "25": {
+            "radius": 1.6990707186692495,
+            "training_percentile": 99.43333333333332,
+            "training_median_radius": 0.04051932050793637,
+            "radius_over_training_median": 41.932359609447516,
+            "relative_density_proxy": 0.023847930555620525
+          },
+          "neighbor_family_counts_k25": {
+            "F-003": 5,
+            "F-001": 11,
+            "F-002": 10
+          },
+          "effective_neighbor_count_k25": 26,
+          "nearest_neighbor_distance": 0.6638972602354816
+        },
+        "structure": {
+          "25": {
+            "radius": 2.2893097492557826,
+            "training_percentile": 98.36666666666667,
+            "training_median_radius": 0.7644086759039255,
+            "radius_over_training_median": 2.9948767216026653,
+            "relative_density_proxy": 0.3339035602989453
+          },
+          "neighbor_family_counts_k25": {
+            "F-002": 13,
+            "F-001": 12
+          },
+          "effective_neighbor_count_k25": 25,
+          "nearest_neighbor_distance": 0.7841188334612583
+        },
+        "symmetry": {
+          "25": {
+            "radius": 0.0,
+            "training_percentile": 55.233333333333334,
+            "training_median_radius": 0.0,
+            "radius_over_training_median": null,
+            "relative_density_proxy": null
+          },
+          "neighbor_family_counts_k25": {
+            "F-001": 140,
+            "F-002": 14,
+            "F-003": 3
+          },
+          "effective_neighbor_count_k25": 157,
+          "nearest_neighbor_distance": 0.0
+        },
+        "observer": {
+          "25": {
+            "radius": 0.2913148122452562,
+            "training_percentile": 91.33333333333333,
+            "training_median_radius": 0.10486047522713303,
+            "radius_over_training_median": 2.7781183674235095,
+            "relative_density_proxy": 0.359955864992171
+          },
+          "neighbor_family_counts_k25": {
+            "F-001": 19,
+            "F-003": 4,
+            "F-002": 2
+          },
+          "effective_neighbor_count_k25": 25,
+          "nearest_neighbor_distance": 0.017339747499631908
+        }
+      },
+      "centroid_distance_decomposition": {
+        "nearest": {
+          "family": "F-002",
+          "squared_distance_total": 22.443500047368858,
+          "by_block_squared": {
+            "composition": 5.553838060125197,
+            "structure": 16.486468460125522,
+            "symmetry": 0.4031935271181367
+          },
+          "by_block_fraction": {
+            "composition": 0.24745864274303758,
+            "structure": 0.7345765333093979,
+            "symmetry": 0.017964823947564487
+          }
+        },
+        "second": {
+          "family": "F-001",
+          "squared_distance_total": 25.29510515570288,
+          "by_block_squared": {
+            "composition": 5.9278270016724015,
+            "structure": 19.02210499043389,
+            "symmetry": 0.3451731635965926
+          },
+          "by_block_fraction": {
+            "composition": 0.2343468020861716,
+            "structure": 0.7520073497755466,
+            "symmetry": 0.013645848138281883
+          }
+        }
+      },
+      "block_contrast_second_minus_nearest": {
+        "composition": 0.3739889415472044,
+        "structure": 2.5356365303083663,
+        "symmetry": -0.058020363521544105
+      },
+      "convex_hull": {
+        "family": "F-002",
+        "exact_full_space_membership": false,
+        "linprog_status": 2,
+        "linprog_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "projection_distance": 1.4425476430259265,
+        "iterations": 5000
+      },
+      "scale_nulls": {
+        "removed_observable_count": 4,
+        "REMOVE_SCALE_SENSITIVE_STRUCTURE_OBSERVABLES": {
+          "nearest_family": "F-002",
+          "second_family": "F-001",
+          "distances": {
+            "F-001": 3.4902458650621724,
+            "F-002": 3.051037366618866,
+            "F-003": 4.705735436791274,
+            "F-004": 5.604034240101622
+          },
+          "nearest_distance": 3.051037366618866,
+          "second_distance": 3.4902458650621724,
+          "margin": 0.12583884213995247,
+          "training_distance_percentile": 97.66666666666667,
+          "ood_flag": false
+        },
+        "STRUCTURE_BLOCK_UNIT_NORM": {
+          "nearest_family": "F-002",
+          "second_family": "F-001",
+          "distances": {
+            "F-001": 2.6550062384823683,
+            "F-002": 2.619887139920536,
+            "F-003": 2.837452552024433,
+            "F-004": 3.5878591203333614
+          },
+          "nearest_distance": 2.619887139920536,
+          "second_distance": 2.6550062384823683,
+          "margin": 0.013227501334194085,
+          "training_distance_percentile": 99.3,
+          "ood_flag": true
+        },
+        "scale_driven_by_registered_rule": false
+      }
+    },
+    {
+      "selector": "BOUNDARY_OBJECT",
+      "object_id": "Stress Object 0189",
+      "formula": "LiMnVF6",
+      "channels": {
+        "representation": {
+          "nearest_family": "F-001",
+          "second_family": "F-003",
+          "distances": {
+            "F-001": 3.1221293967133725,
+            "F-002": 4.164087975371563,
+            "F-003": 3.1642340483584337,
+            "F-004": 5.583367301813623
+          },
+          "nearest_distance": 3.1221293967133725,
+          "second_distance": 3.1642340483584337,
+          "margin": 0.013306427717283189,
+          "training_distance_percentile": 96.23333333333333,
+          "ood_flag": false
+        },
+        "composition": {
+          "nearest_family": "F-003",
+          "second_family": "F-002",
+          "distances": {
+            "F-001": 0.614457123973022,
+            "F-002": 0.5822240909303383,
+            "F-003": 0.5775752197751706,
+            "F-004": 1.5354020319985129
+          },
+          "nearest_distance": 0.5775752197751706,
+          "second_distance": 0.5822240909303383,
+          "margin": 0.00798467673800878,
+          "training_distance_percentile": 76.43333333333334,
+          "ood_flag": false
+        },
+        "structure": {
+          "nearest_family": "F-001",
+          "second_family": "F-003",
+          "distances": {
+            "F-001": 2.719121653651271,
+            "F-002": 3.8766580928815886,
+            "F-003": 2.7939285925653974,
+            "F-004": 5.16539003097149
+          },
+          "nearest_distance": 2.719121653651271,
+          "second_distance": 2.7939285925653974,
+          "margin": 0.026774821344095902,
+          "training_distance_percentile": 94.56666666666666,
+          "ood_flag": false
+        },
+        "symmetry": {
+          "nearest_family": "F-003",
+          "second_family": "F-002",
+          "distances": {
+            "F-001": 1.405884719763818,
+            "F-002": 1.4043382090757481,
+            "F-003": 1.3684834664467094,
+            "F-004": 1.4612586543924115
+          },
+          "nearest_distance": 1.3684834664467094,
+          "second_distance": 1.4043382090757481,
+          "margin": 0.025531415721153587,
+          "training_distance_percentile": 99.2,
+          "ood_flag": true
+        },
+        "observer": {
+          "nearest_family": "F-002",
+          "second_family": "F-003",
+          "distances": {
+            "F-001": 0.8072407735085647,
+            "F-002": 0.7775469018544302,
+            "F-003": 0.7820634666426152,
+            "F-004": 1.0210655595123925
+          },
+          "nearest_distance": 0.7775469018544302,
+          "second_distance": 0.7820634666426152,
+          "margin": 0.005775189586043088,
+          "training_distance_percentile": 74.5,
+          "ood_flag": false
+        }
+      },
+      "neighborhoods": {
+        "representation": {
+          "5": {
+            "radius": 2.3124619056827997,
+            "training_percentile": 98.43333333333332,
+            "training_median_radius": 0.966220196831457,
+            "radius_over_training_median": 2.393307357128424,
+            "relative_density_proxy": 0.41783183301596644
+          },
+          "10": {
+            "radius": 2.5144726287667645,
+            "training_percentile": 98.13333333333333,
+            "training_median_radius": 1.1531092523821087,
+            "radius_over_training_median": 2.180602248722168,
+            "relative_density_proxy": 0.4585889061545276
+          },
+          "25": {
+            "radius": 2.604632422042713,
+            "training_percentile": 96.86666666666667,
+            "training_median_radius": 1.4087099581355873,
+            "radius_over_training_median": 1.8489486831554143,
+            "relative_density_proxy": 0.5408478932433197
+          },
+          "neighbor_family_counts_k25": {
+            "F-001": 7,
+            "F-003": 18
+          },
+          "effective_neighbor_count_k25": 25,
+          "nearest_neighbor_distance": 2.0124866594600666
+        },
+        "composition": {
+          "25": {
+            "radius": 0.19413448731727775,
+            "training_percentile": 92.7,
+            "training_median_radius": 0.04051932050793637,
+            "radius_over_training_median": 4.7911585111417,
+            "relative_density_proxy": 0.20871778666253227
+          },
+          "neighbor_family_counts_k25": {
+            "F-001": 18,
+            "F-003": 3,
+            "F-002": 6
+          },
+          "effective_neighbor_count_k25": 27,
+          "nearest_neighbor_distance": 0.0
+        },
+        "structure": {
+          "25": {
+            "radius": 1.8519868649364934,
+            "training_percentile": 95.36666666666666,
+            "training_median_radius": 0.7644086759039255,
+            "radius_over_training_median": 2.4227705981312804,
+            "relative_density_proxy": 0.4127505925533252
+          },
+          "neighbor_family_counts_k25": {
+            "F-001": 11,
+            "F-003": 14
+          },
+          "effective_neighbor_count_k25": 25,
+          "nearest_neighbor_distance": 0.7523772066476523
+        },
+        "symmetry": {
+          "25": {
+            "radius": 1.4619679600621793,
+            "training_percentile": 99.46666666666667,
+            "training_median_radius": 0.0,
+            "radius_over_training_median": null,
+            "relative_density_proxy": null
+          },
+          "neighbor_family_counts_k25": {
+            "F-002": 5,
+            "F-001": 22,
+            "F-003": 7
+          },
+          "effective_neighbor_count_k25": 34,
+          "nearest_neighbor_distance": 0.0
+        },
+        "observer": {
+          "25": {
+            "radius": 0.3560645917565198,
+            "training_percentile": 94.39999999999999,
+            "training_median_radius": 0.10486047522713303,
+            "radius_over_training_median": 3.395603452924146,
+            "relative_density_proxy": 0.29449846363421356
+          },
+          "neighbor_family_counts_k25": {
+            "F-003": 6,
+            "F-002": 6,
+            "F-001": 13
+          },
+          "effective_neighbor_count_k25": 25,
+          "nearest_neighbor_distance": 0.13694068425182723
+        }
+      },
+      "centroid_distance_decomposition": {
+        "nearest": {
+          "family": "F-001",
+          "squared_distance_total": 9.747691969821808,
+          "by_block_squared": {
+            "composition": 0.37755755720119755,
+            "structure": 7.393622567355222,
+            "symmetry": 1.976511845265389
+          },
+          "by_block_fraction": {
+            "composition": 0.03873302094178705,
+            "structure": 0.758499816186783,
+            "symmetry": 0.20276716287143
+          }
+        },
+        "second": {
+          "family": "F-003",
+          "squared_distance_total": 10.012377112790798,
+          "by_block_squared": {
+            "composition": 0.3335931344983364,
+            "structure": 7.8060369803544605,
+            "symmetry": 1.8727469979380023
+          },
+          "by_block_fraction": {
+            "composition": 0.033318075292247194,
+            "structure": 0.7796387303852408,
+            "symmetry": 0.18704319432251215
+          }
+        }
+      },
+      "block_contrast_second_minus_nearest": {
+        "composition": -0.04396442270286116,
+        "structure": 0.4124144129992384,
+        "symmetry": -0.10376484732738667
+      },
+      "convex_hull": {
+        "family": "F-001",
+        "exact_full_space_membership": false,
+        "linprog_status": 2,
+        "linprog_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "projection_distance": 1.661980028237894,
+        "iterations": 5000
+      },
+      "scale_nulls": {
+        "removed_observable_count": 4,
+        "REMOVE_SCALE_SENSITIVE_STRUCTURE_OBSERVABLES": {
+          "nearest_family": "F-001",
+          "second_family": "F-003",
+          "distances": {
+            "F-001": 3.114569393821768,
+            "F-002": 4.158253321222491,
+            "F-003": 3.1523956056845623,
+            "F-004": 5.12113963697779
+          },
+          "nearest_distance": 3.114569393821768,
+          "second_distance": 3.1523956056845623,
+          "margin": 0.011999195721048513,
+          "training_distance_percentile": 98.1,
+          "ood_flag": false
+        },
+        "STRUCTURE_BLOCK_UNIT_NORM": {
+          "nearest_family": "F-003",
+          "second_family": "F-001",
+          "distances": {
+            "F-001": 1.8431625387312263,
+            "F-002": 2.1398177928856277,
+            "F-003": 1.7997552926597409,
+            "F-004": 2.5819345197857673
+          },
+          "nearest_distance": 1.7997552926597409,
+          "second_distance": 1.8431625387312263,
+          "margin": 0.023550416829403436,
+          "training_distance_percentile": 95.1,
+          "ood_flag": false
+        },
+        "scale_driven_by_registered_rule": false
+      }
+    }
+  ]
+}

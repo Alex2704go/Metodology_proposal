@@ -1,0 +1,10 @@
+terminology:
+  scientific_preferred:
+    feature: organizational observable
+    retained_features: retained organizational observables
+    feature_block: Observer block
+    feature_vector: organizational-observable vector
+    feature_space: organizational-observable space
+  compatibility_note: >-
+    Internal NPZ keys such as feature_names are retained for software compatibility only.
+    They do not define the CEOS scientific vocabulary.

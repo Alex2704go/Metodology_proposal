@@ -1,0 +1,43 @@
+conflict_topology:
+  version: 0.1
+  status: preregistered_before_population_results
+  frozen_partition: CEOS_Structural_Representation_Families_v0.2
+  nodes: [global, local, composition, structure, symmetry, observer]
+  node_packet: [nearest_family, margin, support_percentile, ood_flag]
+  edge:
+    agreement: same_family
+    conflict: different_family
+  topology_signature:
+    family_label_invariant: true
+    channel_order: [global, local, composition, structure, symmetry, observer]
+  descriptors:
+    - unique_supported_families
+    - pairwise_conflict_fraction
+    - global_local_disagreement
+    - block_disagreement_count
+    - channel_ood_count
+    - multi_axis_conflict
+  boundary:
+    global_margin_lt: 0.05
+    relational_boundary: boundary_and_multi_axis_conflict
+    multi_axis_conflict: global_local_disagreement_and_at_least_two_of_composition_structure_symmetry_disagree_with_global
+  neighborhood:
+    k: 25
+    tie_break: nearest_neighbor_family
+  nulls:
+    channel_packet_alignment_null:
+      repetitions: 100
+      preserve_global_boundary_flags: true
+      independently_permute: [local, composition, structure, symmetry, observer]
+    representation_block_alignment_null:
+      repetitions: 30
+      independently_permute: [composition, structure, symmetry]
+      recompute_global_margin_with_frozen_centroids: true
+  candidate_admission:
+    relational_boundary_population_supported_if:
+      - observed_boundary_conflict_difference_above_packet_null_q95
+      - multi_axis_conflict_odds_ratio_gt_2
+      - fisher_exact_p_lt_0.01
+  interpretation:
+    physical_phase_boundary_claim: forbidden
+    mechanism_claim: forbidden

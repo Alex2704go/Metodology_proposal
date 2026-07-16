@@ -1,0 +1,34 @@
+stages:
+  - id: 00
+    name: Intake
+    status: complete
+    outputs:
+      - raw manifest
+      - extraction specification
+      - checksums
+  - id: 01
+    name: Inventory
+    status: complete
+    outputs:
+      - field inventory
+      - type audit
+      - missingness report
+      - ranges and cardinalities
+      - duplicate analysis
+      - candidate keys
+  - id: 02
+    name: WORLD
+    status: complete
+    substage: 02A_representation_builders
+    builder_admission: admitted_v0.2
+    organizational_observable_count: 105
+  - id: 03
+    name: Observer Audit
+    status: complete
+  - id: 04
+    name: Null Ladder
+    status: complete
+    admitted_result: CEOS_Structural_Representation_Families_v0.2
+  - id: 05
+    name: Admission
+    status: locked

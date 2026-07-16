@@ -1,0 +1,10 @@
+{
+  "arrays": {
+    "X_raw": true,
+    "X_scaled": true,
+    "blocks": true,
+    "feature_names": true,
+    "object_ids": true
+  },
+  "all_exact": true
+}

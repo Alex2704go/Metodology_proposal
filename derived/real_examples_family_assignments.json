@@ -1,0 +1,139 @@
+{
+  "classification": "out-of-sample nearest admitted centroid",
+  "primary_view": "ORGANIZATION",
+  "family_scope": "CEOS Structural Representation Family",
+  "replay_checks": {
+    "raw_max_abs_difference": 0.0,
+    "scaled_max_abs_difference": 0.0
+  },
+  "results": [
+    {
+      "formula": "FeS",
+      "material_id": "mp-aaaaadct",
+      "assignments": {
+        "ORGANIZATION": {
+          "family": "F-001",
+          "nearest_distance": 2.2879793518501996,
+          "second_distance": 2.7430762079202444,
+          "margin": 0.16590747816478854,
+          "training_distance_percentile": 79.53333333333333,
+          "ood_flag": false
+        },
+        "OBSERVER_AUGMENTED": {
+          "family": "F-001",
+          "nearest_distance": 2.421293020475572,
+          "second_distance": 2.8527133194304017,
+          "margin": 0.15123156470584992,
+          "training_distance_percentile": 78.86666666666666,
+          "ood_flag": false
+        },
+        "FULL_REPRESENTATION": {
+          "family": "F-003",
+          "nearest_distance": 2.4844165902930513,
+          "second_distance": 2.6293840205406362,
+          "margin": 0.055133608904234,
+          "training_distance_percentile": 68.5,
+          "ood_flag": false
+        }
+      },
+      "primary_family": "F-001",
+      "confirmed_by_observer_view": true
+    },
+    {
+      "formula": "NaCl",
+      "material_id": "mp-aaaabhux",
+      "assignments": {
+        "ORGANIZATION": {
+          "family": "F-004",
+          "nearest_distance": 1.7395400324648196,
+          "second_distance": 3.3926233401586416,
+          "margin": 0.4872581309353473,
+          "training_distance_percentile": 51.33333333333333,
+          "ood_flag": false
+        },
+        "OBSERVER_AUGMENTED": {
+          "family": "F-004",
+          "nearest_distance": 2.19994812296602,
+          "second_distance": 3.580965033045793,
+          "margin": 0.3856549553919442,
+          "training_distance_percentile": 68.46666666666667,
+          "ood_flag": false
+        },
+        "FULL_REPRESENTATION": {
+          "family": "F-003",
+          "nearest_distance": 2.145930490689589,
+          "second_distance": 3.7878705741491343,
+          "margin": 0.43347312198699905,
+          "training_distance_percentile": 47.13333333333333,
+          "ood_flag": false
+        }
+      },
+      "primary_family": "F-004",
+      "confirmed_by_observer_view": true
+    },
+    {
+      "formula": "SiO2",
+      "material_id": "mp-aaaaakgg",
+      "assignments": {
+        "ORGANIZATION": {
+          "family": "F-001",
+          "nearest_distance": 1.7758031668471568,
+          "second_distance": 2.678740909793006,
+          "margin": 0.3370754295962445,
+          "training_distance_percentile": 53.800000000000004,
+          "ood_flag": false
+        },
+        "OBSERVER_AUGMENTED": {
+          "family": "F-001",
+          "nearest_distance": 2.455963173339186,
+          "second_distance": 3.154849108342786,
+          "margin": 0.22152753142938653,
+          "training_distance_percentile": 79.73333333333333,
+          "ood_flag": false
+        },
+        "FULL_REPRESENTATION": {
+          "family": "F-001",
+          "nearest_distance": 3.6329656320307717,
+          "second_distance": 4.103923348782307,
+          "margin": 0.11475792229188697,
+          "training_distance_percentile": 95.83333333333334,
+          "ood_flag": false
+        }
+      },
+      "primary_family": "F-001",
+      "confirmed_by_observer_view": true
+    },
+    {
+      "formula": "SrTiO3",
+      "material_id": "mp-aaaaagwx",
+      "assignments": {
+        "ORGANIZATION": {
+          "family": "F-002",
+          "nearest_distance": 1.499777386101495,
+          "second_distance": 2.7026220395179488,
+          "margin": 0.44506580492126574,
+          "training_distance_percentile": 34.599999999999994,
+          "ood_flag": false
+        },
+        "OBSERVER_AUGMENTED": {
+          "family": "F-002",
+          "nearest_distance": 1.6697709595220602,
+          "second_distance": 2.8090611997995705,
+          "margin": 0.40557686687580685,
+          "training_distance_percentile": 32.766666666666666,
+          "ood_flag": false
+        },
+        "FULL_REPRESENTATION": {
+          "family": "F-001",
+          "nearest_distance": 3.0573500465065115,
+          "second_distance": 4.659957375277061,
+          "margin": 0.3439102978221816,
+          "training_distance_percentile": 86.13333333333333,
+          "ood_flag": false
+        }
+      },
+      "primary_family": "F-002",
+      "confirmed_by_observer_view": true
+    }
+  ]
+}

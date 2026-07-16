@@ -1,0 +1,401 @@
+{
+  "stage": "01_inventory",
+  "mode": "blind; descriptive only",
+  "input": "derived/objects_blind_3000.jsonl.gz",
+  "records": 3000,
+  "top_level_field_count": 13,
+  "top_level_fields": [
+    {
+      "field": "_ceos_stratum",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "string": 3000
+      },
+      "distinct_non_null": 4,
+      "duplicate_rows_non_null": 2996,
+      "category_counts": {
+        "\"N3\"": 900,
+        "\"N2\"": 900,
+        "\"N4P\"": 900,
+        "\"N1\"": 300
+      },
+      "category_counts_truncated": false
+    },
+    {
+      "field": "band_gap",
+      "present": 3000,
+      "missing": 0,
+      "null": 2,
+      "types": {
+        "number": 2998
+      },
+      "distinct_non_null": 1166,
+      "duplicate_rows_non_null": 1832,
+      "range": {
+        "min": 0.0,
+        "max": 17.8914
+      }
+    },
+    {
+      "field": "composition",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "object": 3000
+      },
+      "distinct_non_null": 2752,
+      "duplicate_rows_non_null": 248
+    },
+    {
+      "field": "density",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "number": 3000
+      },
+      "distinct_non_null": 3000,
+      "duplicate_rows_non_null": 0,
+      "range": {
+        "min": 0.023670127883518098,
+        "max": 26.581335775062698
+      }
+    },
+    {
+      "field": "elements",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "array": 3000
+      },
+      "distinct_non_null": 2282,
+      "duplicate_rows_non_null": 718
+    },
+    {
+      "field": "formation_energy_per_atom",
+      "present": 3000,
+      "missing": 0,
+      "null": 3,
+      "types": {
+        "number": 2997
+      },
+      "distinct_non_null": 2937,
+      "duplicate_rows_non_null": 60,
+      "range": {
+        "min": -4.412716520070312,
+        "max": 4.68820494375
+      }
+    },
+    {
+      "field": "is_magnetic",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "boolean": 3000
+      },
+      "distinct_non_null": 2,
+      "duplicate_rows_non_null": 2998,
+      "category_counts": {
+        "false": 2137,
+        "true": 863
+      },
+      "category_counts_truncated": false
+    },
+    {
+      "field": "nelements",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "integer": 3000
+      },
+      "distinct_non_null": 7,
+      "duplicate_rows_non_null": 2993,
+      "range": {
+        "min": 1.0,
+        "max": 7.0
+      }
+    },
+    {
+      "field": "object_id",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "string": 3000
+      },
+      "distinct_non_null": 3000,
+      "duplicate_rows_non_null": 0,
+      "category_counts": {
+        "\"Object 0001\"": 1,
+        "\"Object 0002\"": 1,
+        "\"Object 0003\"": 1,
+        "\"Object 0004\"": 1,
+        "\"Object 0005\"": 1,
+        "\"Object 0006\"": 1,
+        "\"Object 0007\"": 1,
+        "\"Object 0008\"": 1,
+        "\"Object 0009\"": 1,
+        "\"Object 0010\"": 1,
+        "\"Object 0011\"": 1,
+        "\"Object 0012\"": 1,
+        "\"Object 0013\"": 1,
+        "\"Object 0014\"": 1,
+        "\"Object 0015\"": 1,
+        "\"Object 0016\"": 1,
+        "\"Object 0017\"": 1,
+        "\"Object 0018\"": 1,
+        "\"Object 0019\"": 1,
+        "\"Object 0020\"": 1,
+        "\"Object 0021\"": 1,
+        "\"Object 0022\"": 1,
+        "\"Object 0023\"": 1,
+        "\"Object 0024\"": 1,
+        "\"Object 0025\"": 1
+      },
+      "category_counts_truncated": true
+    },
+    {
+      "field": "ordering",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "string": 3000
+      },
+      "distinct_non_null": 5,
+      "duplicate_rows_non_null": 2995,
+      "category_counts": {
+        "\"NM\"": 1241,
+        "\"Unknown\"": 896,
+        "\"FM\"": 653,
+        "\"FiM\"": 177,
+        "\"AFM\"": 33
+      },
+      "category_counts_truncated": false
+    },
+    {
+      "field": "structure",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "object": 3000
+      },
+      "distinct_non_null": 3000,
+      "duplicate_rows_non_null": 0
+    },
+    {
+      "field": "symmetry",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "object": 3000
+      },
+      "distinct_non_null": 192,
+      "duplicate_rows_non_null": 2808
+    },
+    {
+      "field": "volume",
+      "present": 3000,
+      "missing": 0,
+      "null": 0,
+      "types": {
+        "number": 3000
+      },
+      "distinct_non_null": 3000,
+      "duplicate_rows_non_null": 0,
+      "range": {
+        "min": 6.926147766835766,
+        "max": 10887.909462827636
+      }
+    }
+  ],
+  "nested_schema": {
+    "_ceos_stratum": {
+      "string": 3000
+    },
+    "band_gap": {
+      "number": 2998,
+      "null": 2
+    },
+    "composition": {
+      "object": 3000
+    },
+    "composition.*": {
+      "number": 8561
+    },
+    "density": {
+      "number": 3000
+    },
+    "elements": {
+      "array": 3000
+    },
+    "elements[]": {
+      "string": 8561
+    },
+    "formation_energy_per_atom": {
+      "number": 2997,
+      "null": 3
+    },
+    "is_magnetic": {
+      "boolean": 3000
+    },
+    "nelements": {
+      "integer": 3000
+    },
+    "object_id": {
+      "string": 3000
+    },
+    "ordering": {
+      "string": 3000
+    },
+    "structure": {
+      "object": 3000
+    },
+    "structure.@class": {
+      "string": 3000
+    },
+    "structure.@module": {
+      "string": 3000
+    },
+    "structure.charge": {
+      "number": 3000
+    },
+    "structure.lattice": {
+      "object": 3000
+    },
+    "structure.lattice.a": {
+      "number": 3000
+    },
+    "structure.lattice.alpha": {
+      "number": 3000
+    },
+    "structure.lattice.b": {
+      "number": 3000
+    },
+    "structure.lattice.beta": {
+      "number": 3000
+    },
+    "structure.lattice.c": {
+      "number": 3000
+    },
+    "structure.lattice.gamma": {
+      "number": 3000
+    },
+    "structure.lattice.matrix": {
+      "array": 3000
+    },
+    "structure.lattice.matrix[]": {
+      "array": 9000
+    },
+    "structure.lattice.matrix[][]": {
+      "number": 27000
+    },
+    "structure.lattice.pbc": {
+      "array": 3000
+    },
+    "structure.lattice.pbc[]": {
+      "boolean": 9000
+    },
+    "structure.lattice.volume": {
+      "number": 3000
+    },
+    "structure.properties": {
+      "object": 3000
+    },
+    "structure.sites": {
+      "array": 3000
+    },
+    "structure.sites[]": {
+      "object": 73951
+    },
+    "structure.sites[].abc": {
+      "array": 73951
+    },
+    "structure.sites[].abc[]": {
+      "number": 221853
+    },
+    "structure.sites[].label": {
+      "string": 73951
+    },
+    "structure.sites[].properties": {
+      "object": 73951
+    },
+    "structure.sites[].properties.magmom": {
+      "number": 62615
+    },
+    "structure.sites[].species": {
+      "array": 73951
+    },
+    "structure.sites[].species[]": {
+      "object": 73951
+    },
+    "structure.sites[].species[].element": {
+      "string": 73951
+    },
+    "structure.sites[].species[].occu": {
+      "number": 73951
+    },
+    "structure.sites[].xyz": {
+      "array": 73951
+    },
+    "structure.sites[].xyz[]": {
+      "number": 221853
+    },
+    "symmetry": {
+      "object": 3000
+    },
+    "symmetry.angle_tolerance": {
+      "number": 3000
+    },
+    "symmetry.crystal_system": {
+      "string": 3000
+    },
+    "symmetry.hall": {
+      "string": 3000
+    },
+    "symmetry.number": {
+      "integer": 3000
+    },
+    "symmetry.point_group": {
+      "string": 3000
+    },
+    "symmetry.symbol": {
+      "string": 3000
+    },
+    "symmetry.symprec": {
+      "number": 3000
+    },
+    "symmetry.version": {
+      "string": 3000
+    },
+    "volume": {
+      "number": 3000
+    }
+  },
+  "duplicates": {
+    "exact_duplicate_rows": 0,
+    "duplicate_content_rows_excluding_object_id_and_stratum": 0,
+    "rows_beyond_first_with_same_composition_encoding": 248,
+    "distinct_composition_encodings": 2752
+  },
+  "candidate_keys_in_blind_view": [
+    "density",
+    "object_id",
+    "structure",
+    "volume"
+  ],
+  "notes": [
+    "Ranges are finite-value minima and maxima; they are not domain-validity judgments.",
+    "composition.* denotes dynamic dictionary keys; labels were not expanded into schema field names.",
+    "Array-path occurrence counts are element occurrences, not record-level presence counts.",
+    "No target designation, class naming, mechanism, filtering, or literature mapping was performed."
+  ]
+}

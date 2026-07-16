@@ -1,0 +1,50 @@
+protocol: CEOS_family_discovery_v0.1
+status: preregistered_before_results
+random_seed: 420042
+
+views:
+  ORGANIZATION:
+    blocks: [composition_shape, structure_topology, structure_numeric, symmetry_record]
+  OBSERVER_AUGMENTED:
+    blocks: [composition_shape, structure_topology, structure_numeric, symmetry_record, scalar_observers]
+  FULL_REPRESENTATION:
+    blocks: [composition_shape, structure_topology, structure_numeric, symmetry_record, scalar_observers, capability_map, provenance_shape]
+
+vectorization:
+  material_names: forbidden
+  material_ids_as_features: forbidden
+  element_identity: excluded_v0.1
+  numeric_path_rule: generic_recursive_path_aggregation
+  path_statistics: [count, mean, std, min, max]
+  categorical_rule: one_hot_if_cardinality_2_to_64
+  scaling: robust_median_iqr_then_clip_8
+  block_weighting: divide_by_sqrt_retained_feature_count
+  remove_constants: true
+  remove_exact_duplicate_columns: true
+
+clustering:
+  algorithm: kmeans
+  k_candidates: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+  seeds: 10
+  n_init: 20
+  selection:
+    primary: bootstrap_pairwise_ARI
+    secondary: silhouette
+    minimum_stability: 0.75
+    minimum_family_size: 30
+
+null_ladder:
+  repetitions: 12
+  nulls:
+    - ALL_COLUMN_SHUFFLE
+    - COMPOSITION_BLOCK_PERMUTE
+    - STRUCTURE_BLOCK_PERMUTE
+    - SYMMETRY_BLOCK_PERMUTE
+    - SCALAR_BLOCK_PERMUTE
+    - CAPABILITY_BLOCK_PERMUTE
+  admission_rule: observed_silhouette_above_ALL_COLUMN_SHUFFLE_q95_and_stability_gte_0.75
+
+interpretation:
+  literature: locked
+  classical_family_names: forbidden
+  outputs: neutral_F_labels_only

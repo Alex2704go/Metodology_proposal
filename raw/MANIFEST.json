@@ -1,0 +1,271 @@
+{
+  "source": "Materials Project summary API",
+  "endpoint": "https://api.materialsproject.org/materials/summary/",
+  "api_version": "0.87.2.dev4+g6bd8ed856",
+  "extracted_at": "2026-07-15T07:35:22.245667+00:00",
+  "requested_fields": [
+    "material_id",
+    "nelements",
+    "elements",
+    "composition",
+    "structure",
+    "symmetry",
+    "band_gap",
+    "formation_energy_per_atom",
+    "is_magnetic",
+    "ordering",
+    "density",
+    "volume"
+  ],
+  "sampling": {
+    "strategy": "stratified deterministic random contiguous windows",
+    "warning": "Cluster-window pilot; not a uniform object-level random sample.",
+    "stratification_variable": "nelements",
+    "window_size": 100,
+    "seed": 420042,
+    "population_size_reported": 271325,
+    "sample_size": 3000,
+    "strata": [
+      {
+        "id": "N1",
+        "min": 1,
+        "max": 1,
+        "population": 833,
+        "quota": 300,
+        "windows": [
+          {
+            "skip": 5,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 306,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 130,
+            "returned": 100,
+            "new_unique": 100
+          }
+        ],
+        "selected": 300
+      },
+      {
+        "id": "N2",
+        "min": 2,
+        "max": 2,
+        "population": 21130,
+        "quota": 900,
+        "windows": [
+          {
+            "skip": 17593,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 13663,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 13306,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 16971,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 4475,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 4914,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 12123,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 18625,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 9018,
+            "returned": 100,
+            "new_unique": 100
+          }
+        ],
+        "selected": 900
+      },
+      {
+        "id": "N3",
+        "min": 3,
+        "max": 3,
+        "population": 91413,
+        "quota": 900,
+        "windows": [
+          {
+            "skip": 9825,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 47963,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 86535,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 40553,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 49799,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 6985,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 36846,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 7821,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 25088,
+            "returned": 100,
+            "new_unique": 100
+          }
+        ],
+        "selected": 900
+      },
+      {
+        "id": "N4P",
+        "min": 4,
+        "max": 20,
+        "population": 157949,
+        "quota": 900,
+        "windows": [
+          {
+            "skip": 156479,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 11009,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 45097,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 101997,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 58961,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 126023,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 57028,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 73606,
+            "returned": 100,
+            "new_unique": 100
+          },
+          {
+            "skip": 33672,
+            "returned": 100,
+            "new_unique": 100
+          }
+        ],
+        "selected": 900
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "raw/materials_pilot_3000.jsonl.gz",
+      "role": "immutable raw response records",
+      "records": 3000,
+      "sha256": "77d52ed2e9f3ceb30b1ada3e287feccee51ebb0496215e79e2254e6b7db0614b",
+      "bytes": 3165165
+    },
+    {
+      "path": "raw/object_id_map.jsonl.gz",
+      "role": "restricted source-to-blind ID map",
+      "records": 3000,
+      "sha256": "088b919e770bec03307ed1470d924f283e434c3f2f6e664449edc17e878b9fd0",
+      "bytes": 15949
+    },
+    {
+      "path": "derived/objects_blind_3000.jsonl.gz",
+      "role": "blind analysis view",
+      "records": 3000,
+      "sha256": "9204791c0b544df478f366a4209e123ed2f4e8549bc4a60ba6a276fba3985b0b",
+      "bytes": 3161504
+    }
+  ],
+  "credential_persisted": false,
+  "stage02_sidecar": {
+    "extracted_at": "2026-07-15T07:55:23.669279+00:00",
+    "api_version": "0.87.2.dev4+g6bd8ed856",
+    "join_rule": "exact Stage 00 material_id set",
+    "requested_fields": [
+      "material_id",
+      "has_props",
+      "origins",
+      "builder_meta"
+    ],
+    "credential_persisted": false,
+    "files": [
+      {
+        "path": "raw/representation_fields_3000.jsonl.gz",
+        "records": 3000,
+        "sha256": "4732e54d19531bc0ad9a58fa2d21ddaebe6f64906c04d6d8364a0fc60ed44db8",
+        "bytes": 228155
+      },
+      {
+        "path": "derived/objects_blind_stage02_3000.jsonl.gz",
+        "records": 3000,
+        "sha256": "844e3c66a32d96c0694c5198a1ec31824ac171599988f607e1d5160f1a6f3682",
+        "bytes": 3476628
+      }
+    ]
+  }
+}

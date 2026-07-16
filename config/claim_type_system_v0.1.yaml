@@ -1,0 +1,40 @@
+claim_type_system:
+  version: 0.1
+  status: REASSESSMENT_REQUIRED
+  types:
+    - RawObservation
+    - OrganizationalObject
+    - ObserverOutput
+    - FrozenFamily
+    - RelationPattern
+    - AdmissionState
+    - NearestAssignment
+    - AdmissibleAssignment
+    - CrossMapping
+    - IndependentEvidence
+    - InterpretationClaim
+    - InterpretationBoundary
+  transitions:
+    RawObservation_to_OrganizationalObject:
+      requires: [object_typing, builder_admission]
+    OrganizationalObject_to_FrozenFamily:
+      requires: [vectorization_admission, stability, null_ladder, partition_admission]
+    ObserverOutput_to_RelationPattern:
+      requires: [canonical_topology, label_invariance, conflict_null, pattern_admission]
+    CEOS_Entity_x_ExternalTerm_to_CrossMapping:
+      requires: [direction, mapping_provenance, mapping_stability, counterexamples, mapping_admission]
+    CrossMapping_x_IndependentEvidence_to_InterpretationClaim:
+      requires: [independent_evidence_passport, interpretation_admission]
+  forbidden_coercions:
+    - [ExternalTerm, OrganizationalObject]
+    - [CrossMapping, IndependentEvidence]
+    - [NearestAssignment, AdmissibleAssignment]
+    - [RelationPattern, AdmissionState]
+    - [FamilyLabel, PhysicalMechanism]
+    - [VocabularyName, PredictionOfUntestedProperties]
+  normative_rules:
+    cross_mapping_is_descriptive: true
+    cross_mapping_epistemic_upgrade: false
+    independent_evidence_required_for_upgrade: true
+    provenance_required_for_typed_claim: true
+    interpretation_boundary_required: true

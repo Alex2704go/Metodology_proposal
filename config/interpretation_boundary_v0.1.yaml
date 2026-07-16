@@ -1,0 +1,28 @@
+interpretation_boundary:
+  version: 0.1
+  required_in:
+    - assignment_passport
+    - relation_pattern_passport
+    - population_support_report
+    - cross_mapping_record
+  fields:
+    supports:
+      type: list_of_versioned_claims
+      required: true
+    does_not_support:
+      type: list_of_prohibited_claims
+      required: true
+    scope:
+      type: analyzed_sample_and_registered_methodology
+      required: true
+    literature_mapping_status:
+      allowed: [LOCKED, POST_HOC, COMPLETE]
+      required: true
+  default_prohibitions:
+    - physical_mechanism
+    - thermodynamic_phase
+    - microscopic_hamiltonian
+    - causal_explanation
+    - prediction_of_untested_properties
+    - universal_validity_outside_current_WORLD
+  rule: absence_of_a_prohibition_is_not_permission

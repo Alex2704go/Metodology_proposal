@@ -1,0 +1,44 @@
+project:
+  id: v0.42.MaterialsWorld
+  mode: blind_audit
+  timezone: Asia/Vladivostok
+
+stages:
+  current: final_recommendations_materials_project_and_community
+  partition_admission: admitted
+  assignment_admission: active_v0.1
+  literature_admission_unlocked: false
+
+security:
+  api_key_env: MP_API_KEY
+  persist_api_key: false
+
+intake:
+  source: materials_project
+  api_version: "0.87.2.dev4+g6bd8ed856"
+  extraction_date: "2026-07-15"
+  sample_size: 3000
+  sampling_strategy: stratified_deterministic_random_contiguous_windows
+  random_seed: 420042
+  requested_fields:
+    - material_id
+    - nelements
+    - elements
+    - composition
+    - structure
+    - symmetry
+    - band_gap
+    - formation_energy_per_atom
+    - is_magnetic
+    - ordering
+    - density
+    - volume
+  inclusion_rules: []
+  exclusion_rules: []
+
+naming:
+  object: "Object {id}"
+  observer: "Observer {id}"
+  family: "Family F-{id}"
+  representation: "Representation R-{id}"
+  null: "Null N-{id}"

@@ -1,0 +1,72 @@
+{
+  "mapping_id": "CM-EXAMPLE_NOT_ADMITTED",
+  "protocol_version": "cross_mapping_v0.1",
+  "status": "LOCKED",
+  "direction": "CEOS_TO_CLASSICAL",
+  "epistemic_effect": {
+    "mapping_is_descriptive": true,
+    "upgrades_source_ontology": false,
+    "upgrades_target_ontology": false,
+    "independent_admitted_evidence_required_for_upgrade": true
+  },
+  "source": {
+    "vocabulary": "synthetic_example_only",
+    "term": "UNMAPPED_TERM",
+    "citation_ids": []
+  },
+  "target": {
+    "frozen_partition_version": "CEOS_Structural_Representation_Families_v0.2",
+    "family_ids": [],
+    "relation_pattern_ids": [],
+    "admission_context_ids": []
+  },
+  "mapping_provenance": {
+    "constructed_from": {
+      "family_only": false,
+      "relation_pattern": false,
+      "admission_context": false,
+      "population_statistics": false,
+      "independent_observer_agreement": false
+    },
+    "source_artifact_ids": []
+  },
+  "mapping_strength": {
+    "level": "NOT_ASSESSED",
+    "rationale": "Literature and Cross Mapping remain locked."
+  },
+  "evidence_strength": {
+    "level": "NONE",
+    "independent_evidence_artifact_ids": []
+  },
+  "mapping_stability": {
+    "maturity": "NOT_TESTED",
+    "qualification_outcome": "NOT_RUN",
+    "observed_across": {
+      "one_world": false,
+      "multiple_worlds": false,
+      "independent_datasets": false,
+      "independent_observers": false
+    },
+    "counterexample_search": {
+      "current_world": false,
+      "external_worlds": false
+    }
+  },
+  "counterexamples": [],
+  "cross_mapping_asymmetry_acknowledged": true,
+  "interpretation_boundary": {
+    "supports": [
+      "validation of the Cross Mapping Passport schema using a synthetic locked example"
+    ],
+    "does_not_support": [
+      "physical mechanism",
+      "thermodynamic phase",
+      "microscopic Hamiltonian",
+      "causal explanation",
+      "prediction of untested properties",
+      "evidence inheritance through vocabulary mapping"
+    ],
+    "scope": "schema validation only",
+    "literature_mapping_status": "LOCKED"
+  }
+}

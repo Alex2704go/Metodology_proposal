@@ -1,0 +1,22 @@
+governance_diagnostics:
+  version: 0.2
+  codes:
+    GOV-STATE-001: illegal_or_mismatched_lifecycle_state
+    GOV-STATE-002: admitted_with_nonpass_qualification
+    GOV-PROV-001: missing_or_invalid_provenance_reference
+    GOV-EVID-001: missing_or_invalid_evidence_reference
+    GOV-EVID-002: evidence_strength_mismatch
+    GOV-DIR-001: direction_construction_origin_mismatch
+    GOV-MAT-001: maturity_history_or_outcome_mismatch
+    GOV-IND-001: operational_independence_not_demonstrated
+    GOV-BOUND-001: interpretation_boundary_contradiction
+    GOV-BOUND-002: mandatory_prohibition_missing
+    GOV-ASYM-001: epistemic_upgrade_or_evidence_inheritance
+    GOV-COUNTER-001: counterexample_search_missing
+    GOV-ART-001: unregistered_claim_bearing_artifact
+    GOV-GRAPH-001: cyclic_claim_graph
+    GOV-GRAPH-002: unpinned_or_unknown_antecedent
+    GOV-DIGEST-001: artifact_or_claim_digest_mismatch
+    GOV-REF-001: malformed_or_unknown_reference
+    GOV-ENDPOINT-001: empty_or_invalid_mapping_endpoint
+    GOV-PIPE-001: earlier_failed_gate_masked_by_later_command

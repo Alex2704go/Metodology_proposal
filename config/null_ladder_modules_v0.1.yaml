@@ -1,0 +1,15 @@
+null_ladder_modules:
+  version: 0.1
+  scientific:
+    target: organizational_data_or_representation_claim
+    examples: [shuffle, block_permutation, scale_null, topology_null, phase_randomization]
+    cannot_waive: governance_validation
+  governance:
+    target: claim_package_and_reasoning_validity
+    examples: [ghost_evidence, ghost_provenance, illegal_state_transition, cyclic_claim_graph, evidence_smuggling]
+    cannot_waive: scientific_null_validation
+  interface:
+    both_required_when_claim_type_demands_both: true
+    result_types_are_not_substitutable: true
+    scientific_pass_does_not_imply_governance_pass: true
+    governance_pass_does_not_imply_scientific_truth: true

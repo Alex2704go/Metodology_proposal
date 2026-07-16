@@ -1,0 +1,33 @@
+system_status:
+  assessed_at: 2026-07-16
+  governance_v0.1:
+    state: REASSESSMENT_REQUIRED
+    normative_result: 16_SPECIFICATION_GAPS_OR_UNPROTECTED_TRANSITIONS
+    actual_security_compromise: false
+  governance_v0.2:
+    state: SUPERSEDED_BY_V0.2.1
+    admitted: false
+    registered_invalid_attacks: 16/16_REJECTED
+  governance_v0.2.1:
+    state: QUALIFIED
+    admitted: false
+    valid_fixture: PASS
+    controls: 2/2_PASS
+    registered_invalid_attacks: 17/17_REJECTED
+    remaining_registered_gaps: 0
+    integrity_gate: FAIL_FAST_PASS
+    qualification_limit: self_authored_regression_suite
+    admission_requires:
+      - independent_red_team
+      - unregistered_mutation_attacks
+      - corrupted_registry_tests
+      - partial_file_and_concurrency_tests
+      - real_claim_graph_audit
+  scientific_components:
+    builder_admission_v0.2: ADMITTED
+    structural_families_v0.2: ADMITTED_WITH_SCOPE
+    assignment_admission_v0.2: ADMITTED_WITH_SCOPE
+    conflict_topology_v0.3: ADMITTED_WITH_SCOPE
+  cross_mapping:
+    real_mappings_admitted: 0
+    literature_gate: LOCKED

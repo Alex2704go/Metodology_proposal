@@ -1,0 +1,18 @@
+governance_patch:
+  version: 0.2.1
+  extends: governance_v0.2
+  status: QUALIFIED
+  patch:
+    id: GOV-PIPE-001
+    issue: earlier_failed_gate_can_be_masked_by_later_success_in_compound_shell_command
+    remediation:
+      entrypoint: scripts/run_integrity_gate.sh
+      shell_contract: set_-euo_pipefail
+      regression: scripts/test_failfast_gate.py
+  registered_governance_attacks:
+    inherited_v0.1: 16
+    added_v0.2.1: 1
+    total: 17
+    rejected: 17
+  admission_status: NOT_ADMITTED
+  admission_requires: independent_red_team

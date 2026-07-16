@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ceos.local/schemas/cross_mapping_passport.schema.json",
+  "title": "CEOS Cross Mapping Passport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "mapping_id", "protocol_version", "status", "direction", "epistemic_effect", "source", "target",
+    "mapping_provenance", "mapping_strength", "evidence_strength", "mapping_stability",
+    "counterexamples", "cross_mapping_asymmetry_acknowledged", "interpretation_boundary"
+  ],
+  "properties": {
+    "mapping_id": {"type": "string", "pattern": "^CM-[A-Z0-9_-]+$"},
+    "protocol_version": {"const": "cross_mapping_v0.1"},
+    "status": {"enum": ["LOCKED", "DRAFT", "CANDIDATE", "ADMITTED", "REJECTED", "REASSESSMENT_REQUIRED"]},
+    "direction": {"enum": ["CEOS_TO_CLASSICAL", "CLASSICAL_TO_CEOS", "BIDIRECTIONAL_CANDIDATE"]},
+    "epistemic_effect": {
+      "type": "object", "additionalProperties": false,
+      "required": ["mapping_is_descriptive", "upgrades_source_ontology", "upgrades_target_ontology", "independent_admitted_evidence_required_for_upgrade"],
+      "properties": {
+        "mapping_is_descriptive": {"const": true},
+        "upgrades_source_ontology": {"const": false},
+        "upgrades_target_ontology": {"const": false},
+        "independent_admitted_evidence_required_for_upgrade": {"const": true}
+      }
+    },
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["vocabulary", "term", "citation_ids"],
+      "properties": {
+        "vocabulary": {"type": "string", "minLength": 1},
+        "term": {"type": "string", "minLength": 1},
+        "citation_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      }
+    },
+    "target": {
+      "type": "object", "additionalProperties": false,
+      "required": ["frozen_partition_version", "family_ids", "relation_pattern_ids", "admission_context_ids"],
+      "properties": {
+        "frozen_partition_version": {"type": "string", "minLength": 1},
+        "family_ids": {"type": "array", "items": {"type": "string", "pattern": "^F-[0-9]{3}$"}, "uniqueItems": true},
+        "relation_pattern_ids": {"type": "array", "items": {"type": "string", "pattern": "^RP-[A-F0-9]{10}$"}, "uniqueItems": true},
+        "admission_context_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      }
+    },
+    "mapping_provenance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["constructed_from", "source_artifact_ids"],
+      "properties": {
+        "constructed_from": {
+          "type": "object", "additionalProperties": false,
+          "required": ["family_only", "relation_pattern", "admission_context", "population_statistics", "independent_observer_agreement"],
+          "properties": {
+            "family_only": {"type": "boolean"},
+            "relation_pattern": {"type": "boolean"},
+            "admission_context": {"type": "boolean"},
+            "population_statistics": {"type": "boolean"},
+            "independent_observer_agreement": {"type": "boolean"}
+          }
+        },
+        "source_artifact_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      }
+    },
+    "mapping_strength": {
+      "type": "object", "additionalProperties": false,
+      "required": ["level", "rationale"],
+      "properties": {
+        "level": {"enum": ["NOT_ASSESSED", "WEAK", "MODERATE", "STRONG"]},
+        "rationale": {"type": "string"}
+      }
+    },
+    "evidence_strength": {
+      "type": "object", "additionalProperties": false,
+      "required": ["level", "independent_evidence_artifact_ids"],
+      "properties": {
+        "level": {"enum": ["NONE", "LIMITED", "MULTIPLE_SOURCES", "INDEPENDENTLY_REPLICATED"]},
+        "independent_evidence_artifact_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}
+      }
+    },
+    "mapping_stability": {
+      "type": "object", "additionalProperties": false,
+      "required": ["maturity", "qualification_outcome", "observed_across", "counterexample_search"],
+      "properties": {
+        "maturity": {"enum": ["NOT_TESTED", "SINGLE_WORLD", "MULTI_WORLD", "INDEPENDENTLY_REPLICATED"]},
+        "qualification_outcome": {"enum": ["NOT_RUN", "PASS", "MIXED", "FAILED"]},
+        "observed_across": {
+          "type": "object", "additionalProperties": false,
+          "required": ["one_world", "multiple_worlds", "independent_datasets", "independent_observers"],
+          "properties": {
+            "one_world": {"type": "boolean"},
+            "multiple_worlds": {"type": "boolean"},
+            "independent_datasets": {"type": "boolean"},
+            "independent_observers": {"type": "boolean"}
+          }
+        },
+        "counterexample_search": {
+          "type": "object", "additionalProperties": false,
+          "required": ["current_world", "external_worlds"],
+          "properties": {"current_world": {"type": "boolean"}, "external_worlds": {"type": "boolean"}}
+        }
+      }
+    },
+    "counterexamples": {"type": "array", "items": {"type": "object"}},
+    "cross_mapping_asymmetry_acknowledged": {"const": true},
+    "interpretation_boundary": {
+      "type": "object", "additionalProperties": false,
+      "required": ["supports", "does_not_support", "scope", "literature_mapping_status"],
+      "properties": {
+        "supports": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "does_not_support": {
+          "type": "array", "minItems": 6, "uniqueItems": true, "items": {"type": "string", "minLength": 1},
+          "allOf": [
+            {"contains": {"const": "physical mechanism"}},
+            {"contains": {"const": "thermodynamic phase"}},
+            {"contains": {"const": "microscopic Hamiltonian"}},
+            {"contains": {"const": "causal explanation"}},
+            {"contains": {"const": "prediction of untested properties"}},
+            {"contains": {"const": "evidence inheritance through vocabulary mapping"}}
+          ]
+        },
+        "scope": {"type": "string", "minLength": 1},
+        "literature_mapping_status": {"enum": ["LOCKED", "POST_HOC", "COMPLETE"]}
+      }
+    }
+  }
+}

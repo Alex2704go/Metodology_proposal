@@ -1,0 +1,74 @@
+{
+  "selection_blind": true,
+  "formula_loaded": false,
+  "source_id_loaded": false,
+  "pool_objects": 1000,
+  "replay": {
+    "raw_max_abs_error": 0.0,
+    "scaled_max_abs_error": 0.0
+  },
+  "selected": [
+    {
+      "selector": "DISTANT_OBJECT",
+      "pool_index": 979,
+      "object_id": "Stress Object 0980",
+      "views": {
+        "ORGANIZATION": {
+          "nearest_family": "F-002",
+          "nearest_distance": 4.737457128815929,
+          "second_distance": 5.029423938753113,
+          "margin": 0.05805173982003002,
+          "training_distance_percentile": 99.9,
+          "ood_flag": true
+        },
+        "OBSERVER_AUGMENTED": {
+          "nearest_family": "F-002",
+          "nearest_distance": 4.899297967908567,
+          "second_distance": 5.179031604740051,
+          "margin": 0.05401273021300095,
+          "training_distance_percentile": 99.9,
+          "ood_flag": true
+        },
+        "FULL_REPRESENTATION": {
+          "nearest_family": "F-001",
+          "nearest_distance": 5.026371478924673,
+          "second_distance": 5.975216498665637,
+          "margin": 0.15879675990864892,
+          "training_distance_percentile": 99.76666666666667,
+          "ood_flag": true
+        }
+      }
+    },
+    {
+      "selector": "BOUNDARY_OBJECT",
+      "pool_index": 188,
+      "object_id": "Stress Object 0189",
+      "views": {
+        "ORGANIZATION": {
+          "nearest_family": "F-001",
+          "nearest_distance": 3.1221293967133725,
+          "second_distance": 3.1642340483584324,
+          "margin": 0.013306427717282774,
+          "training_distance_percentile": 96.23333333333333,
+          "ood_flag": false
+        },
+        "OBSERVER_AUGMENTED": {
+          "nearest_family": "F-001",
+          "nearest_distance": 3.223960237080172,
+          "second_distance": 3.2482097639535463,
+          "margin": 0.007465505196884749,
+          "training_distance_percentile": 95.36666666666666,
+          "ood_flag": false
+        },
+        "FULL_REPRESENTATION": {
+          "nearest_family": "F-002",
+          "nearest_distance": 3.2929924137655604,
+          "second_distance": 3.431299930642594,
+          "margin": 0.04030761509416988,
+          "training_distance_percentile": 92.13333333333334,
+          "ood_flag": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "records": 3000,
+  "features": 110,
+  "block_dependence": [
+    {
+      "block_a": "composition_shape",
+      "block_b": "structure_topology",
+      "rv": 0.4599051732883656,
+      "null_mean": 0.0007817701446972303,
+      "null_q95": 0.0014064766735972524,
+      "above_null_q95": true,
+      "excess": 0.45849869661476833
+    },
+    {
+      "block_a": "capability_map",
+      "block_b": "provenance_shape",
+      "rv": 0.355259933774389,
+      "null_mean": 0.0008459377443955346,
+      "null_q95": 0.0015301461989965727,
+      "above_null_q95": true,
+      "excess": 0.3537297875753925
+    },
+    {
+      "block_a": "capability_map",
+      "block_b": "composition_shape",
+      "rv": 0.27357195640744036,
+      "null_mean": 0.0015665290151741066,
+      "null_q95": 0.002315150373207705,
+      "above_null_q95": true,
+      "excess": 0.27125680603423263
+    },
+    {
+      "block_a": "provenance_shape",
+      "block_b": "structure_topology",
+      "rv": 0.22596884853250535,
+      "null_mean": 0.00045029121743701166,
+      "null_q95": 0.0010909040002329477,
+      "above_null_q95": true,
+      "excess": 0.2248779445322724
+    },
+    {
+      "block_a": "composition_shape",
+      "block_b": "provenance_shape",
+      "rv": 0.22417823919524277,
+      "null_mean": 0.0004973430238516963,
+      "null_q95": 0.0011457330494162921,
+      "above_null_q95": true,
+      "excess": 0.22303250614582648
+    },
+    {
+      "block_a": "capability_map",
+      "block_b": "structure_topology",
+      "rv": 0.20066057497912593,
+      "null_mean": 0.0011912199025048522,
+      "null_q95": 0.0023292200347447578,
+      "above_null_q95": true,
+      "excess": 0.19833135494438117
+    },
+    {
+      "block_a": "structure_numeric",
+      "block_b": "structure_topology",
+      "rv": 0.19584563869547325,
+      "null_mean": 0.0007827609279704964,
+      "null_q95": 0.0014879393454743056,
+      "above_null_q95": true,
+      "excess": 0.19435769934999894
+    },
+    {
+      "block_a": "composition_shape",
+      "block_b": "scalar_observers",
+      "rv": 0.111362559398205,
+      "null_mean": 0.001331945999424875,
+      "null_q95": 0.002089591740403924,
+      "above_null_q95": true,
+      "excess": 0.10927296765780108
+    },
+    {
+      "block_a": "scalar_observers",
+      "block_b": "structure_topology",
+      "rv": 0.10826297173469838,
+      "null_mean": 0.000814468239089793,
+      "null_q95": 0.0017402461354053154,
+      "above_null_q95": true,
+      "excess": 0.10652272559929307
+    },
+    {
+      "block_a": "composition_shape",
+      "block_b": "structure_numeric",
+      "rv": 0.09787386223120136,
+      "null_mean": 0.0010839201623223666,
+      "null_q95": 0.0018252992324915833,
+      "above_null_q95": true,
+      "excess": 0.09604856299870977
+    },
+    {
+      "block_a": "structure_numeric",
+      "block_b": "symmetry_record",
+      "rv": 0.09476832069629738,
+      "null_mean": 0.002623846907142073,
+      "null_q95": 0.003019594965500121,
+      "above_null_q95": true,
+      "excess": 0.09174872573079726
+    },
+    {
+      "block_a": "composition_shape",
+      "block_b": "symmetry_record",
+      "rv": 0.09061360843486811,
+      "null_mean": 0.00259798792731791,
+      "null_q95": 0.00340934946827257,
+      "above_null_q95": true,
+      "excess": 0.08720425896659555
+    },
+    {
+      "block_a": "structure_topology",
+      "block_b": "symmetry_record",
+      "rv": 0.08652982444523576,
+      "null_mean": 0.001883734389372205,
+      "null_q95": 0.0025204769417700485,
+      "above_null_q95": true,
+      "excess": 0.08400934750346571
+    },
+    {
+      "block_a": "capability_map",
+      "block_b": "scalar_observers",
+      "rv": 0.07679730607757725,
+      "null_mean": 0.001862399097868584,
+      "null_q95": 0.002576188722309792,
+      "above_null_q95": true,
+      "excess": 0.07422111735526746
+    },
+    {
+      "block_a": "provenance_shape",
+      "block_b": "scalar_observers",
+      "rv": 0.0758553137557952,
+      "null_mean": 0.0008574796967539122,
+      "null_q95": 0.0017056788690376073,
+      "above_null_q95": true,
+      "excess": 0.07414963488675759
+    },
+    {
+      "block_a": "capability_map",
+      "block_b": "symmetry_record",
+      "rv": 0.06934826641534998,
+      "null_mean": 0.003826585959725702,
+      "null_q95": 0.004656536044231784,
+      "above_null_q95": true,
+      "excess": 0.0646917303711182
+    },
+    {
+      "block_a": "capability_map",
+      "block_b": "structure_numeric",
+      "rv": 0.060612865521532104,
+      "null_mean": 0.0015241471007455968,
+      "null_q95": 0.00230311481121444,
+      "above_null_q95": true,
+      "excess": 0.058309750710317666
+    },
+    {
+      "block_a": "provenance_shape",
+      "block_b": "structure_numeric",
+      "rv": 0.05692312536503447,
+      "null_mean": 0.0006493309512853461,
+      "null_q95": 0.001204322220146817,
+      "above_null_q95": true,
+      "excess": 0.055718803144887655
+    },
+    {
+      "block_a": "scalar_observers",
+      "block_b": "symmetry_record",
+      "rv": 0.05425819349394349,
+      "null_mean": 0.003068720430354632,
+      "null_q95": 0.0040306314917164104,
+      "above_null_q95": true,
+      "excess": 0.05022756200222708
+    },
+    {
+      "block_a": "provenance_shape",
+      "block_b": "symmetry_record",
+      "rv": 0.05070101113739735,
+      "null_mean": 0.0014178874810625028,
+      "null_q95": 0.002047247974781553,
+      "above_null_q95": true,
+      "excess": 0.04865376316261579
+    },
+    {
+      "block_a": "scalar_observers",
+      "block_b": "structure_numeric",
+      "rv": 0.02329533866564329,
+      "null_mean": 0.0014093561944830799,
+      "null_q95": 0.002104253876778546,
+      "above_null_q95": true,
+      "excess": 0.021191084788864743
+    }
+  ],
+  "high_feature_correlations": [
+    {
+      "a": "composition.total",
+      "block_a": "composition_shape",
+      "b": "structure.object_nodes",
+      "block_b": "structure_topology",
+      "correlation": 1.0
+    },
+    {
+      "a": "composition.total",
+      "block_a": "composition_shape",
+      "b": "structure.list_nodes",
+      "block_b": "structure_topology",
+      "correlation": 1.0
+    },
+    {
+      "a": "structure.object_nodes",
+      "block_a": "structure_topology",
+      "b": "structure.list_nodes",
+      "block_b": "structure_topology",
+      "correlation": 1.0
+    },
+    {
+      "a": "is_magnetic==False",
+      "block_a": "scalar_observers",
+      "b": "is_magnetic==True",
+      "block_b": "scalar_observers",
+      "correlation": -1.0
+    },
+    {
+      "a": "composition.total",
+      "block_a": "composition_shape",
+      "b": "structure.sites[].abc[].count",
+      "block_b": "structure_numeric",
+      "correlation": 0.9999999999999998
+    },
+    {
+      "a": "structure.object_nodes",
+      "block_a": "structure_topology",
+      "b": "structure.sites[].abc[].count",
+      "block_b": "structure_numeric",
+      "correlation": 0.9999999999999986
+    },
+    {
+      "a": "structure.list_nodes",
+      "block_a": "structure_topology",
+      "b": "structure.sites[].abc[].count",
+      "block_b": "structure_numeric",
+      "correlation": 0.9999999999999986
+    },
+    {
+      "a": "band_gap__MISSING",
+      "block_a": "scalar_observers",
+      "b": "has_props.electronic_structure",
+      "block_b": "capability_map",
+      "correlation": -0.9999999999999959
+    },
+    {
+      "a": "formation_energy_per_atom__MISSING",
+      "block_a": "scalar_observers",
+      "b": "has_props.thermo",
+      "block_b": "capability_map",
+      "correlation": -0.9999999999999782
+    },
+    {
+      "a": "structure.object_nodes",
+      "block_a": "structure_topology",
+      "b": "structure.list_size_max",
+      "block_b": "structure_topology",
+      "correlation": 0.9998644357872216
+    },
+    {
+      "a": "structure.list_nodes",
+      "block_a": "structure_topology",
+      "b": "structure.list_size_max",
+      "block_b": "structure_topology",
+      "correlation": 0.9998644357872216
+    },
+    {
+      "a": "structure.list_size_max",
+      "block_a": "structure_topology",
+      "b": "structure.sites[].abc[].count",
+      "block_b": "structure_numeric",
+      "correlation": 0.9998644357872206
+    },
+    {
+      "a": "composition.total",
+      "block_a": "composition_shape",
+      "b": "structure.list_size_max",
+      "block_b": "structure_topology",
+      "correlation": 0.9998644357872197
+    },
+    {
+      "a": "structure.leaves",
+      "block_a": "structure_topology",
+      "b": "structure.object_nodes",
+      "block_b": "structure_topology",
+      "correlation": 0.9992564828425566
+    },
+    {
+      "a": "structure.leaves",
+      "block_a": "structure_topology",
+      "b": "structure.list_nodes",
+      "block_b": "structure_topology",
+      "correlation": 0.9992564828425566
+    },
+    {
+      "a": "composition.total",
+      "block_a": "composition_shape",
+      "b": "structure.leaves",
+      "block_b": "structure_topology",
+      "correlation": 0.999256482842556
+    },
+    {
+      "a": "structure.leaves",
+      "block_a": "structure_topology",
+      "b": "structure.sites[].abc[].count",
+      "block_b": "structure_numeric",
+      "correlation": 0.9992564828425546
+    },
+    {
+      "a": "structure.leaves",
+      "block_a": "structure_topology",
+      "b": "structure.list_size_max",
+      "block_b": "structure_topology",
+      "correlation": 0.9991695456789756
+    },
+    {
+      "a": "structure.lattice.matrix[][].mean",
+      "block_a": "structure_numeric",
+      "b": "structure.sites[].xyz[].mean",
+      "block_b": "structure_numeric",
+      "correlation": 0.9827909399605378
+    },
+    {
+      "a": "composition.entropy",
+      "block_a": "composition_shape",
+      "b": "composition.l2",
+      "block_b": "composition_shape",
+      "correlation": -0.9806129644152781
+    },
+    {
+      "a": "structure.object_nodes",
+      "block_a": "structure_topology",
+      "b": "structure.list_size_std",
+      "block_b": "structure_topology",
+      "correlation": 0.9668014645734964
+    },
+    {
+      "a": "structure.list_nodes",
+      "block_a": "structure_topology",
+      "b": "structure.list_size_std",
+      "block_b": "structure_topology",
+      "correlation": 0.9668014645734964
+    },
+    {
+      "a": "composition.total",
+      "block_a": "composition_shape",
+      "b": "structure.list_size_std",
+      "block_b": "structure_topology",
+      "correlation": 0.966801464573496
+    },
+    {
+      "a": "structure.list_size_std",
+      "block_a": "structure_topology",
+      "b": "structure.sites[].abc[].count",
+      "block_b": "structure_numeric",
+      "correlation": 0.9668014645734938
+    },
+    {
+      "a": "composition.max_share",
+      "block_a": "composition_shape",
+      "b": "composition.l2",
+      "block_b": "composition_shape",
+      "correlation": 0.9667344632022806
+    },
+    {
+      "a": "structure.list_size_std",
+      "block_a": "structure_topology",
+      "b": "structure.list_size_max",
+      "block_b": "structure_topology",
+      "correlation": 0.9652435597305601
+    },
+    {
+      "a": "structure.leaves",
+      "block_a": "structure_topology",
+      "b": "structure.list_size_std",
+      "block_b": "structure_topology",
+      "correlation": 0.9649509553146756
+    },
+    {
+      "a": "structure.dict_size_std",
+      "block_a": "structure_topology",
+      "b": "structure.list_size_mean",
+      "block_b": "structure_topology",
+      "correlation": -0.9403648633281153
+    },
+    {
+      "a": "structure.lattice.matrix[][].min",
+      "block_a": "structure_numeric",
+      "b": "structure.sites[].xyz[].min",
+      "block_b": "structure_numeric",
+      "correlation": 0.9138273402884903
+    },
+    {
+      "a": "composition.entropy",
+      "block_a": "composition_shape",
+      "b": "composition.max_share",
+      "block_b": "composition_shape",
+      "correlation": -0.9095580901099202
+    },
+    {
+      "a": "structure.sites[].abc[].mean",
+      "block_a": "structure_numeric",
+      "b": "structure.sites[].abc[].max",
+      "block_b": "structure_numeric",
+      "correlation": 0.9075895331091642
+    },
+    {
+      "a": "composition.key_count",
+      "block_a": "composition_shape",
+      "b": "composition.entropy",
+      "block_b": "composition_shape",
+      "correlation": 0.907277301513471
+    }
+  ],
+  "rule": "RV coefficient compared with 30 row-permutation nulls; feature flag |r|>=0.90"
+}

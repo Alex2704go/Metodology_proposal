@@ -1,0 +1,18 @@
+relation_pattern_registry:
+  version: 0.1
+  source: conflict_topology_v0.3
+  identity:
+    canonical_input: family_label_invariant_topology_signature
+    stable_id: "RP- + uppercase(first_10_hex(sha256(canonical_input)))"
+    ordinal_ids: forbidden_for_cross_world_identity
+  registry_fields:
+    - relation_pattern_id
+    - canonical_signature
+    - population_count
+    - boundary_count
+    - relational_boundary_count
+    - interpretation_boundary
+  collision_policy: fail_closed
+  cross_mapping:
+    relation: many_to_many
+    literature_status: LOCKED

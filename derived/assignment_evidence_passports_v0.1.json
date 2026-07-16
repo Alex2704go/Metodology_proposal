@@ -1,0 +1,354 @@
+{
+  "ontology": "Admission State belongs to Object × Evidence Context",
+  "protocol": "assignment_admission_v0.1",
+  "passports": [
+    {
+      "formula": "FeS",
+      "material_id": "mp-aaaaadct",
+      "role": "STANDARD",
+      "context": {
+        "partition": "CEOS_Structural_Representation_Families_v0.2",
+        "primary_view": "ORGANIZATION",
+        "confirmation_view": "OBSERVER_AUGMENTED",
+        "builder_admission": "v0.2",
+        "assignment_protocol": "v0.1"
+      },
+      "nearest_family": "F-001",
+      "admissible_family": "F-001",
+      "admission_state": "ADMITTED",
+      "admission_withheld_reason": null,
+      "assignment_evidence": {
+        "margin": 0.16590747816478854,
+        "nearest_distance": 2.2879793518501996,
+        "second_distance": 2.7430762079202444,
+        "distance_percentile": 79.53333333333333,
+        "ood_flag": false,
+        "cross_view_agreement": true,
+        "builder_confidence": "PASS"
+      },
+      "evidence_axes": {
+        "builder_confidence": {
+          "status": "PASS",
+          "score": 1.0,
+          "builder_admitted": true,
+          "deterministic_transform": true,
+          "raw_replay_error": 0.0,
+          "scaled_replay_error": 0.0
+        },
+        "cross_view_agreement": {
+          "status": "PASS",
+          "score": 1.0,
+          "agreement": true
+        },
+        "in_distribution": {
+          "status": "PASS",
+          "score": 1.0,
+          "distance_percentile": 79.53333333333333,
+          "threshold_lte": 99.0
+        },
+        "margin": {
+          "status": "PASS",
+          "score": 1.0,
+          "value": 0.16590747816478854,
+          "pass_gte": 0.1,
+          "warning_gte": 0.05
+        }
+      },
+      "evidence_weight": {
+        "score": 4.0,
+        "maximum": 4.0,
+        "display": "4/4"
+      }
+    },
+    {
+      "formula": "NaCl",
+      "material_id": "mp-aaaabhux",
+      "role": "STANDARD",
+      "context": {
+        "partition": "CEOS_Structural_Representation_Families_v0.2",
+        "primary_view": "ORGANIZATION",
+        "confirmation_view": "OBSERVER_AUGMENTED",
+        "builder_admission": "v0.2",
+        "assignment_protocol": "v0.1"
+      },
+      "nearest_family": "F-004",
+      "admissible_family": "F-004",
+      "admission_state": "ADMITTED",
+      "admission_withheld_reason": null,
+      "assignment_evidence": {
+        "margin": 0.4872581309353473,
+        "nearest_distance": 1.7395400324648196,
+        "second_distance": 3.3926233401586416,
+        "distance_percentile": 51.33333333333333,
+        "ood_flag": false,
+        "cross_view_agreement": true,
+        "builder_confidence": "PASS"
+      },
+      "evidence_axes": {
+        "builder_confidence": {
+          "status": "PASS",
+          "score": 1.0,
+          "builder_admitted": true,
+          "deterministic_transform": true,
+          "raw_replay_error": 0.0,
+          "scaled_replay_error": 0.0
+        },
+        "cross_view_agreement": {
+          "status": "PASS",
+          "score": 1.0,
+          "agreement": true
+        },
+        "in_distribution": {
+          "status": "PASS",
+          "score": 1.0,
+          "distance_percentile": 51.33333333333333,
+          "threshold_lte": 99.0
+        },
+        "margin": {
+          "status": "PASS",
+          "score": 1.0,
+          "value": 0.4872581309353473,
+          "pass_gte": 0.1,
+          "warning_gte": 0.05
+        }
+      },
+      "evidence_weight": {
+        "score": 4.0,
+        "maximum": 4.0,
+        "display": "4/4"
+      }
+    },
+    {
+      "formula": "SiO2",
+      "material_id": "mp-aaaaakgg",
+      "role": "STANDARD",
+      "context": {
+        "partition": "CEOS_Structural_Representation_Families_v0.2",
+        "primary_view": "ORGANIZATION",
+        "confirmation_view": "OBSERVER_AUGMENTED",
+        "builder_admission": "v0.2",
+        "assignment_protocol": "v0.1"
+      },
+      "nearest_family": "F-001",
+      "admissible_family": "F-001",
+      "admission_state": "ADMITTED",
+      "admission_withheld_reason": null,
+      "assignment_evidence": {
+        "margin": 0.3370754295962445,
+        "nearest_distance": 1.7758031668471568,
+        "second_distance": 2.678740909793006,
+        "distance_percentile": 53.800000000000004,
+        "ood_flag": false,
+        "cross_view_agreement": true,
+        "builder_confidence": "PASS"
+      },
+      "evidence_axes": {
+        "builder_confidence": {
+          "status": "PASS",
+          "score": 1.0,
+          "builder_admitted": true,
+          "deterministic_transform": true,
+          "raw_replay_error": 0.0,
+          "scaled_replay_error": 0.0
+        },
+        "cross_view_agreement": {
+          "status": "PASS",
+          "score": 1.0,
+          "agreement": true
+        },
+        "in_distribution": {
+          "status": "PASS",
+          "score": 1.0,
+          "distance_percentile": 53.800000000000004,
+          "threshold_lte": 99.0
+        },
+        "margin": {
+          "status": "PASS",
+          "score": 1.0,
+          "value": 0.3370754295962445,
+          "pass_gte": 0.1,
+          "warning_gte": 0.05
+        }
+      },
+      "evidence_weight": {
+        "score": 4.0,
+        "maximum": 4.0,
+        "display": "4/4"
+      }
+    },
+    {
+      "formula": "SrTiO3",
+      "material_id": "mp-aaaaagwx",
+      "role": "STANDARD",
+      "context": {
+        "partition": "CEOS_Structural_Representation_Families_v0.2",
+        "primary_view": "ORGANIZATION",
+        "confirmation_view": "OBSERVER_AUGMENTED",
+        "builder_admission": "v0.2",
+        "assignment_protocol": "v0.1"
+      },
+      "nearest_family": "F-002",
+      "admissible_family": "F-002",
+      "admission_state": "ADMITTED",
+      "admission_withheld_reason": null,
+      "assignment_evidence": {
+        "margin": 0.44506580492126574,
+        "nearest_distance": 1.499777386101495,
+        "second_distance": 2.7026220395179488,
+        "distance_percentile": 34.599999999999994,
+        "ood_flag": false,
+        "cross_view_agreement": true,
+        "builder_confidence": "PASS"
+      },
+      "evidence_axes": {
+        "builder_confidence": {
+          "status": "PASS",
+          "score": 1.0,
+          "builder_admitted": true,
+          "deterministic_transform": true,
+          "raw_replay_error": 0.0,
+          "scaled_replay_error": 0.0
+        },
+        "cross_view_agreement": {
+          "status": "PASS",
+          "score": 1.0,
+          "agreement": true
+        },
+        "in_distribution": {
+          "status": "PASS",
+          "score": 1.0,
+          "distance_percentile": 34.599999999999994,
+          "threshold_lte": 99.0
+        },
+        "margin": {
+          "status": "PASS",
+          "score": 1.0,
+          "value": 0.44506580492126574,
+          "pass_gte": 0.1,
+          "warning_gte": 0.05
+        }
+      },
+      "evidence_weight": {
+        "score": 4.0,
+        "maximum": 4.0,
+        "display": "4/4"
+      }
+    },
+    {
+      "formula": "B10H14C10S(OF2)3",
+      "material_id": "mp-aaacpzld",
+      "role": "DISTANT_OBJECT",
+      "context": {
+        "partition": "CEOS_Structural_Representation_Families_v0.2",
+        "primary_view": "ORGANIZATION",
+        "confirmation_view": "OBSERVER_AUGMENTED",
+        "builder_admission": "v0.2",
+        "assignment_protocol": "v0.1"
+      },
+      "nearest_family": "F-002",
+      "admissible_family": null,
+      "admission_state": "OOD",
+      "admission_withheld_reason": "Distance percentile exceeds registered training support",
+      "assignment_evidence": {
+        "margin": 0.05805173982003002,
+        "nearest_distance": 4.737457128815929,
+        "second_distance": 5.029423938753113,
+        "distance_percentile": 99.9,
+        "ood_flag": true,
+        "cross_view_agreement": true,
+        "builder_confidence": "PASS"
+      },
+      "evidence_axes": {
+        "builder_confidence": {
+          "status": "PASS",
+          "score": 1.0,
+          "builder_admitted": true,
+          "deterministic_transform": true,
+          "raw_replay_error": 0.0,
+          "scaled_replay_error": 0.0
+        },
+        "cross_view_agreement": {
+          "status": "PASS",
+          "score": 1.0,
+          "agreement": true
+        },
+        "in_distribution": {
+          "status": "FAIL",
+          "score": 0.0,
+          "distance_percentile": 99.9,
+          "threshold_lte": 99.0
+        },
+        "margin": {
+          "status": "WARN",
+          "score": 0.5,
+          "value": 0.05805173982003002,
+          "pass_gte": 0.1,
+          "warning_gte": 0.05
+        }
+      },
+      "evidence_weight": {
+        "score": 2.5,
+        "maximum": 4.0,
+        "display": "2.5/4"
+      }
+    },
+    {
+      "formula": "LiMnVF6",
+      "material_id": "mp-aaacpxpm",
+      "role": "BOUNDARY_OBJECT",
+      "context": {
+        "partition": "CEOS_Structural_Representation_Families_v0.2",
+        "primary_view": "ORGANIZATION",
+        "confirmation_view": "OBSERVER_AUGMENTED",
+        "builder_admission": "v0.2",
+        "assignment_protocol": "v0.1"
+      },
+      "nearest_family": "F-001",
+      "admissible_family": null,
+      "admission_state": "BOUNDARY",
+      "admission_withheld_reason": "Nearest and second-nearest families are insufficiently separated",
+      "assignment_evidence": {
+        "margin": 0.013306427717282774,
+        "nearest_distance": 3.1221293967133725,
+        "second_distance": 3.1642340483584324,
+        "distance_percentile": 96.23333333333333,
+        "ood_flag": false,
+        "cross_view_agreement": true,
+        "builder_confidence": "PASS"
+      },
+      "evidence_axes": {
+        "builder_confidence": {
+          "status": "PASS",
+          "score": 1.0,
+          "builder_admitted": true,
+          "deterministic_transform": true,
+          "raw_replay_error": 0.0,
+          "scaled_replay_error": 0.0
+        },
+        "cross_view_agreement": {
+          "status": "PASS",
+          "score": 1.0,
+          "agreement": true
+        },
+        "in_distribution": {
+          "status": "PASS",
+          "score": 1.0,
+          "distance_percentile": 96.23333333333333,
+          "threshold_lte": 99.0
+        },
+        "margin": {
+          "status": "FAIL",
+          "score": 0.0,
+          "value": 0.013306427717282774,
+          "pass_gte": 0.1,
+          "warning_gte": 0.05
+        }
+      },
+      "evidence_weight": {
+        "score": 3.0,
+        "maximum": 4.0,
+        "display": "3/4"
+      }
+    }
+  ]
+}

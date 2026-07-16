@@ -1,0 +1,30 @@
+ceos_document_contract:
+  version: 0.1
+  status: REASSESSMENT_REQUIRED
+  structural_lint_status: VALID
+  semantic_enforcement_status: FAILED_SYSTEM_NULL_V0.1
+  scope:
+    include:
+      - "/*.md"
+      - "/reports/*.md"
+    exemptions: []
+  mandatory_marker: "CEOS-INTERPRETATION-BOUNDARY v0.1"
+  mandatory_sections:
+    - Supports
+    - Does not support
+  default_does_not_support:
+    - physical mechanism
+    - thermodynamic phase
+    - microscopic Hamiltonian
+    - causal explanation
+    - prediction of untested properties
+    - evidence transfer through vocabulary mapping
+    - universal validity outside registered scope
+  mandatory_principle: "Vocabulary correspondence ≠ evidence inheritance."
+  admission:
+    missing_boundary: FAIL
+    empty_supports: FAIL
+    empty_does_not_support: FAIL
+  regeneration_rule: >-
+    Any generated document must be passed through the Interpretation Boundary
+    applicator and linter before document admission.

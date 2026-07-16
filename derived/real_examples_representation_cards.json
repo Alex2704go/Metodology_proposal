@@ -1,0 +1,304 @@
+{
+  "created_at": "2026-07-15T08:03:47.807009+00:00",
+  "api_version": "0.87.2.dev4+g6bd8ed856",
+  "classification_level": "Representation Classification; CEOS Family not assigned",
+  "cards": [
+    {
+      "requested_formula": "FeS",
+      "source_formula": "FeS",
+      "material_id": "mp-aaaaadct",
+      "selection_rule": "lexicographically minimum material_id among exact-formula matches",
+      "representations": {
+        "composition": {
+          "class": "MAP",
+          "builder": "MapBuilder",
+          "key_count": 2,
+          "value_total": 4.0
+        },
+        "structure": {
+          "class": "COMPOSITE",
+          "builder": "CompositeBuilder",
+          "depth": 5,
+          "leaves": 62,
+          "object_nodes": 15,
+          "list_nodes": 18
+        },
+        "symmetry": {
+          "class": "RECORD",
+          "builder": "RecordBuilder",
+          "slot_count": 8,
+          "populated_slots": 8,
+          "record_fingerprint": "19a4e4a89b",
+          "cross_mapping": {
+            "crystal_system": "Hexagonal",
+            "number": 194
+          }
+        },
+        "has_props": {
+          "class": "RECORD+MAP_VIEW",
+          "builders": [
+            "RecordBuilder",
+            "MapViewBuilder"
+          ],
+          "slot_count": 21,
+          "active_count": 12,
+          "active_keys": [
+            "bandstructure",
+            "charge_density",
+            "chemenv",
+            "dos",
+            "electronic_structure",
+            "magnetism",
+            "materials",
+            "oxi_states",
+            "provenance",
+            "substrates",
+            "thermo",
+            "xas"
+          ],
+          "pattern_fingerprint": "9e190e9675"
+        },
+        "origins": {
+          "class": "LIST_OF_OBJECTS",
+          "builders": [
+            "ListBuilder",
+            "RecordElementBuilder"
+          ],
+          "length": 8,
+          "element_keyset_variants": 1
+        },
+        "builder_meta": {
+          "class": "RECORD+MAP_VIEW",
+          "slot_count": 7,
+          "populated_slots": 7
+        }
+      },
+      "representation_signature": "MAP2|COMP(d5,l62,o15,a18)|SYM-19a4e4a89b|CAP12-9e190e9675|ORG8"
+    },
+    {
+      "requested_formula": "NaCl",
+      "source_formula": "NaCl",
+      "material_id": "mp-aaaabhux",
+      "selection_rule": "lexicographically minimum material_id among exact-formula matches",
+      "representations": {
+        "composition": {
+          "class": "MAP",
+          "builder": "MapBuilder",
+          "key_count": 2,
+          "value_total": 2.0
+        },
+        "structure": {
+          "class": "COMPOSITE",
+          "builder": "CompositeBuilder",
+          "depth": 5,
+          "leaves": 42,
+          "object_nodes": 9,
+          "list_nodes": 12
+        },
+        "symmetry": {
+          "class": "RECORD",
+          "builder": "RecordBuilder",
+          "slot_count": 8,
+          "populated_slots": 8,
+          "record_fingerprint": "00a0b42e94",
+          "cross_mapping": {
+            "crystal_system": "Cubic",
+            "number": 221
+          }
+        },
+        "has_props": {
+          "class": "RECORD+MAP_VIEW",
+          "builders": [
+            "RecordBuilder",
+            "MapViewBuilder"
+          ],
+          "slot_count": 21,
+          "active_count": 13,
+          "active_keys": [
+            "bandstructure",
+            "charge_density",
+            "chemenv",
+            "dos",
+            "electronic_structure",
+            "magnetism",
+            "materials",
+            "oxi_states",
+            "phonon",
+            "provenance",
+            "substrates",
+            "thermo",
+            "xas"
+          ],
+          "pattern_fingerprint": "347cbd0d54"
+        },
+        "origins": {
+          "class": "LIST_OF_OBJECTS",
+          "builders": [
+            "ListBuilder",
+            "RecordElementBuilder"
+          ],
+          "length": 8,
+          "element_keyset_variants": 1
+        },
+        "builder_meta": {
+          "class": "RECORD+MAP_VIEW",
+          "slot_count": 7,
+          "populated_slots": 7
+        }
+      },
+      "representation_signature": "MAP2|COMP(d5,l42,o9,a12)|SYM-00a0b42e94|CAP13-347cbd0d54|ORG8"
+    },
+    {
+      "requested_formula": "SiO2",
+      "source_formula": "SiO2",
+      "material_id": "mp-aaaaakgg",
+      "selection_rule": "lexicographically minimum material_id among exact-formula matches",
+      "representations": {
+        "composition": {
+          "class": "MAP",
+          "builder": "MapBuilder",
+          "key_count": 2,
+          "value_total": 9.0
+        },
+        "structure": {
+          "class": "COMPOSITE",
+          "builder": "CompositeBuilder",
+          "depth": 5,
+          "leaves": 103,
+          "object_nodes": 30,
+          "list_nodes": 33
+        },
+        "symmetry": {
+          "class": "RECORD",
+          "builder": "RecordBuilder",
+          "slot_count": 8,
+          "populated_slots": 8,
+          "record_fingerprint": "b4d5157fd4",
+          "cross_mapping": {
+            "crystal_system": "Hexagonal",
+            "number": 180
+          }
+        },
+        "has_props": {
+          "class": "RECORD+MAP_VIEW",
+          "builders": [
+            "RecordBuilder",
+            "MapViewBuilder"
+          ],
+          "slot_count": 21,
+          "active_count": 16,
+          "active_keys": [
+            "bandstructure",
+            "charge_density",
+            "chemenv",
+            "dielectric",
+            "dos",
+            "elasticity",
+            "electronic_structure",
+            "magnetism",
+            "materials",
+            "oxi_states",
+            "phonon",
+            "piezoelectric",
+            "provenance",
+            "substrates",
+            "thermo",
+            "xas"
+          ],
+          "pattern_fingerprint": "17839dfe81"
+        },
+        "origins": {
+          "class": "LIST_OF_OBJECTS",
+          "builders": [
+            "ListBuilder",
+            "RecordElementBuilder"
+          ],
+          "length": 10,
+          "element_keyset_variants": 1
+        },
+        "builder_meta": {
+          "class": "RECORD+MAP_VIEW",
+          "slot_count": 7,
+          "populated_slots": 7
+        }
+      },
+      "representation_signature": "MAP2|COMP(d5,l103,o30,a33)|SYM-b4d5157fd4|CAP16-17839dfe81|ORG10"
+    },
+    {
+      "requested_formula": "SrTiO3",
+      "source_formula": "SrTiO3",
+      "material_id": "mp-aaaaagwx",
+      "selection_rule": "lexicographically minimum material_id among exact-formula matches",
+      "representations": {
+        "composition": {
+          "class": "MAP",
+          "builder": "MapBuilder",
+          "key_count": 3,
+          "value_total": 10.0
+        },
+        "structure": {
+          "class": "COMPOSITE",
+          "builder": "CompositeBuilder",
+          "depth": 5,
+          "leaves": 112,
+          "object_nodes": 33,
+          "list_nodes": 36
+        },
+        "symmetry": {
+          "class": "RECORD",
+          "builder": "RecordBuilder",
+          "slot_count": 8,
+          "populated_slots": 8,
+          "record_fingerprint": "7ef5aee35d",
+          "cross_mapping": {
+            "crystal_system": "Tetragonal",
+            "number": 140
+          }
+        },
+        "has_props": {
+          "class": "RECORD+MAP_VIEW",
+          "builders": [
+            "RecordBuilder",
+            "MapViewBuilder"
+          ],
+          "slot_count": 21,
+          "active_count": 16,
+          "active_keys": [
+            "bandstructure",
+            "charge_density",
+            "chemenv",
+            "dielectric",
+            "dos",
+            "elasticity",
+            "electronic_structure",
+            "insertion_electrodes",
+            "magnetism",
+            "materials",
+            "oxi_states",
+            "phonon",
+            "provenance",
+            "substrates",
+            "thermo",
+            "xas"
+          ],
+          "pattern_fingerprint": "7be3fd494c"
+        },
+        "origins": {
+          "class": "LIST_OF_OBJECTS",
+          "builders": [
+            "ListBuilder",
+            "RecordElementBuilder"
+          ],
+          "length": 9,
+          "element_keyset_variants": 1
+        },
+        "builder_meta": {
+          "class": "RECORD+MAP_VIEW",
+          "slot_count": 7,
+          "populated_slots": 7
+        }
+      },
+      "representation_signature": "MAP3|COMP(d5,l112,o33,a36)|SYM-7ef5aee35d|CAP16-7be3fd494c|ORG9"
+    }
+  ]
+}

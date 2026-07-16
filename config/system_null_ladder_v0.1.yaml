@@ -1,0 +1,69 @@
+system_null_ladder:
+  version: 0.1
+  status: preregistered_before_attack_results
+  frozen_targets:
+    - schemas/cross_mapping_passport.schema.json
+    - config/claim_type_system_v0.1.yaml
+    - config/document_contract_v0.1.yaml
+  outcome:
+    BREACH: logically_invalid_claim_is_accepted_or_escapes_registered_validation
+    SURVIVED: invalid_claim_is_rejected_fail_closed
+  attacks:
+    - id: CONTROL_VALID_PASSPORT
+      class: control
+      expected: accepted
+    - id: CONTROL_REMOVE_ASYMMETRY
+      class: schema
+      expected: rejected
+    - id: ADMITTED_WITHOUT_QUALIFICATION
+      class: status
+      invariant: ADMITTED_requires_nonempty_mapping_support_and_qualification
+    - id: GHOST_EVIDENCE
+      class: evidence
+      invariant: replicated_evidence_requires_independent_artifact_ids
+    - id: GHOST_PROVENANCE
+      class: provenance
+      invariant: asserted_provenance_requires_source_artifacts
+    - id: DIRECTION_SEMANTIC_NOOP
+      class: direction
+      invariant: changing_direction_requires_endpoint_role_change
+    - id: NOT_TESTED_PLUS_PASS
+      class: maturity
+      invariant: NOT_TESTED_maturity_cannot_have_PASS_outcome
+    - id: ADMITTED_PLUS_FAILED
+      class: status
+      invariant: latest_FAILED_qualification_requires_reassessment_not_ADMITTED
+    - id: CONTRADICTORY_INTERPRETATION_BOUNDARY
+      class: semantics
+      invariant: same_claim_type_cannot_be_supported_and_prohibited
+    - id: EVIDENCE_INHERITANCE_SMUGGLING
+      class: semantics
+      invariant: supports_cannot_claim_evidence_transfer_when_asymmetry_is_true
+    - id: UNSEARCHED_COUNTEREXAMPLES
+      class: qualification
+      invariant: ADMITTED_mapping_requires_registered_counterexample_search
+    - id: HISTORYLESS_INDEPENDENT_REPLICATION
+      class: lifecycle
+      invariant: maturity_requires_auditable_transition_history
+    - id: INDEPENDENCE_WITHOUT_IDENTITIES
+      class: independence
+      invariant: independent_replication_requires_distinct_world_dataset_observer_ids
+    - id: NON_MARKDOWN_CLAIM_ESCAPE
+      class: artifact_scope
+      invariant: every_claim_bearing_artifact_requires_Interpretation_Boundary
+    - id: SEMANTIC_MARKDOWN_CONTRADICTION
+      class: document_semantics
+      invariant: linter_must_reject_support_for_prohibited_claim
+    - id: CYCLIC_CLAIM_GRAPH
+      class: claim_graph
+      invariant: antecedent_claim_graph_must_be_acyclic
+    - id: SELF_ASSERTED_TRANSITION_EVIDENCE
+      class: typing
+      invariant: transition_requirements_must_reference_verified_artifacts_not_booleans
+    - id: UNPINNED_ANTECEDENT
+      class: versioning
+      invariant: antecedent_claims_must_be_content_and_version_pinned
+  reporting:
+    preserve_breaches: true
+    remediation_separate_version: true
+    physical_interpretation: forbidden

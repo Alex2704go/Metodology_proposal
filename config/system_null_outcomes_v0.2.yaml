@@ -1,0 +1,17 @@
+system_null_outcomes:
+  version: 0.2
+  outcomes:
+    CONTROL_SURVIVED:
+      meaning: expected valid/invalid control behaved correctly
+    SPECIFICATION_GAP:
+      meaning: required invariant is absent or under-specified
+    UNPROTECTED_TRANSITION:
+      meaning: an explicitly invalid state transition is not rejected
+    IMPLEMENTATION_DEFECT:
+      meaning: implemented behavior contradicts the stated specification
+    SECURITY_BREACH:
+      meaning: reserved for an actual compromise of an admitted protected system
+  legacy_mapping:
+    system_null_ladder_v0.1_BREACH:
+      reinterpret_as: [SPECIFICATION_GAP, UNPROTECTED_TRANSITION]
+      security_breach_claim: false

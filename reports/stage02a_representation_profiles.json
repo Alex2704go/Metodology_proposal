@@ -1,0 +1,927 @@
+{
+  "stage": "02A",
+  "status": "representation profiling; no domain interpretation",
+  "records": 3000,
+  "input": "derived/objects_blind_stage02_3000.jsonl.gz",
+  "classifier_rule": "field-name-independent",
+  "profiles": [
+    {
+      "representation_id": "R-001",
+      "field": "_ceos_stratum",
+      "service": true,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "SCALAR": 3000
+      },
+      "dominant_container": "SCALAR",
+      "cardinality": {
+        "size": null,
+        "depth": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "object_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "ATOMIC",
+      "topology": "ATOMIC",
+      "recursive_signature_detected": false,
+      "derived_class": "SCALAR",
+      "builder_dispatch": [
+        "ScalarBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-002",
+      "field": "band_gap",
+      "service": false,
+      "states": {
+        "PRESENT": 2998,
+        "NONE": 2
+      },
+      "containers": {
+        "SCALAR": 2998
+      },
+      "dominant_container": "SCALAR",
+      "cardinality": {
+        "size": null,
+        "depth": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "object_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "ATOMIC",
+      "topology": "ATOMIC",
+      "recursive_signature_detected": false,
+      "derived_class": "SCALAR",
+      "builder_dispatch": [
+        "ScalarBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-003",
+      "field": "builder_meta",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "OBJECT": 3000
+      },
+      "dominant_container": "OBJECT",
+      "cardinality": {
+        "size": {
+          "min": 7,
+          "q25": 7,
+          "median": 7,
+          "q75": 7,
+          "max": 7
+        },
+        "depth": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "leaves": {
+          "min": 7,
+          "q25": 7,
+          "median": 7,
+          "q75": 7,
+          "max": 7
+        },
+        "object_nodes": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "FIXED",
+      "value_grammar": "HOMOGENEOUS",
+      "topology": "FLAT",
+      "recursive_signature_detected": false,
+      "keys": {
+        "union_count": 7,
+        "intersection_count": 7,
+        "keyset_variants": 1,
+        "intersection_over_union": 1.0
+      },
+      "object_value_types": {
+        "STRING": 21000
+      },
+      "derived_class": "RECORD",
+      "builder_dispatch": [
+        "RecordBuilder",
+        "MapViewBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-004",
+      "field": "composition",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "OBJECT": 3000
+      },
+      "dominant_container": "OBJECT",
+      "cardinality": {
+        "size": {
+          "min": 1,
+          "q25": 2,
+          "median": 3,
+          "q75": 4,
+          "max": 7
+        },
+        "depth": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 2,
+          "median": 3,
+          "q75": 4,
+          "max": 7
+        },
+        "object_nodes": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "OPEN",
+      "value_grammar": "HOMOGENEOUS",
+      "topology": "FLAT",
+      "recursive_signature_detected": false,
+      "keys": {
+        "union_count": 89,
+        "intersection_count": 0,
+        "keyset_variants": 2282,
+        "intersection_over_union": 0.0
+      },
+      "object_value_types": {
+        "NUMBER": 8561
+      },
+      "derived_class": "MAP",
+      "builder_dispatch": [
+        "MapBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-005",
+      "field": "density",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "SCALAR": 3000
+      },
+      "dominant_container": "SCALAR",
+      "cardinality": {
+        "size": null,
+        "depth": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "object_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "ATOMIC",
+      "topology": "ATOMIC",
+      "recursive_signature_detected": false,
+      "derived_class": "SCALAR",
+      "builder_dispatch": [
+        "ScalarBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-006",
+      "field": "elements",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "LIST": 3000
+      },
+      "dominant_container": "LIST",
+      "cardinality": {
+        "size": {
+          "min": 1,
+          "q25": 2,
+          "median": 3,
+          "q75": 4,
+          "max": 7
+        },
+        "depth": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 2,
+          "median": 3,
+          "q75": 4,
+          "max": 7
+        },
+        "object_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "list_nodes": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "HOMOGENEOUS",
+      "topology": "SEQUENCE",
+      "recursive_signature_detected": false,
+      "element_types": {
+        "STRING": 8561
+      },
+      "derived_class": "LIST",
+      "builder_dispatch": [
+        "ListBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-007",
+      "field": "formation_energy_per_atom",
+      "service": false,
+      "states": {
+        "PRESENT": 2997,
+        "NONE": 3
+      },
+      "containers": {
+        "SCALAR": 2997
+      },
+      "dominant_container": "SCALAR",
+      "cardinality": {
+        "size": null,
+        "depth": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "object_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "ATOMIC",
+      "topology": "ATOMIC",
+      "recursive_signature_detected": false,
+      "derived_class": "SCALAR",
+      "builder_dispatch": [
+        "ScalarBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-008",
+      "field": "has_props",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "OBJECT": 3000
+      },
+      "dominant_container": "OBJECT",
+      "cardinality": {
+        "size": {
+          "min": 21,
+          "q25": 21,
+          "median": 21,
+          "q75": 21,
+          "max": 21
+        },
+        "depth": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "leaves": {
+          "min": 21,
+          "q25": 21,
+          "median": 21,
+          "q75": 21,
+          "max": 21
+        },
+        "object_nodes": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "FIXED",
+      "value_grammar": "HOMOGENEOUS",
+      "topology": "FLAT",
+      "recursive_signature_detected": false,
+      "keys": {
+        "union_count": 21,
+        "intersection_count": 21,
+        "keyset_variants": 1,
+        "intersection_over_union": 1.0
+      },
+      "object_value_types": {
+        "BOOLEAN": 63000
+      },
+      "derived_class": "RECORD",
+      "builder_dispatch": [
+        "RecordBuilder",
+        "MapViewBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-009",
+      "field": "is_magnetic",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "SCALAR": 3000
+      },
+      "dominant_container": "SCALAR",
+      "cardinality": {
+        "size": null,
+        "depth": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "object_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "ATOMIC",
+      "topology": "ATOMIC",
+      "recursive_signature_detected": false,
+      "derived_class": "SCALAR",
+      "builder_dispatch": [
+        "ScalarBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-010",
+      "field": "nelements",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "SCALAR": 3000
+      },
+      "dominant_container": "SCALAR",
+      "cardinality": {
+        "size": null,
+        "depth": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "object_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "ATOMIC",
+      "topology": "ATOMIC",
+      "recursive_signature_detected": false,
+      "derived_class": "SCALAR",
+      "builder_dispatch": [
+        "ScalarBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-011",
+      "field": "object_id",
+      "service": true,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "SCALAR": 3000
+      },
+      "dominant_container": "SCALAR",
+      "cardinality": {
+        "size": null,
+        "depth": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "object_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "ATOMIC",
+      "topology": "ATOMIC",
+      "recursive_signature_detected": false,
+      "derived_class": "SCALAR",
+      "builder_dispatch": [
+        "ScalarBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-012",
+      "field": "ordering",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "SCALAR": 3000
+      },
+      "dominant_container": "SCALAR",
+      "cardinality": {
+        "size": null,
+        "depth": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "object_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "ATOMIC",
+      "topology": "ATOMIC",
+      "recursive_signature_detected": false,
+      "derived_class": "SCALAR",
+      "builder_dispatch": [
+        "ScalarBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-013",
+      "field": "origins",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "LIST": 3000
+      },
+      "dominant_container": "LIST",
+      "cardinality": {
+        "size": {
+          "min": 3,
+          "q25": 4,
+          "median": 5,
+          "q75": 8,
+          "max": 11
+        },
+        "depth": {
+          "min": 2,
+          "q25": 2,
+          "median": 2,
+          "q75": 2,
+          "max": 2
+        },
+        "leaves": {
+          "min": 9,
+          "q25": 12,
+          "median": 15,
+          "q75": 24,
+          "max": 33
+        },
+        "object_nodes": {
+          "min": 3,
+          "q25": 4,
+          "median": 5,
+          "q75": 8,
+          "max": 11
+        },
+        "list_nodes": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "HOMOGENEOUS",
+      "topology": "HIERARCHICAL",
+      "recursive_signature_detected": false,
+      "element_types": {
+        "OBJECT": 17246
+      },
+      "derived_class": "LIST_OF_OBJECTS",
+      "builder_dispatch": [
+        "ListBuilder",
+        "RecordElementBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-014",
+      "field": "structure",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "OBJECT": 3000
+      },
+      "dominant_container": "OBJECT",
+      "cardinality": {
+        "size": {
+          "min": 6,
+          "q25": 6,
+          "median": 6,
+          "q75": 6,
+          "max": 6
+        },
+        "depth": {
+          "min": 5,
+          "q25": 5,
+          "median": 5,
+          "q75": 5,
+          "max": 5
+        },
+        "leaves": {
+          "min": 31,
+          "q25": 112,
+          "median": 182,
+          "q75": 342,
+          "max": 3022
+        },
+        "object_nodes": {
+          "min": 6,
+          "q25": 33,
+          "median": 51,
+          "q75": 99,
+          "max": 903
+        },
+        "list_nodes": {
+          "min": 9,
+          "q25": 36,
+          "median": 54,
+          "q75": 102,
+          "max": 906
+        }
+      },
+      "key_grammar": "FIXED",
+      "value_grammar": "HETEROGENEOUS",
+      "topology": "COMPOSITE",
+      "recursive_signature_detected": false,
+      "keys": {
+        "union_count": 6,
+        "intersection_count": 6,
+        "keyset_variants": 1,
+        "intersection_over_union": 1.0
+      },
+      "object_value_types": {
+        "STRING": 6000,
+        "NUMBER": 3000,
+        "OBJECT": 6000,
+        "LIST": 3000
+      },
+      "derived_class": "COMPOSITE",
+      "builder_dispatch": [
+        "CompositeBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-015",
+      "field": "symmetry",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "OBJECT": 3000
+      },
+      "dominant_container": "OBJECT",
+      "cardinality": {
+        "size": {
+          "min": 8,
+          "q25": 8,
+          "median": 8,
+          "q75": 8,
+          "max": 8
+        },
+        "depth": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "leaves": {
+          "min": 8,
+          "q25": 8,
+          "median": 8,
+          "q75": 8,
+          "max": 8
+        },
+        "object_nodes": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "FIXED",
+      "value_grammar": "HETEROGENEOUS",
+      "topology": "FLAT",
+      "recursive_signature_detected": false,
+      "keys": {
+        "union_count": 8,
+        "intersection_count": 8,
+        "keyset_variants": 1,
+        "intersection_over_union": 1.0
+      },
+      "object_value_types": {
+        "STRING": 15000,
+        "NUMBER": 9000
+      },
+      "derived_class": "RECORD",
+      "builder_dispatch": [
+        "RecordBuilder"
+      ]
+    },
+    {
+      "representation_id": "R-016",
+      "field": "volume",
+      "service": false,
+      "states": {
+        "PRESENT": 3000
+      },
+      "containers": {
+        "SCALAR": 3000
+      },
+      "dominant_container": "SCALAR",
+      "cardinality": {
+        "size": null,
+        "depth": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "leaves": {
+          "min": 1,
+          "q25": 1,
+          "median": 1,
+          "q75": 1,
+          "max": 1
+        },
+        "object_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        },
+        "list_nodes": {
+          "min": 0,
+          "q25": 0,
+          "median": 0,
+          "q75": 0,
+          "max": 0
+        }
+      },
+      "key_grammar": "NA",
+      "value_grammar": "ATOMIC",
+      "topology": "ATOMIC",
+      "recursive_signature_detected": false,
+      "derived_class": "SCALAR",
+      "builder_dispatch": [
+        "ScalarBuilder"
+      ]
+    }
+  ]
+}

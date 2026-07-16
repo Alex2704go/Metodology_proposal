@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-07-16T00:17:14.368670+00:00",
+  "api_version": "0.87.2.dev4+g6bd8ed856",
+  "query": {
+    "skip": 100000,
+    "limit": 1000,
+    "sort": "material_id"
+  },
+  "returned_before_exclusion": 1000,
+  "retained_after_exclusion": 1000,
+  "excluded_known_ids": 0,
+  "credential_persisted": false,
+  "files": [
+    {
+      "path": "raw/stress_pool_window_100000.jsonl.gz",
+      "sha256": "3ce36e2728d2eb83f9900140a79bc7942efa231a6395d9916ae16d84dd7b44f7",
+      "bytes": 1464614
+    },
+    {
+      "path": "derived/stress_pool_blind.jsonl.gz",
+      "sha256": "492a290abe59c0a2b3c91a2d52d06b2d1b162082c8d028917daab1d8520a21a8",
+      "bytes": 1452487
+    },
+    {
+      "path": "raw/stress_pool_map.jsonl.gz",
+      "sha256": "8375a447c88a2926b81250f7cbc48d91c876317a99aefa9dc2fe7699b5886581",
+      "bytes": 12031
+    }
+  ]
+}

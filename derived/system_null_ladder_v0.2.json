@@ -1,0 +1,432 @@
+{
+  "protocol": "system_null_ladder_v0.2",
+  "governance_status": "QUALIFIED",
+  "controls": [
+    {
+      "id": "CONTROL_VALID_FIXTURE",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "id": "CONTROL_EPISTEMIC_UPGRADE",
+      "pass": true,
+      "detail": [
+        "epistemic upgrade/asymmetry violation"
+      ]
+    }
+  ],
+  "invalid_attacks": 16,
+  "rejected_invalid_attacks": 16,
+  "remaining_gaps": 0,
+  "results": [
+    {
+      "id": "ADMITTED_WITHOUT_QUALIFICATION",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "latest outcome mismatch:NOT_RUN",
+        "state mismatch:NOT_TESTED"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-MAT-001",
+          "severity": "ERROR",
+          "message": "latest outcome mismatch:NOT_RUN"
+        },
+        {
+          "code": "GOV-STATE-001",
+          "severity": "ERROR",
+          "message": "state mismatch:NOT_TESTED"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-STATE-001",
+        "severity": "ERROR",
+        "message": "state mismatch:NOT_TESTED"
+      }
+    },
+    {
+      "id": "GHOST_EVIDENCE",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "evidence strength mismatch:NONE"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-EVID-002",
+          "severity": "ERROR",
+          "message": "evidence strength mismatch:NONE"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-EVID-002",
+        "severity": "ERROR",
+        "message": "evidence strength mismatch:NONE"
+      }
+    },
+    {
+      "id": "GHOST_PROVENANCE",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "missing provenance refs"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-PROV-001",
+          "severity": "ERROR",
+          "message": "missing provenance refs"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-PROV-001",
+        "severity": "ERROR",
+        "message": "missing provenance refs"
+      }
+    },
+    {
+      "id": "DIRECTION_SEMANTIC_NOOP",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "direction/origin mismatch"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-DIR-001",
+          "severity": "ERROR",
+          "message": "direction/origin mismatch"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-DIR-001",
+        "severity": "ERROR",
+        "message": "direction/origin mismatch"
+      }
+    },
+    {
+      "id": "NOT_TESTED_PLUS_PASS",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "latest outcome mismatch:NOT_RUN",
+        "admission without qualification"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-MAT-001",
+          "severity": "ERROR",
+          "message": "latest outcome mismatch:NOT_RUN"
+        },
+        {
+          "code": "GOV-GENERIC-001",
+          "severity": "ERROR",
+          "message": "admission without qualification"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-MAT-001",
+        "severity": "ERROR",
+        "message": "latest outcome mismatch:NOT_RUN"
+      }
+    },
+    {
+      "id": "ADMITTED_PLUS_FAILED",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "ADMITTED with non-PASS latest qualification",
+        "admission without qualification"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-STATE-002",
+          "severity": "ERROR",
+          "message": "ADMITTED with non-PASS latest qualification"
+        },
+        {
+          "code": "GOV-GENERIC-001",
+          "severity": "ERROR",
+          "message": "admission without qualification"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-STATE-002",
+        "severity": "ERROR",
+        "message": "ADMITTED with non-PASS latest qualification"
+      }
+    },
+    {
+      "id": "CONTRADICTORY_INTERPRETATION_BOUNDARY",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "interpretation boundary contradiction",
+        "prohibited claim smuggled into supports"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-BOUND-001",
+          "severity": "ERROR",
+          "message": "interpretation boundary contradiction"
+        },
+        {
+          "code": "GOV-GENERIC-001",
+          "severity": "ERROR",
+          "message": "prohibited claim smuggled into supports"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-BOUND-001",
+        "severity": "ERROR",
+        "message": "interpretation boundary contradiction"
+      }
+    },
+    {
+      "id": "EVIDENCE_INHERITANCE_SMUGGLING",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "interpretation boundary contradiction",
+        "prohibited claim smuggled into supports"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-BOUND-001",
+          "severity": "ERROR",
+          "message": "interpretation boundary contradiction"
+        },
+        {
+          "code": "GOV-GENERIC-001",
+          "severity": "ERROR",
+          "message": "prohibited claim smuggled into supports"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-BOUND-001",
+        "severity": "ERROR",
+        "message": "interpretation boundary contradiction"
+      }
+    },
+    {
+      "id": "UNSEARCHED_COUNTEREXAMPLES",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "admission without current-world counterexample search"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-COUNTER-001",
+          "severity": "ERROR",
+          "message": "admission without current-world counterexample search"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-COUNTER-001",
+        "severity": "ERROR",
+        "message": "admission without current-world counterexample search"
+      }
+    },
+    {
+      "id": "HISTORYLESS_INDEPENDENT_REPLICATION",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "maturity mismatch:NOT_TESTED",
+        "latest outcome mismatch:NOT_RUN",
+        "admission without qualification"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-MAT-001",
+          "severity": "ERROR",
+          "message": "maturity mismatch:NOT_TESTED"
+        },
+        {
+          "code": "GOV-MAT-001",
+          "severity": "ERROR",
+          "message": "latest outcome mismatch:NOT_RUN"
+        },
+        {
+          "code": "GOV-GENERIC-001",
+          "severity": "ERROR",
+          "message": "admission without qualification"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-MAT-001",
+        "severity": "ERROR",
+        "message": "maturity mismatch:NOT_TESTED"
+      }
+    },
+    {
+      "id": "INDEPENDENCE_WITHOUT_IDENTITIES",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "multi-world without independent WORLD identities",
+        "multi-world without independent WORLD identities",
+        "independence not demonstrated:WORLD_ID",
+        "independence not demonstrated:DATASET_ID",
+        "independence not demonstrated:OBSERVER_ID"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-IND-001",
+          "severity": "ERROR",
+          "message": "multi-world without independent WORLD identities"
+        },
+        {
+          "code": "GOV-IND-001",
+          "severity": "ERROR",
+          "message": "multi-world without independent WORLD identities"
+        },
+        {
+          "code": "GOV-IND-001",
+          "severity": "ERROR",
+          "message": "independence not demonstrated:WORLD_ID"
+        },
+        {
+          "code": "GOV-IND-001",
+          "severity": "ERROR",
+          "message": "independence not demonstrated:DATASET_ID"
+        },
+        {
+          "code": "GOV-IND-001",
+          "severity": "ERROR",
+          "message": "independence not demonstrated:OBSERVER_ID"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-IND-001",
+        "severity": "ERROR",
+        "message": "multi-world without independent WORLD identities"
+      }
+    },
+    {
+      "id": "NON_MARKDOWN_CLAIM_ESCAPE",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "unregistered artifact:derived/evil_claim.json"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-ART-001",
+          "severity": "ERROR",
+          "message": "unregistered artifact:derived/evil_claim.json"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-ART-001",
+        "severity": "ERROR",
+        "message": "unregistered artifact:derived/evil_claim.json"
+      }
+    },
+    {
+      "id": "SEMANTIC_MARKDOWN_CONTRADICTION",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "document semantic contradiction:ART-REPORT"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-BOUND-001",
+          "severity": "ERROR",
+          "message": "document semantic contradiction:ART-REPORT"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-BOUND-001",
+        "severity": "ERROR",
+        "message": "document semantic contradiction:ART-REPORT"
+      }
+    },
+    {
+      "id": "CYCLIC_CLAIM_GRAPH",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "claim digest mismatch:CL-BASE",
+        "claim cycle:CL-BASE"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-DIGEST-001",
+          "severity": "ERROR",
+          "message": "claim digest mismatch:CL-BASE"
+        },
+        {
+          "code": "GOV-GRAPH-001",
+          "severity": "ERROR",
+          "message": "claim cycle:CL-BASE"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-GRAPH-001",
+        "severity": "ERROR",
+        "message": "claim cycle:CL-BASE"
+      }
+    },
+    {
+      "id": "SELF_ASSERTED_TRANSITION_EVIDENCE",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "malformed lifecycle ref"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-REF-001",
+          "severity": "ERROR",
+          "message": "malformed lifecycle ref"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-REF-001",
+        "severity": "ERROR",
+        "message": "malformed lifecycle ref"
+      }
+    },
+    {
+      "id": "UNPINNED_ANTECEDENT",
+      "invalid_rejected": true,
+      "outcome": "REJECTED",
+      "errors": [
+        "claim digest mismatch:CL-MAP",
+        "unpinned antecedent:CL-MAP->CL-BASE"
+      ],
+      "diagnostics": [
+        {
+          "code": "GOV-DIGEST-001",
+          "severity": "ERROR",
+          "message": "claim digest mismatch:CL-MAP"
+        },
+        {
+          "code": "GOV-GRAPH-002",
+          "severity": "ERROR",
+          "message": "unpinned antecedent:CL-MAP->CL-BASE"
+        }
+      ],
+      "primary_diagnostic": {
+        "code": "GOV-GRAPH-002",
+        "severity": "ERROR",
+        "message": "unpinned antecedent:CL-MAP->CL-BASE"
+      }
+    }
+  ],
+  "interpretation_boundary": {
+    "supports": [
+      "regression result for the same 16 conceptual attacks against governance v0.2 candidate"
+    ],
+    "does_not_support": [
+      "completeness of all possible attacks",
+      "universal correctness",
+      "physical mechanism",
+      "prediction of untested properties"
+    ]
+  }
+}

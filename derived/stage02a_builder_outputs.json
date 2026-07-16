@@ -1,0 +1,753 @@
+{
+  "stage": "02A",
+  "status": "builder outputs; no domain interpretation",
+  "records": 3000,
+  "outputs": [
+    {
+      "representation_id": "R-001",
+      "field": "_ceos_stratum",
+      "derived_class": "SCALAR",
+      "builders": {
+        "ScalarBuilder": {
+          "state_counts": {
+            "NONE": 0,
+            "PRESENT": 3000
+          },
+          "runtime_types": {
+            "STRING": 3000
+          },
+          "distinct": 4,
+          "category_cardinality": 4
+        }
+      }
+    },
+    {
+      "representation_id": "R-002",
+      "field": "band_gap",
+      "derived_class": "SCALAR",
+      "builders": {
+        "ScalarBuilder": {
+          "state_counts": {
+            "NONE": 2,
+            "PRESENT": 2998
+          },
+          "runtime_types": {
+            "NUMBER": 2998
+          },
+          "distinct": 1166,
+          "numeric_distribution": {
+            "min": 0.0,
+            "q25": 0.0,
+            "median": 0.0,
+            "q75": 1.0131000000000001,
+            "max": 17.8914
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-003",
+      "field": "builder_meta",
+      "derived_class": "RECORD",
+      "builders": {
+        "RecordBuilder": {
+          "records": 3000,
+          "slot_count": 7,
+          "keyset_variants": 1,
+          "slots": {
+            "batch_id": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 20
+            },
+            "build_date": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 925
+            },
+            "database_version": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 1
+            },
+            "emmet_version": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 1
+            },
+            "license": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 2
+            },
+            "pymatgen_version": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 1
+            },
+            "run_id": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 1
+            }
+          }
+        },
+        "MapViewBuilder": {
+          "maps": 3000,
+          "key_domain_size": 7,
+          "map_size_distribution": {
+            "min": 7,
+            "q25": 7,
+            "median": 7,
+            "q75": 7,
+            "max": 7
+          },
+          "value_runtime_types": {
+            "STRING": 21000
+          },
+          "key_support_distribution": {
+            "min": 3000,
+            "q25": 3000,
+            "median": 3000,
+            "q75": 3000,
+            "max": 3000
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-004",
+      "field": "composition",
+      "derived_class": "MAP",
+      "builders": {
+        "MapBuilder": {
+          "maps": 3000,
+          "key_domain_size": 89,
+          "map_size_distribution": {
+            "min": 1,
+            "q25": 2,
+            "median": 3,
+            "q75": 4,
+            "max": 7
+          },
+          "value_runtime_types": {
+            "NUMBER": 8561
+          },
+          "key_support_distribution": {
+            "min": 1,
+            "q25": 57,
+            "median": 84,
+            "q75": 108,
+            "max": 819
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-005",
+      "field": "density",
+      "derived_class": "SCALAR",
+      "builders": {
+        "ScalarBuilder": {
+          "state_counts": {
+            "NONE": 0,
+            "PRESENT": 3000
+          },
+          "runtime_types": {
+            "NUMBER": 3000
+          },
+          "distinct": 3000,
+          "numeric_distribution": {
+            "min": 0.023670127883518098,
+            "q25": 3.486412771667627,
+            "median": 5.781163481941667,
+            "q75": 8.627388796787098,
+            "max": 26.581335775062698
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-006",
+      "field": "elements",
+      "derived_class": "LIST",
+      "builders": {
+        "ListBuilder": {
+          "state_counts": {
+            "NONE": 0,
+            "EMPTY_LIST": 0,
+            "PRESENT_NONEMPTY": 3000
+          },
+          "length_distribution": {
+            "min": 1,
+            "q25": 2,
+            "median": 3,
+            "q75": 4,
+            "max": 7
+          },
+          "element_runtime_types": {
+            "STRING": 8561
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-007",
+      "field": "formation_energy_per_atom",
+      "derived_class": "SCALAR",
+      "builders": {
+        "ScalarBuilder": {
+          "state_counts": {
+            "NONE": 3,
+            "PRESENT": 2997
+          },
+          "runtime_types": {
+            "NUMBER": 2997
+          },
+          "distinct": 2937,
+          "numeric_distribution": {
+            "min": -4.412716520070312,
+            "q25": -1.719250607,
+            "median": -0.7384644475000002,
+            "q75": -0.24749411750000005,
+            "max": 4.68820494375
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-008",
+      "field": "has_props",
+      "derived_class": "RECORD",
+      "builders": {
+        "RecordBuilder": {
+          "records": 3000,
+          "slot_count": 21,
+          "keyset_variants": 1,
+          "slots": {
+            "absorption": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "bandstructure": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "charge_density": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "chemenv": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 1
+            },
+            "dielectric": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "dos": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "elasticity": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "electronic_structure": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "eos": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "grain_boundaries": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "insertion_electrodes": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "magnetism": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 1
+            },
+            "materials": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 1
+            },
+            "oxi_states": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 1
+            },
+            "phonon": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "piezoelectric": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "provenance": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "substrates": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "surface_properties": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "thermo": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            },
+            "xas": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "BOOLEAN": 3000
+              },
+              "distinct": 2
+            }
+          }
+        },
+        "MapViewBuilder": {
+          "maps": 3000,
+          "key_domain_size": 21,
+          "map_size_distribution": {
+            "min": 21,
+            "q25": 21,
+            "median": 21,
+            "q75": 21,
+            "max": 21
+          },
+          "value_runtime_types": {
+            "BOOLEAN": 63000
+          },
+          "key_support_distribution": {
+            "min": 3000,
+            "q25": 3000,
+            "median": 3000,
+            "q75": 3000,
+            "max": 3000
+          },
+          "boolean_active_count_distribution": {
+            "min": 6,
+            "q25": 8,
+            "median": 10,
+            "q75": 12,
+            "max": 18
+          },
+          "boolean_key_rate_distribution": {
+            "min": 0.004,
+            "q25": 0.042333333333333334,
+            "median": 0.4023333333333333,
+            "q75": 0.999,
+            "max": 1.0
+          },
+          "boolean_key_rates": {
+            "absorption": 0.004,
+            "bandstructure": 0.5013333333333333,
+            "charge_density": 0.744,
+            "chemenv": 1.0,
+            "dielectric": 0.042333333333333334,
+            "dos": 0.4583333333333333,
+            "elasticity": 0.105,
+            "electronic_structure": 0.9993333333333333,
+            "eos": 0.025333333333333333,
+            "grain_boundaries": 0.015,
+            "insertion_electrodes": 0.072,
+            "magnetism": 1.0,
+            "materials": 1.0,
+            "oxi_states": 1.0,
+            "phonon": 0.178,
+            "piezoelectric": 0.017666666666666667,
+            "provenance": 0.8843333333333333,
+            "substrates": 0.35733333333333334,
+            "surface_properties": 0.033666666666666664,
+            "thermo": 0.999,
+            "xas": 0.4023333333333333
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-009",
+      "field": "is_magnetic",
+      "derived_class": "SCALAR",
+      "builders": {
+        "ScalarBuilder": {
+          "state_counts": {
+            "NONE": 0,
+            "PRESENT": 3000
+          },
+          "runtime_types": {
+            "BOOLEAN": 3000
+          },
+          "distinct": 2,
+          "category_cardinality": 2
+        }
+      }
+    },
+    {
+      "representation_id": "R-010",
+      "field": "nelements",
+      "derived_class": "SCALAR",
+      "builders": {
+        "ScalarBuilder": {
+          "state_counts": {
+            "NONE": 0,
+            "PRESENT": 3000
+          },
+          "runtime_types": {
+            "NUMBER": 3000
+          },
+          "distinct": 7,
+          "numeric_distribution": {
+            "min": 1.0,
+            "q25": 2.0,
+            "median": 3.0,
+            "q75": 4.0,
+            "max": 7.0
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-011",
+      "field": "object_id",
+      "derived_class": "SCALAR",
+      "builders": {
+        "ScalarBuilder": {
+          "state_counts": {
+            "NONE": 0,
+            "PRESENT": 3000
+          },
+          "runtime_types": {
+            "STRING": 3000
+          },
+          "distinct": 3000,
+          "category_cardinality": 3000
+        }
+      }
+    },
+    {
+      "representation_id": "R-012",
+      "field": "ordering",
+      "derived_class": "SCALAR",
+      "builders": {
+        "ScalarBuilder": {
+          "state_counts": {
+            "NONE": 0,
+            "PRESENT": 3000
+          },
+          "runtime_types": {
+            "STRING": 3000
+          },
+          "distinct": 5,
+          "category_cardinality": 5
+        }
+      }
+    },
+    {
+      "representation_id": "R-013",
+      "field": "origins",
+      "derived_class": "LIST_OF_OBJECTS",
+      "builders": {
+        "ListBuilder": {
+          "state_counts": {
+            "NONE": 0,
+            "EMPTY_LIST": 0,
+            "PRESENT_NONEMPTY": 3000
+          },
+          "length_distribution": {
+            "min": 3,
+            "q25": 4,
+            "median": 5,
+            "q75": 8,
+            "max": 11
+          },
+          "element_runtime_types": {
+            "OBJECT": 17246
+          }
+        },
+        "RecordElementBuilder": {
+          "records": 17246,
+          "slot_count": 3,
+          "keyset_variants": 1,
+          "slots": {
+            "last_updated": {
+              "present": 17246,
+              "none": 0,
+              "types": {
+                "STRING": 17246
+              },
+              "distinct": 11144
+            },
+            "name": {
+              "present": 17246,
+              "none": 0,
+              "types": {
+                "STRING": 17246
+              },
+              "distinct": 11
+            },
+            "task_id": {
+              "present": 17246,
+              "none": 0,
+              "types": {
+                "STRING": 17246
+              },
+              "distinct": 8312
+            }
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-014",
+      "field": "structure",
+      "derived_class": "COMPOSITE",
+      "builders": {
+        "CompositeBuilder": {
+          "objects": 3000,
+          "depth_distribution": {
+            "min": 5,
+            "q25": 5,
+            "median": 5,
+            "q75": 5,
+            "max": 5
+          },
+          "leaf_distribution": {
+            "min": 31,
+            "q25": 112,
+            "median": 182,
+            "q75": 342,
+            "max": 3022
+          },
+          "object_node_distribution": {
+            "min": 6,
+            "q25": 33,
+            "median": 51,
+            "q75": 99,
+            "max": 903
+          },
+          "list_node_distribution": {
+            "min": 9,
+            "q25": 36,
+            "median": 54,
+            "q75": 102,
+            "max": 906
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-015",
+      "field": "symmetry",
+      "derived_class": "RECORD",
+      "builders": {
+        "RecordBuilder": {
+          "records": 3000,
+          "slot_count": 8,
+          "keyset_variants": 1,
+          "slots": {
+            "angle_tolerance": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "NUMBER": 3000
+              },
+              "distinct": 1
+            },
+            "crystal_system": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 7
+            },
+            "hall": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 181
+            },
+            "number": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "NUMBER": 3000
+              },
+              "distinct": 181
+            },
+            "point_group": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 31
+            },
+            "symbol": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 181
+            },
+            "symprec": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "NUMBER": 3000
+              },
+              "distinct": 1
+            },
+            "version": {
+              "present": 3000,
+              "none": 0,
+              "types": {
+                "STRING": 3000
+              },
+              "distinct": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "representation_id": "R-016",
+      "field": "volume",
+      "derived_class": "SCALAR",
+      "builders": {
+        "ScalarBuilder": {
+          "state_counts": {
+            "NONE": 0,
+            "PRESENT": 3000
+          },
+          "runtime_types": {
+            "NUMBER": 3000
+          },
+          "distinct": 3000,
+          "numeric_distribution": {
+            "min": 6.926147766835766,
+            "q25": 171.0416387909155,
+            "median": 304.6948570207459,
+            "q75": 594.6515215027969,
+            "max": 10887.909462827636
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+assignment_explanation:
+  version: 0.1
+  status: preregistered_before_results
+  frozen_partition: CEOS_Structural_Representation_Families_v0.2
+  primary_view: ORGANIZATION
+  distance_metric: euclidean_in_frozen_scaled_space
+  channels:
+    representation: [composition_shape, structure_topology, structure_numeric, symmetry_record]
+    composition: [composition_shape]
+    structure: [structure_topology, structure_numeric]
+    symmetry: [symmetry_record]
+    observer: [scalar_observers]
+  block_evidence:
+    report_squared_distance_contribution: true
+    report_nearest_and_second_family: true
+    report_relative_margin: true
+    probabilities: forbidden
+  neighborhood:
+    k: [5, 10, 25]
+    compare_with_training_leave_one_out_radius: true
+    local_density_proxy: inverse_k_radius
+    nearest_neighbor_family_composition_k: 25
+  convex_hull:
+    exact_membership: scipy_linprog_full_frozen_channel_space
+    projection_distance: frank_wolfe
+    maximum_iterations: 5000
+    tolerance: 1.0e-10
+  block_ood:
+    threshold_training_percentile_gt: 99
+  scale_nulls:
+    preserve_frozen_labels: true
+    recluster: false
+    tests:
+      - id: REMOVE_SCALE_SENSITIVE_STRUCTURE_OBSERVABLES
+        patterns: [leaves, object_nodes, list_nodes, list_size, ".count"]
+      - id: STRUCTURE_BLOCK_UNIT_NORM
+        zero_norm_policy: leave_zero
+  interpretation:
+    scale_contribution: report_percentile_and_margin_change
+    scale_driven_claim_requires: OOD_disappears_under_both_registered_scale_nulls
+    literature: locked

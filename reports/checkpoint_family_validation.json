@@ -1,0 +1,825 @@
+{
+  "cross_view": [
+    {
+      "a": "ORGANIZATION",
+      "b": "OBSERVER_AUGMENTED",
+      "ari": 0.994511456428527,
+      "contingency": {
+        "F-004|F-004": 216,
+        "F-002|F-002": 608,
+        "F-001|F-001": 1517,
+        "F-003|F-004": 6,
+        "F-003|F-003": 649,
+        "F-001|F-004": 3,
+        "F-004|F-002": 1
+      }
+    },
+    {
+      "a": "ORGANIZATION",
+      "b": "FULL_REPRESENTATION",
+      "ari": 0.5198126531028535,
+      "contingency": {
+        "F-004|F-003": 217,
+        "F-002|F-003": 10,
+        "F-001|F-001": 1395,
+        "F-002|F-001": 598,
+        "F-001|F-003": 73,
+        "F-003|F-003": 14,
+        "F-003|F-002": 641,
+        "F-001|F-002": 52
+      }
+    },
+    {
+      "a": "OBSERVER_AUGMENTED",
+      "b": "FULL_REPRESENTATION",
+      "ari": 0.5238535551531377,
+      "contingency": {
+        "F-004|F-003": 225,
+        "F-002|F-003": 11,
+        "F-001|F-001": 1395,
+        "F-002|F-001": 598,
+        "F-001|F-003": 70,
+        "F-003|F-002": 641,
+        "F-003|F-003": 8,
+        "F-001|F-002": 52
+      }
+    }
+  ],
+  "views": {
+    "ORGANIZATION": {
+      "families": [
+        {
+          "family": "F-001",
+          "size": 1520,
+          "median_assignment_margin": 0.3594082946049413,
+          "q10_assignment_margin": 0.13662480633126445,
+          "top_standardized_features": [
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.2674214770653792
+            },
+            {
+              "feature": "structure.leaves",
+              "block": "structure_topology",
+              "mean": 0.2041448193691555
+            },
+            {
+              "feature": "composition.sorted_share_4",
+              "block": "composition_shape",
+              "mean": 0.146448118727053
+            },
+            {
+              "feature": "symmetry.crystal_system==Orthorhombic",
+              "block": "symmetry_record",
+              "mean": 0.136042476598139
+            },
+            {
+              "feature": "structure.list_size_std",
+              "block": "structure_topology",
+              "mean": 0.13523109614925136
+            },
+            {
+              "feature": "structure.sites[].xyz[].min",
+              "block": "structure_numeric",
+              "mean": -0.13246900180313778
+            },
+            {
+              "feature": "structure.lattice.volume.mean",
+              "block": "structure_numeric",
+              "mean": 0.12107515072260669
+            },
+            {
+              "feature": "structure.lattice.gamma.mean",
+              "block": "structure_numeric",
+              "mean": 0.11504853639416984
+            },
+            {
+              "feature": "symmetry.point_group==mmm",
+              "block": "symmetry_record",
+              "mean": 0.11314294447435636
+            },
+            {
+              "feature": "structure.sites[].abc[].count",
+              "block": "structure_numeric",
+              "mean": 0.11092742726897166
+            },
+            {
+              "feature": "symmetry.crystal_system==Hexagonal",
+              "block": "symmetry_record",
+              "mean": 0.10019201373488697
+            },
+            {
+              "feature": "structure.sites[].abc[].mean",
+              "block": "structure_numeric",
+              "mean": -0.08724027127625497
+            }
+          ]
+        },
+        {
+          "family": "F-002",
+          "size": 608,
+          "median_assignment_margin": 0.3416500886072379,
+          "q10_assignment_margin": 0.18996921370546987,
+          "top_standardized_features": [
+            {
+              "feature": "structure.lattice.beta.mean",
+              "block": "structure_numeric",
+              "mean": 1.784868174886339
+            },
+            {
+              "feature": "structure.lattice.alpha.mean",
+              "block": "structure_numeric",
+              "mean": 0.7318191178344139
+            },
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.2284634228726145
+            },
+            {
+              "feature": "structure.sites[].xyz[].min",
+              "block": "structure_numeric",
+              "mean": -0.21959197528083452
+            },
+            {
+              "feature": "structure.leaves",
+              "block": "structure_topology",
+              "mean": 0.2008079868066209
+            },
+            {
+              "feature": "composition.sorted_share_4",
+              "block": "composition_shape",
+              "mean": 0.17210484835052417
+            },
+            {
+              "feature": "symmetry.crystal_system==Triclinic",
+              "block": "symmetry_record",
+              "mean": 0.1475852126984548
+            },
+            {
+              "feature": "structure.list_size_std",
+              "block": "structure_topology",
+              "mean": 0.13827152431713086
+            },
+            {
+              "feature": "structure.lattice.matrix[][].min",
+              "block": "structure_numeric",
+              "mean": -0.1336482106846991
+            },
+            {
+              "feature": "symmetry.crystal_system==Tetragonal",
+              "block": "symmetry_record",
+              "mean": 0.1278981972586924
+            },
+            {
+              "feature": "symmetry.point_group==1",
+              "block": "symmetry_record",
+              "mean": 0.11495958347061731
+            },
+            {
+              "feature": "structure.lattice.volume.mean",
+              "block": "structure_numeric",
+              "mean": 0.11226711935419645
+            }
+          ]
+        },
+        {
+          "family": "F-003",
+          "size": 655,
+          "median_assignment_margin": 0.3262183797973863,
+          "q10_assignment_margin": 0.16526270664558493,
+          "top_standardized_features": [
+            {
+              "feature": "structure.lattice.beta.mean",
+              "block": "structure_numeric",
+              "mean": -1.7838804932553074
+            },
+            {
+              "feature": "structure.lattice.alpha.mean",
+              "block": "structure_numeric",
+              "mean": -0.8297540412933667
+            },
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.3233921153702865
+            },
+            {
+              "feature": "structure.lattice.gamma.mean",
+              "block": "structure_numeric",
+              "mean": -0.2709234274245835
+            },
+            {
+              "feature": "structure.sites[].xyz[].std",
+              "block": "structure_numeric",
+              "mean": 0.2121869863542852
+            },
+            {
+              "feature": "structure.sites[].xyz[].min",
+              "block": "structure_numeric",
+              "mean": -0.18125852722976463
+            },
+            {
+              "feature": "structure.sites[].xyz[].max",
+              "block": "structure_numeric",
+              "mean": 0.16906560609172333
+            },
+            {
+              "feature": "structure.leaves",
+              "block": "structure_topology",
+              "mean": 0.16615625202338952
+            },
+            {
+              "feature": "composition.sorted_share_4",
+              "block": "composition_shape",
+              "mean": 0.16525810577473113
+            },
+            {
+              "feature": "symmetry.crystal_system==Monoclinic",
+              "block": "symmetry_record",
+              "mean": 0.1331862492915566
+            },
+            {
+              "feature": "symmetry.crystal_system==Trigonal",
+              "block": "symmetry_record",
+              "mean": 0.1271037096264488
+            },
+            {
+              "feature": "structure.list_size_std",
+              "block": "structure_topology",
+              "mean": 0.10874346971604602
+            }
+          ]
+        },
+        {
+          "family": "F-004",
+          "size": 217,
+          "median_assignment_margin": 0.4518232039226555,
+          "q10_assignment_margin": 0.08671479910966481,
+          "top_standardized_features": [
+            {
+              "feature": "structure.dict_size_mean",
+              "block": "structure_topology",
+              "mean": 2.249825659290256
+            },
+            {
+              "feature": "structure.list_size_mean",
+              "block": "structure_topology",
+              "mean": -1.9120707517696354
+            },
+            {
+              "feature": "structure.sites[].abc[].max",
+              "block": "structure_numeric",
+              "mean": -1.1593143987635446
+            },
+            {
+              "feature": "structure.sites[].abc[].std",
+              "block": "structure_numeric",
+              "mean": -1.1544539294886316
+            },
+            {
+              "feature": "structure.dict_size_std",
+              "block": "structure_topology",
+              "mean": 1.0548803273156626
+            },
+            {
+              "feature": "composition.min_share",
+              "block": "composition_shape",
+              "mean": 0.8886421627489254
+            },
+            {
+              "feature": "structure.sites[].abc[].mean",
+              "block": "structure_numeric",
+              "mean": -0.7604979934960142
+            },
+            {
+              "feature": "composition.entropy",
+              "block": "composition_shape",
+              "mean": -0.5211727362741353
+            },
+            {
+              "feature": "composition.l2",
+              "block": "composition_shape",
+              "mean": 0.5150021125325261
+            },
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.47783981811863735
+            },
+            {
+              "feature": "composition.max_share",
+              "block": "composition_shape",
+              "mean": 0.4321873512519648
+            },
+            {
+              "feature": "composition.sorted_share_2",
+              "block": "composition_shape",
+              "mean": -0.3736934383603208
+            }
+          ]
+        }
+      ],
+      "overall_margin": {
+        "median": 0.352904369426,
+        "q10": 0.14929091164363537
+      },
+      "low_margin_below_0.05": 52
+    },
+    "OBSERVER_AUGMENTED": {
+      "families": [
+        {
+          "family": "F-001",
+          "size": 1517,
+          "median_assignment_margin": 0.3208289337960314,
+          "q10_assignment_margin": 0.12795956165402197,
+          "top_standardized_features": [
+            {
+              "feature": "band_gap",
+              "block": "scalar_observers",
+              "mean": 0.2699244401552909
+            },
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.265530075862542
+            },
+            {
+              "feature": "structure.leaves",
+              "block": "structure_topology",
+              "mean": 0.20500996172605185
+            },
+            {
+              "feature": "ordering==FM",
+              "block": "scalar_observers",
+              "mean": 0.16347060097830388
+            },
+            {
+              "feature": "ordering==NM",
+              "block": "scalar_observers",
+              "mean": 0.15622940013184072
+            },
+            {
+              "feature": "composition.sorted_share_4",
+              "block": "composition_shape",
+              "mean": 0.14673773267311835
+            },
+            {
+              "feature": "symmetry.crystal_system==Orthorhombic",
+              "block": "symmetry_record",
+              "mean": 0.13631151247802986
+            },
+            {
+              "feature": "structure.list_size_std",
+              "block": "structure_topology",
+              "mean": 0.136165877563505
+            },
+            {
+              "feature": "structure.sites[].xyz[].min",
+              "block": "structure_numeric",
+              "mean": -0.13208762022824147
+            },
+            {
+              "feature": "structure.lattice.volume.mean",
+              "block": "structure_numeric",
+              "mean": 0.12154313053127741
+            },
+            {
+              "feature": "structure.lattice.gamma.mean",
+              "block": "structure_numeric",
+              "mean": 0.11527617677027341
+            },
+            {
+              "feature": "symmetry.point_group==mmm",
+              "block": "symmetry_record",
+              "mean": 0.11308951434712514
+            }
+          ]
+        },
+        {
+          "family": "F-002",
+          "size": 609,
+          "median_assignment_margin": 0.3053735407086404,
+          "q10_assignment_margin": 0.15776296810374918,
+          "top_standardized_features": [
+            {
+              "feature": "structure.lattice.beta.mean",
+              "block": "structure_numeric",
+              "mean": 1.7848747203824202
+            },
+            {
+              "feature": "structure.lattice.alpha.mean",
+              "block": "structure_numeric",
+              "mean": 0.7315714030302981
+            },
+            {
+              "feature": "band_gap",
+              "block": "scalar_observers",
+              "mean": 0.28493302108973273
+            },
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.22808827767906342
+            },
+            {
+              "feature": "structure.sites[].xyz[].min",
+              "block": "structure_numeric",
+              "mean": -0.21923139557584814
+            },
+            {
+              "feature": "ordering==FM",
+              "block": "scalar_observers",
+              "mean": 0.213547970299676
+            },
+            {
+              "feature": "structure.leaves",
+              "block": "structure_topology",
+              "mean": 0.2000312627376874
+            },
+            {
+              "feature": "composition.sorted_share_4",
+              "block": "composition_shape",
+              "mean": 0.17182224597228027
+            },
+            {
+              "feature": "symmetry.crystal_system==Triclinic",
+              "block": "symmetry_record",
+              "mean": 0.14734287244771843
+            },
+            {
+              "feature": "structure.list_size_std",
+              "block": "structure_topology",
+              "mean": 0.13742739761858958
+            },
+            {
+              "feature": "structure.lattice.matrix[][].min",
+              "block": "structure_numeric",
+              "mean": -0.13345936125706218
+            },
+            {
+              "feature": "ordering==NM",
+              "block": "scalar_observers",
+              "mean": 0.12862616310892167
+            }
+          ]
+        },
+        {
+          "family": "F-003",
+          "size": 649,
+          "median_assignment_margin": 0.29432434049260714,
+          "q10_assignment_margin": 0.1507913976445457,
+          "top_standardized_features": [
+            {
+              "feature": "structure.lattice.beta.mean",
+              "block": "structure_numeric",
+              "mean": -1.783834509692185
+            },
+            {
+              "feature": "structure.lattice.alpha.mean",
+              "block": "structure_numeric",
+              "mean": -0.8225845752679013
+            },
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.3153565763321083
+            },
+            {
+              "feature": "band_gap",
+              "block": "scalar_observers",
+              "mean": 0.2869701890530525
+            },
+            {
+              "feature": "structure.lattice.gamma.mean",
+              "block": "structure_numeric",
+              "mean": -0.2691176884923725
+            },
+            {
+              "feature": "ordering==FM",
+              "block": "scalar_observers",
+              "mean": 0.22030047528938873
+            },
+            {
+              "feature": "structure.sites[].xyz[].std",
+              "block": "structure_numeric",
+              "mean": 0.21426436021830214
+            },
+            {
+              "feature": "structure.sites[].xyz[].min",
+              "block": "structure_numeric",
+              "mean": -0.1830984657010936
+            },
+            {
+              "feature": "structure.sites[].xyz[].max",
+              "block": "structure_numeric",
+              "mean": 0.1709764162465355
+            },
+            {
+              "feature": "structure.leaves",
+              "block": "structure_topology",
+              "mean": 0.1702449611488551
+            },
+            {
+              "feature": "composition.sorted_share_4",
+              "block": "composition_shape",
+              "mean": 0.1667859156894436
+            },
+            {
+              "feature": "symmetry.crystal_system==Monoclinic",
+              "block": "symmetry_record",
+              "mean": 0.13441755514016882
+            }
+          ]
+        },
+        {
+          "family": "F-004",
+          "size": 225,
+          "median_assignment_margin": 0.42891692914505586,
+          "q10_assignment_margin": 0.09743125896897162,
+          "top_standardized_features": [
+            {
+              "feature": "structure.dict_size_mean",
+              "block": "structure_topology",
+              "mean": 2.2146478660010427
+            },
+            {
+              "feature": "structure.list_size_mean",
+              "block": "structure_topology",
+              "mean": -1.8922104129598423
+            },
+            {
+              "feature": "structure.sites[].abc[].max",
+              "block": "structure_numeric",
+              "mean": -1.1299631746803218
+            },
+            {
+              "feature": "structure.sites[].abc[].std",
+              "block": "structure_numeric",
+              "mean": -1.1131511495327286
+            },
+            {
+              "feature": "structure.dict_size_std",
+              "block": "structure_topology",
+              "mean": 1.0461114151458915
+            },
+            {
+              "feature": "composition.min_share",
+              "block": "composition_shape",
+              "mean": 0.8794080883518145
+            },
+            {
+              "feature": "structure.sites[].abc[].mean",
+              "block": "structure_numeric",
+              "mean": -0.7359028255172457
+            },
+            {
+              "feature": "composition.entropy",
+              "block": "composition_shape",
+              "mean": -0.5160894120358294
+            },
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.5089696805139721
+            },
+            {
+              "feature": "composition.l2",
+              "block": "composition_shape",
+              "mean": 0.508897559142283
+            },
+            {
+              "feature": "composition.max_share",
+              "block": "composition_shape",
+              "mean": 0.4262157686453314
+            },
+            {
+              "feature": "composition.sorted_share_2",
+              "block": "composition_shape",
+              "mean": -0.3648287269390944
+            }
+          ]
+        }
+      ],
+      "overall_margin": {
+        "median": 0.3143919050087284,
+        "q10": 0.13185918233429053
+      },
+      "low_margin_below_0.05": 52
+    },
+    "FULL_REPRESENTATION": {
+      "families": [
+        {
+          "family": "F-001",
+          "size": 1993,
+          "median_assignment_margin": 0.31278627674266074,
+          "q10_assignment_margin": 0.1530980232251642,
+          "top_standardized_features": [
+            {
+              "feature": "structure.lattice.beta.mean",
+              "block": "structure_numeric",
+              "mean": 0.5380313466832324
+            },
+            {
+              "feature": "band_gap",
+              "block": "scalar_observers",
+              "mean": 0.2655128879062688
+            },
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.25988317887786055
+            },
+            {
+              "feature": "structure.lattice.alpha.mean",
+              "block": "structure_numeric",
+              "mean": 0.23883154363315132
+            },
+            {
+              "feature": "structure.leaves",
+              "block": "structure_topology",
+              "mean": 0.2081178842873021
+            },
+            {
+              "feature": "ordering==FM",
+              "block": "scalar_observers",
+              "mean": 0.18198094120326008
+            },
+            {
+              "feature": "structure.sites[].xyz[].min",
+              "block": "structure_numeric",
+              "mean": -0.16569950651488513
+            },
+            {
+              "feature": "composition.sorted_share_4",
+              "block": "composition_shape",
+              "mean": 0.15819758286051883
+            },
+            {
+              "feature": "ordering==NM",
+              "block": "scalar_observers",
+              "mean": 0.15002508780732587
+            },
+            {
+              "feature": "structure.list_size_std",
+              "block": "structure_topology",
+              "mean": 0.14621216340665097
+            },
+            {
+              "feature": "has_props.bandstructure",
+              "block": "capability_map",
+              "mean": -0.13151074438525753
+            },
+            {
+              "feature": "origins.length",
+              "block": "provenance_shape",
+              "mean": 0.1273206221776217
+            }
+          ]
+        },
+        {
+          "family": "F-002",
+          "size": 693,
+          "median_assignment_margin": 0.34229700836005333,
+          "q10_assignment_margin": 0.10612920286209547,
+          "top_standardized_features": [
+            {
+              "feature": "structure.lattice.beta.mean",
+              "block": "structure_numeric",
+              "mean": -1.6582675238683746
+            },
+            {
+              "feature": "structure.lattice.alpha.mean",
+              "block": "structure_numeric",
+              "mean": -0.8702099660429308
+            },
+            {
+              "feature": "band_gap",
+              "block": "scalar_observers",
+              "mean": 0.32243641709036736
+            },
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.31038635413443283
+            },
+            {
+              "feature": "structure.lattice.gamma.mean",
+              "block": "structure_numeric",
+              "mean": -0.2493638201337909
+            },
+            {
+              "feature": "ordering==FM",
+              "block": "scalar_observers",
+              "mean": 0.22379730823048988
+            },
+            {
+              "feature": "structure.leaves",
+              "block": "structure_topology",
+              "mean": 0.2167691069774496
+            },
+            {
+              "feature": "structure.sites[].xyz[].std",
+              "block": "structure_numeric",
+              "mean": 0.20946290375203888
+            },
+            {
+              "feature": "structure.sites[].xyz[].max",
+              "block": "structure_numeric",
+              "mean": 0.17596550038576986
+            },
+            {
+              "feature": "composition.sorted_share_4",
+              "block": "composition_shape",
+              "mean": 0.1714868165268035
+            },
+            {
+              "feature": "structure.sites[].xyz[].min",
+              "block": "structure_numeric",
+              "mean": -0.17031134754746963
+            },
+            {
+              "feature": "symmetry.crystal_system==Monoclinic",
+              "block": "symmetry_record",
+              "mean": 0.15232430779274797
+            }
+          ]
+        },
+        {
+          "family": "F-003",
+          "size": 314,
+          "median_assignment_margin": 0.33251789982962865,
+          "q10_assignment_margin": 0.08807703012193674,
+          "top_standardized_features": [
+            {
+              "feature": "structure.dict_size_mean",
+              "block": "structure_topology",
+              "mean": 1.7967301294638047
+            },
+            {
+              "feature": "structure.list_size_mean",
+              "block": "structure_topology",
+              "mean": -1.642740191804962
+            },
+            {
+              "feature": "structure.sites[].abc[].max",
+              "block": "structure_numeric",
+              "mean": -0.9446579132548534
+            },
+            {
+              "feature": "structure.dict_size_std",
+              "block": "structure_topology",
+              "mean": 0.9346032969526855
+            },
+            {
+              "feature": "structure.sites[].abc[].std",
+              "block": "structure_numeric",
+              "mean": -0.8228504177909288
+            },
+            {
+              "feature": "composition.min_share",
+              "block": "composition_shape",
+              "mean": 0.7953922082458116
+            },
+            {
+              "feature": "origins.length",
+              "block": "provenance_shape",
+              "mean": 0.7038216560509554
+            },
+            {
+              "feature": "structure.sites[].abc[].mean",
+              "block": "structure_numeric",
+              "mean": -0.6402512904527358
+            },
+            {
+              "feature": "composition.entropy",
+              "block": "composition_shape",
+              "mean": -0.4762421979210835
+            },
+            {
+              "feature": "composition.l2",
+              "block": "composition_shape",
+              "mean": 0.46413385847998057
+            },
+            {
+              "feature": "structure.sites[].abc[].min",
+              "block": "structure_numeric",
+              "mean": 0.407180138300859
+            },
+            {
+              "feature": "has_props.elasticity",
+              "block": "capability_map",
+              "mean": 0.4064770408212575
+            }
+          ]
+        }
+      ],
+      "overall_margin": {
+        "median": 0.32213667824594505,
+        "q10": 0.13263597753078699
+      },
+      "low_margin_below_0.05": 86
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "protocol": "system_null_ladder_v0.1",
+  "target_hashes": {
+    "schemas/cross_mapping_passport.schema.json": "66d2ef05548255742cbca526f41efe292334e1f631f923005a5b642737aeb9d3",
+    "config/claim_type_system_v0.1.yaml": "df94f4b0c278338bf5e1373457e266f8ce2ea3449776a82bf6e75ad287510f96",
+    "config/document_contract_v0.1.yaml": "0f05c0a18fac8306a00f95f4c2dfbe72d6a4ae72e1d1ffc316d4c72ec243e218"
+  },
+  "attacks_total": 16,
+  "breaches": 16,
+  "survived_invalid_attacks": 0,
+  "controls_passed": 2,
+  "results": [
+    {
+      "id": "CONTROL_VALID_PASSPORT",
+      "class": "control",
+      "severity": "CONTROL",
+      "outcome": "SURVIVED",
+      "detail": "valid accepted=True; errors=[]"
+    },
+    {
+      "id": "CONTROL_REMOVE_ASYMMETRY",
+      "class": "control",
+      "severity": "CONTROL",
+      "outcome": "SURVIVED",
+      "detail": "invalid accepted=False; errors=['True was expected']"
+    },
+    {
+      "id": "ADMITTED_WITHOUT_QUALIFICATION",
+      "class": "status",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "accepted=True; maturity=NOT_TESTED; targets empty"
+    },
+    {
+      "id": "GHOST_EVIDENCE",
+      "class": "evidence",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "accepted=True; evidence artifact IDs=[]"
+    },
+    {
+      "id": "GHOST_PROVENANCE",
+      "class": "provenance",
+      "severity": "HIGH",
+      "outcome": "BREACH",
+      "detail": "accepted=True; source artifact IDs=[]"
+    },
+    {
+      "id": "DIRECTION_SEMANTIC_NOOP",
+      "class": "direction",
+      "severity": "HIGH",
+      "outcome": "BREACH",
+      "detail": "both accepted=True; endpoints unchanged=True"
+    },
+    {
+      "id": "NOT_TESTED_PLUS_PASS",
+      "class": "maturity",
+      "severity": "HIGH",
+      "outcome": "BREACH",
+      "detail": "accepted=True; maturity NOT_TESTED + outcome PASS"
+    },
+    {
+      "id": "ADMITTED_PLUS_FAILED",
+      "class": "status",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "accepted=True; ADMITTED + latest FAILED"
+    },
+    {
+      "id": "CONTRADICTORY_INTERPRETATION_BOUNDARY",
+      "class": "semantics",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "accepted=True; physical mechanism in Supports and Does-not-support"
+    },
+    {
+      "id": "EVIDENCE_INHERITANCE_SMUGGLING",
+      "class": "semantics",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "accepted=True; asymmetry boolean true while Supports imports evidence"
+    },
+    {
+      "id": "UNSEARCHED_COUNTEREXAMPLES",
+      "class": "qualification",
+      "severity": "HIGH",
+      "outcome": "BREACH",
+      "detail": "accepted=True; searches={'current_world': False, 'external_worlds': False}"
+    },
+    {
+      "id": "HISTORYLESS_INDEPENDENT_REPLICATION",
+      "class": "lifecycle",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "accepted=True; schema has no qualification history"
+    },
+    {
+      "id": "INDEPENDENCE_WITHOUT_IDENTITIES",
+      "class": "independence",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "accepted=True; no WORLD/dataset/Observer identity fields exist"
+    },
+    {
+      "id": "NON_MARKDOWN_CLAIM_ESCAPE",
+      "class": "artifact_scope",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "claim-bearing JSON covered=False; include=['/*.md', '/reports/*.md']"
+    },
+    {
+      "id": "SEMANTIC_MARKDOWN_CONTRADICTION",
+      "class": "document_semantics",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "current structural linter accepts contradictory Supports/Does-not-support=True"
+    },
+    {
+      "id": "CYCLIC_CLAIM_GRAPH",
+      "class": "claim_graph",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "cycle A↔B; acyclicity rule present=False"
+    },
+    {
+      "id": "SELF_ASSERTED_TRANSITION_EVIDENCE",
+      "class": "typing",
+      "severity": "CRITICAL",
+      "outcome": "BREACH",
+      "detail": "boolean-only evidence accepted=True; no artifact verification"
+    },
+    {
+      "id": "UNPINNED_ANTECEDENT",
+      "class": "versioning",
+      "severity": "HIGH",
+      "outcome": "BREACH",
+      "detail": "content/version pin rule present=False"
+    }
+  ],
+  "interpretation_boundary": {
+    "supports": [
+      "identification of logical and validation gaps in frozen CEOS specifications"
+    ],
+    "does_not_support": [
+      "proof that CEOS is universally unsound",
+      "physical mechanism",
+      "thermodynamic phase",
+      "microscopic Hamiltonian",
+      "prediction of untested properties"
+    ],
+    "scope": "adversarial tests registered in system_null_ladder_v0.1"
+  }
+}

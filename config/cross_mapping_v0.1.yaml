@@ -1,0 +1,48 @@
+cross_mapping:
+  version: 0.1
+  status: LOCKED_REASSESSMENT_REQUIRED
+  relation: many_to_many
+  normative_rule:
+    mapping_is_descriptive: true
+    upgrades_source_ontology_epistemic_status: false
+    upgrades_target_ontology_epistemic_status: false
+    independent_admitted_evidence_required_for_upgrade: true
+  unit:
+    source: Classical_Term
+    target: Frozen_Family_x_Relation_Pattern_x_Admission_Context
+  asymmetry:
+    principle: Cross Mapping translates between vocabularies; it does not transfer evidence.
+    evidence_inheritance: forbidden
+    mechanism_inheritance: forbidden
+    phase_semantics_inheritance: forbidden
+    reverse_validation_of_classical_interpretation: forbidden
+  direction:
+    allowed: [CEOS_TO_CLASSICAL, CLASSICAL_TO_CEOS, BIDIRECTIONAL_CANDIDATE]
+    required: true
+  mapping_provenance:
+    required: true
+    constructed_from:
+      family_only: false
+      relation_pattern: false
+      admission_context: false
+      population_statistics: false
+      independent_observer_agreement: false
+    source_artifact_ids: []
+  mapping_stability:
+    maturity:
+      monotonic_levels: [NOT_TESTED, SINGLE_WORLD, MULTI_WORLD, INDEPENDENTLY_REPLICATED]
+      current: NOT_TESTED
+    qualification_outcome:
+      allowed: [NOT_RUN, PASS, MIXED, FAILED]
+      current: NOT_RUN
+    dimensions:
+      one_world: NOT_TESTED
+      multiple_worlds: NOT_TESTED
+      independent_datasets: NOT_TESTED
+      independent_observers: NOT_TESTED
+      counterexamples_current_world: NOT_TESTED
+      counterexamples_external_world: NOT_TESTED
+  admission:
+    mapping_strength_separate_from_evidence_strength: true
+    physical_claim_requires_independent_evidence_passport: true
+    interpretation_boundary_required: true

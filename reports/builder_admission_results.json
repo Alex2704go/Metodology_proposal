@@ -1,0 +1,30 @@
+{
+  "field_permutation": {
+    "observable_schema_equal": true,
+    "observer_blocks_equal": true,
+    "raw_max_abs_error": 0.0,
+    "scaled_max_abs_error": 0.0,
+    "pass": true
+  },
+  "key_order_permutation": {
+    "observable_schema_equal": true,
+    "observer_blocks_equal": true,
+    "raw_max_abs_error": 0.0,
+    "scaled_max_abs_error": 0.0,
+    "pass": true
+  },
+  "nested_object_permutation": {
+    "observable_schema_equal": true,
+    "observer_blocks_equal": true,
+    "raw_max_abs_error": 0.0,
+    "scaled_max_abs_error": 0.0,
+    "pass": true
+  },
+  "serialization_roundtrip": {
+    "observable_schema_equal": true,
+    "observer_blocks_equal": true,
+    "raw_max_abs_error": 0.0,
+    "scaled_max_abs_error": 0.0,
+    "pass": true
+  }
+}
