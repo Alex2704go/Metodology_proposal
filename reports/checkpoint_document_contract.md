@@ -2,9 +2,9 @@
 
 > **Status:** structural lint only. Semantic enforcement is `REASSESSMENT_REQUIRED` after System Null Ladder v0.1 accepted a contradictory boundary.
 
-- Documents: **65**
-- Checks: **325**
-- Passed: **325**
+- Documents: **66**
+- Checks: **330**
+- Passed: **330**
 - Failed: **0**
 
 | Document | Contract | Result |
@@ -54,6 +54,11 @@
 | `CROSS_MAPPING_CONTRACT.md` | `does_not_support_section` | PASS |
 | `CROSS_MAPPING_CONTRACT.md` | `untested_property_prediction_prohibited` | PASS |
 | `CROSS_MAPPING_CONTRACT.md` | `cross_mapping_asymmetry` | PASS |
+| `CROSS_WORLD_ATLAS_PbBi2201_STM_Bi2212_RIXS.md` | `one_boundary_marker` | PASS |
+| `CROSS_WORLD_ATLAS_PbBi2201_STM_Bi2212_RIXS.md` | `supports_section` | PASS |
+| `CROSS_WORLD_ATLAS_PbBi2201_STM_Bi2212_RIXS.md` | `does_not_support_section` | PASS |
+| `CROSS_WORLD_ATLAS_PbBi2201_STM_Bi2212_RIXS.md` | `untested_property_prediction_prohibited` | PASS |
+| `CROSS_WORLD_ATLAS_PbBi2201_STM_Bi2212_RIXS.md` | `cross_mapping_asymmetry` | PASS |
 | `DATA_PROVENANCE.md` | `one_boundary_marker` | PASS |
 | `DATA_PROVENANCE.md` | `supports_section` | PASS |
 | `DATA_PROVENANCE.md` | `does_not_support_section` | PASS |

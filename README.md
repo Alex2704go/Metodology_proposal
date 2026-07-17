@@ -39,6 +39,26 @@ Interpretation Boundary
 
 `WITHHELD` означает сознательное удержание claim до прохождения перечисленных gates и не эквивалентен `REJECTED`.
 
+## Cross-WORLD Atlas
+
+Физический атлас двух взаимодополняющих проекций cuprate electronic state:
+
+```text
+PbBi2201 STM/STS
+    → local one-particle spectral organization
+
+Bi2212 RIXS/DMRG
+    → collective spin/charge momentum organization
+```
+
+- документ: `CROSS_WORLD_ATLAS_PbBi2201_STM_Bi2212_RIXS.md`;
+- machine-readable atlas: `CROSS_WORLD_ATLAS_PbBi2201_STM_Bi2212_RIXS.json`;
+- source WORLDs:
+  - https://github.com/Alex2704go/pbbi2201-representation-ecology
+  - https://github.com/Alex2704go/bi2212-rixs-constrained-ecology-v0.29
+
+Atlas трактует сумму измерений как typed geometry of projections, а не арифметическую сумму.
+
 ## Этапы
 
 1. **Stage 00 — Intake**: фиксация происхождения данных, неизменяемого raw-слоя и правил аудита.

@@ -1,0 +1,98 @@
+{
+  "atlas_id": "XW-PBBI2201-STM-BI2212-RIXS-V0.1",
+  "title": "PbBi2201 STM/STS × Bi2212 RIXS/DMRG Cross-WORLD Atlas",
+  "status": "CANDIDATE_PHYSICAL_SYNTHESIS",
+  "worlds": [
+    {
+      "world_id": "WORLD-PBBI2201-STM-V030",
+      "material": "(Pb,Bi)2Sr2CuO6+delta",
+      "probe": "STM/STS",
+      "repository": "https://github.com/Alex2704go/pbbi2201-representation-ecology",
+      "native_coordinates": ["x", "y", "energy", "temperature", "measurement_regime"],
+      "correlator_sector": "local one-particle spectral response",
+      "evidence_state": "ARTIFACT_ARCHIVE_WITH_RAW_AND_CODE_WITHHELD"
+    },
+    {
+      "world_id": "WORLD-BI2212-RIXS-V029",
+      "material": "Bi2Sr2CaCu2O8+delta",
+      "probe": "RIXS + DMRG",
+      "repository": "https://github.com/Alex2704go/bi2212-rixs-constrained-ecology-v0.29",
+      "source_doi": "10.5281/zenodo.7286412",
+      "native_coordinates": ["q", "energy", "azimuth", "doping", "spin_charge_channel", "model"],
+      "correlator_sector": "collective spin/charge response and model S(q)",
+      "evidence_state": "SOURCE_VERIFIED_WITH_DOWNSTREAM_ANALYSIS_WITHHELD"
+    }
+  ],
+  "summed_representation": {
+    "type": "TYPED_MULTI_PROJECTION_ATLAS",
+    "components": [
+      "R_local",
+      "R_one_particle_momentum",
+      "R_collective",
+      "R_transport",
+      "R_model",
+      "BridgeContracts",
+      "EvidenceStates"
+    ],
+    "currently_present": ["R_local", "R_collective", "R_model", "EvidenceStates"],
+    "currently_missing": ["R_one_particle_momentum", "R_transport", "complete BridgeContracts"]
+  },
+  "shared_latent_parameters": [
+    "gap_or_coherence_scale",
+    "quasiparticle_residue",
+    "scattering_or_broadening",
+    "self_energy",
+    "spin_correlation_length",
+    "charge_correlation_length",
+    "characteristic_momenta",
+    "spin_charge_spectral_weights",
+    "local_disorder_field"
+  ],
+  "cross_world_patterns": [
+    {
+      "id": "XW-RP1",
+      "name": "persistent collective scaffold with heterogeneous local coherence",
+      "state": "FAMILY_LEVEL_HYPOTHESIS"
+    },
+    {
+      "id": "XW-RP2",
+      "name": "spectral redistribution rather than binary disappearance",
+      "state": "PHYSICALLY_PLAUSIBLE_NOT_JOINTLY_FIT"
+    },
+    {
+      "id": "XW-RP3",
+      "name": "localized burden under different coordinates",
+      "state": "ORGANIZATIONAL_CORRESPONDENCE_PHYSICAL_MAPPING_WITHHELD"
+    },
+    {
+      "id": "XW-RP4",
+      "name": "projection-dependent anomaly",
+      "state": "ATLAS_PRINCIPLE"
+    }
+  ],
+  "bridge_requirements": [
+    "matched material or controlled material hierarchy",
+    "common doping calibration",
+    "overlapping temperature range",
+    "sample provenance",
+    "energy zero and resolution contracts",
+    "STM/STS maps",
+    "RIXS spin/charge spectra",
+    "ARPES one-particle momentum bridge",
+    "transport response"
+  ],
+  "interpretation_boundary": {
+    "supports": [
+      "correlator-based physical comparison",
+      "typed multi-projection representation",
+      "matched-probe test program"
+    ],
+    "does_not_support": [
+      "identity of electronic states in the two materials",
+      "shared microscopic mechanism",
+      "direct mapping of STM cores to RIXS mismatch loci",
+      "transport prediction",
+      "prediction of untested properties"
+    ]
+  }
+}

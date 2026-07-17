@@ -92,6 +92,9 @@
 | 2026-07-16 | Result Biography | Биография определена как event-sourced claim lifecycle DAG, не action log | Публиковать эволюцию утверждения, включая места несогласия WORLD | Yes | 8.6 |
 | 2026-07-16 | WITHHELD | Введён как Release State, ортогональный Admission State и отличный от REJECTED | Сохранять интересные, но пока недостаточно проверенные claims | Yes | 8.7 |
 | 2026-07-16 | MaterialsWorld Biography | Зафиксированы 18 turning-point events и 3 WITHHELD records; audit 79/79 PASS | Связать финальный результат с отказами, revisions, Nulls и reassessment | Yes | 8.8 |
+| 2026-07-17 | Cross-WORLD physical atlas | STM/STS и RIXS/DMRG представлены как разные correlator projections общего many-body dossier | Суммировать ограничения на electronic state, а не арифметически складывать observables | Yes | 8.9 |
+| 2026-07-17 | Atlas evidence boundary | PbBi archived claims и Bi2212 downstream mismatch claims сохранены с WITHHELD/partial-replay статусами | Не переносить source confidence через физический синтез | Yes | 9.0 |
+| 2026-07-17 | Atlas Bridge Layer | Зафиксированы latent parameters и требования matched STM/RIXS/ARPES/transport experiment | Перевести synthesis в проверяемую программу физической томографии | Yes | 9.1 |
 
 <!-- CEOS-INTERPRETATION-BOUNDARY v0.1 -->
 ## Interpretation Boundary — Document Scope

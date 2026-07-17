@@ -4,7 +4,7 @@ project:
   timezone: Asia/Vladivostok
 
 stages:
-  current: result_biography_v0.1_and_github_update
+  current: cross_world_atlas_pbbi2201_stm_bi2212_rixs
   partition_admission: admitted
   assignment_admission: active_v0.1
   literature_admission_unlocked: false
