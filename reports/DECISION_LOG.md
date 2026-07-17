@@ -88,6 +88,10 @@
 | 2026-07-16 | Community Passport | Рекомендованы Result Passport, nearest/admitted distinction, Mapping Stability и Interpretation Boundary | Обобщить прозрачность claims без требования применять CEOS | Yes | 8.2 |
 | 2026-07-16 | Packaging defect | Final integrity entrypoint получил `Permission denied` из-за отсутствующего executable bit; gate не выполнялся | Entry point usability является частью implementation contract | Failed launch only | 8.3 |
 | 2026-07-16 | Packaging recovery | Executable bit восстановлен; direct execution завершён PASS; documents 61, checks 305/305 | Финальные рекомендации допускаются только после рабочего entrypoint | Yes | 8.4 |
+| 2026-07-16 | Authorship | README указывает Alex2704go и Arena.ai Agent Mode с раздельными ролями | Сделать происхождение методологии и AI-вклад прозрачными | Yes | 8.5 |
+| 2026-07-16 | Result Biography | Биография определена как event-sourced claim lifecycle DAG, не action log | Публиковать эволюцию утверждения, включая места несогласия WORLD | Yes | 8.6 |
+| 2026-07-16 | WITHHELD | Введён как Release State, ортогональный Admission State и отличный от REJECTED | Сохранять интересные, но пока недостаточно проверенные claims | Yes | 8.7 |
+| 2026-07-16 | MaterialsWorld Biography | Зафиксированы 18 turning-point events и 3 WITHHELD records; audit 79/79 PASS | Связать финальный результат с отказами, revisions, Nulls и reassessment | Yes | 8.8 |
 
 <!-- CEOS-INTERPRETATION-BOUNDARY v0.1 -->
 ## Interpretation Boundary — Document Scope

@@ -60,6 +60,20 @@ Regression on unchanged attacks
 
 Scientific Null Ladder attacks organizational results. Governance Null Ladder attacks claim construction. Their outcomes are non-substitutable. See `SCIENTIFIC_NULL_LADDER.md`, `GOVERNANCE_NULL_LADDER.md` and `CEOS_CLAIM_COMPILER.md`.
 
+## Result Biography layer
+
+Every claim-strength transition emits a biography event. The Result Biography is a content-addressed event DAG covering hypotheses, Representation revisions, Null outcomes, Admission State, Release State and Interpretation Boundary changes.
+
+```text
+Claim lifecycle events
+    ↓
+Result Biography
+    ↓
+reproducible account of where the WORLD disagreed
+```
+
+`WITHHELD` is a Release State and remains distinct from `REJECTED`.
+
 ## Claim-strength rule
 
 Every transition must satisfy three conditions:

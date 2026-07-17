@@ -1,0 +1,66 @@
+result_biography:
+  version: 0.1
+  entity_type: CLAIM_LIFECYCLE_GRAPH
+  graph:
+    acyclic: true
+    event_sourced: true
+    parent_events_pinned: true
+    artifacts_content_addressed: true
+  admission_states:
+    - ADMITTED
+    - CANDIDATE
+    - BOUNDARY
+    - OOD
+    - REJECTED
+    - REASSESSMENT_REQUIRED
+  release_states:
+    - DRAFT
+    - WITHHELD
+    - RELEASED
+    - RETIRED
+  withheld_contract:
+    required:
+      - reason
+      - pending_gates
+      - available_evidence_refs
+      - reconsideration_condition
+      - responsible_actor_id
+      - next_review_trigger
+      - interpretation_boundary
+  event_types:
+    - DATASET_REGISTERED
+    - HYPOTHESIS_PROPOSED
+    - HYPOTHESIS_REJECTED
+    - HYPOTHESIS_WITHHELD
+    - REPRESENTATION_CREATED
+    - REPRESENTATION_REVISED
+    - NULL_REGISTERED
+    - NULL_PASSED
+    - NULL_FAILED
+    - BUILDER_ADMITTED
+    - BUILDER_REVOKED
+    - CLAIM_QUALIFIED
+    - CLAIM_ADMITTED
+    - CLAIM_WITHHELD
+    - CLAIM_REJECTED
+    - CLAIM_REASSESSMENT
+    - CLAIM_RELEASED
+    - CLAIM_RETIRED
+    - INTERPRETATION_BOUNDARY_CHANGED
+  decision_timing: [PRE_RESULT, POST_RESULT]
+  mandatory_event_fields:
+    - event_id
+    - timestamp
+    - event_type
+    - actor_id
+    - claim_ids
+    - parent_event_ids
+    - input_artifact_refs
+    - output_artifact_refs
+    - pre_state
+    - post_state
+    - decision_timing
+    - reason_code
+    - evidence_refs
+    - content_digest
+  interpretation_boundary_required: true

@@ -1,0 +1,552 @@
+{
+  "biography_id": "RB-MATERIALSWORLD-V0.1",
+  "version": "0.1",
+  "authors": [
+    {
+      "id": "Alex2704go",
+      "role": "initiator and methodology co-author"
+    },
+    {
+      "id": "Arena.ai Agent Mode",
+      "role": "AI co-author of analysis, implementation, Red Team and documentation"
+    }
+  ],
+  "object_scope": "v0.42.MaterialsWorld pilot",
+  "dataset_refs": [
+    "raw/MANIFEST.json",
+    "raw/STRESS_POOL_MANIFEST.json"
+  ],
+  "events": [
+    {
+      "event_id": "BIO-001",
+      "timestamp": "2026-07-15",
+      "event_type": "REPRESENTATION_CREATED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [],
+      "input_artifact_refs": [
+        "FORBIDDEN.md"
+      ],
+      "output_artifact_refs": [
+        "FORBIDDEN.md"
+      ],
+      "pre_state": "NONE",
+      "post_state": "BLIND_PROTOCOL_ACTIVE",
+      "decision_timing": "PRE_RESULT",
+      "reason_code": "BLIND_PROTOCOL_REGISTERED",
+      "evidence_refs": [
+        "FORBIDDEN.md"
+      ],
+      "content_digest": "982a2da2c3f41ca57bd527873be6c5de5c206c03107bdd8a8a7b1c20c852db98"
+    },
+    {
+      "event_id": "BIO-002",
+      "timestamp": "2026-07-15",
+      "event_type": "DATASET_REGISTERED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-001"
+      ],
+      "input_artifact_refs": [
+        "raw/MANIFEST.json"
+      ],
+      "output_artifact_refs": [
+        "raw/MANIFEST.json"
+      ],
+      "pre_state": "NO_WORLD",
+      "post_state": "PILOT_WORLD_REGISTERED",
+      "decision_timing": "PRE_RESULT",
+      "reason_code": "3,000-RECORD_PILOT_REGISTERED",
+      "evidence_refs": [
+        "raw/MANIFEST.json"
+      ],
+      "content_digest": "80d88d2fa444f5c3c667cd662031ce9dc255c360cf2c4a141df2b65f80929f6b"
+    },
+    {
+      "event_id": "BIO-003",
+      "timestamp": "2026-07-15",
+      "event_type": "REPRESENTATION_CREATED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-002"
+      ],
+      "input_artifact_refs": [
+        "reports/representation_ontology_v0.1.md"
+      ],
+      "output_artifact_refs": [
+        "reports/representation_ontology_v0.1.md"
+      ],
+      "pre_state": "RAW_SCHEMA",
+      "post_state": "OBJECT_SIGNATURES",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "MAP/RECORD/COMPOSITE_ONTOLOGY_DERIVED",
+      "evidence_refs": [
+        "reports/representation_ontology_v0.1.md"
+      ],
+      "content_digest": "411b5bdf4a610cb3015f06a2dff5ac1c5942c0f11942a41a4e5142e547f32eb5"
+    },
+    {
+      "event_id": "BIO-004",
+      "timestamp": "2026-07-15",
+      "event_type": "REPRESENTATION_REVISED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-003"
+      ],
+      "input_artifact_refs": [
+        "reports/checkpoint_observer_audit_v0.2.md"
+      ],
+      "output_artifact_refs": [
+        "reports/checkpoint_observer_audit_v0.2.md"
+      ],
+      "pre_state": "VECTOR_V0.1",
+      "post_state": "VECTOR_V0.2",
+      "decision_timing": "PRE_RESULT",
+      "reason_code": "OBSERVER_AUDIT_FOUND_DUPLICATE_SIZE_AND_AVAILABILITY_LEAKAGE",
+      "evidence_refs": [
+        "reports/checkpoint_observer_audit_v0.2.md"
+      ],
+      "content_digest": "06f463219f2f3676fbcc3f680f26d62a2159d9cf82a63ec7f4b5261ac1705e1d"
+    },
+    {
+      "event_id": "BIO-005",
+      "timestamp": "2026-07-15",
+      "event_type": "CLAIM_ADMITTED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-004"
+      ],
+      "input_artifact_refs": [
+        "reports/stage04_family_discovery_and_nulls.md"
+      ],
+      "output_artifact_refs": [
+        "reports/stage04_family_discovery_and_nulls.md"
+      ],
+      "pre_state": "PARTITION_CANDIDATE",
+      "post_state": "PARTITION_ADMITTED_WITH_SCOPE",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "FOUR_STRUCTURAL_REPRESENTATION_FAMILIES_PASSED_REGISTERED_NULLS",
+      "evidence_refs": [
+        "reports/stage04_family_discovery_and_nulls.md"
+      ],
+      "content_digest": "116883b20534276c78a7f1b9aaad481cc29713c25a3d4380637528708923f274"
+    },
+    {
+      "event_id": "BIO-006",
+      "timestamp": "2026-07-15",
+      "event_type": "NULL_PASSED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-005"
+      ],
+      "input_artifact_refs": [
+        "reports/checkpoint_bias_and_ablation.md"
+      ],
+      "output_artifact_refs": [
+        "reports/checkpoint_bias_and_ablation.md"
+      ],
+      "pre_state": "STRUCTURE_DOMINANCE_CANDIDATE",
+      "post_state": "STRUCTURE_DOMINANCE_ADMITTED_WITH_SCOPE",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "STRUCTURE_ABLATION_DESTROYED_PARTITION_RECOVERY",
+      "evidence_refs": [
+        "reports/checkpoint_bias_and_ablation.md"
+      ],
+      "content_digest": "b6066b1f0509e2f2b1a308ac1d5746c42bea35f330798341312ff5bf189f0b0b"
+    },
+    {
+      "event_id": "BIO-007",
+      "timestamp": "2026-07-15",
+      "event_type": "CLAIM_REJECTED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-006"
+      ],
+      "input_artifact_refs": [
+        "scripts/project_real_examples.py"
+      ],
+      "output_artifact_refs": [
+        "scripts/project_real_examples.py"
+      ],
+      "pre_state": "EXAMPLE_ASSIGNMENT_CANDIDATE",
+      "post_state": "PROJECTION_REJECTED",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "OUT-OF-SAMPLE_PREPROCESSING_REFIT_CAUSED_REPLAY_MISMATCH",
+      "evidence_refs": [
+        "scripts/project_real_examples.py"
+      ],
+      "content_digest": "11ec3054bb9402d277643b1072e4f53c67191d3fb03a6292fbfedb08399f8d73"
+    },
+    {
+      "event_id": "BIO-008",
+      "timestamp": "2026-07-15",
+      "event_type": "CLAIM_ADMITTED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-007"
+      ],
+      "input_artifact_refs": [
+        "reports/real_examples_ceos_families.md"
+      ],
+      "output_artifact_refs": [
+        "reports/real_examples_ceos_families.md"
+      ],
+      "pre_state": "PROJECTION_REJECTED",
+      "post_state": "EXAMPLE_ASSIGNMENTS_ADMITTED",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "FROZEN_PREPROCESSING_RESTORED_EXACT_REPLAY",
+      "evidence_refs": [
+        "reports/real_examples_ceos_families.md"
+      ],
+      "content_digest": "33557cf558c809a3ef129160a5bed48a3e0ef4403b695dffe6e86f4673c1a557"
+    },
+    {
+      "event_id": "BIO-009",
+      "timestamp": "2026-07-15",
+      "event_type": "BUILDER_REVOKED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-008"
+      ],
+      "input_artifact_refs": [
+        "reports/BUILDER_ADMISSION.md"
+      ],
+      "output_artifact_refs": [
+        "reports/BUILDER_ADMISSION.md"
+      ],
+      "pre_state": "BUILDER_CANDIDATE",
+      "post_state": "BUILDER_REASSESSMENT",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "KEY-ORDER_AND_SERIALIZATION_ERROR_NEAR_1E-15",
+      "evidence_refs": [
+        "reports/BUILDER_ADMISSION.md"
+      ],
+      "content_digest": "d7a63a4f81e897c5c2d44e57e45889ef36c2d62fc876e38f7ec7a6f867b44848"
+    },
+    {
+      "event_id": "BIO-010",
+      "timestamp": "2026-07-15",
+      "event_type": "BUILDER_ADMITTED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-009"
+      ],
+      "input_artifact_refs": [
+        "reports/BUILDER_ADMISSION.md"
+      ],
+      "output_artifact_refs": [
+        "reports/BUILDER_ADMISSION.md"
+      ],
+      "pre_state": "BUILDER_REASSESSMENT",
+      "post_state": "BUILDER_ADMITTED",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "CANONICAL_AGGREGATION_PRODUCED_EXACT_ZERO_REPLAY",
+      "evidence_refs": [
+        "reports/BUILDER_ADMISSION.md"
+      ],
+      "content_digest": "2f51d129823bfd9507a0145df522b29b91ebff5f15319b79a0eb6e46871ce96f"
+    },
+    {
+      "event_id": "BIO-011",
+      "timestamp": "2026-07-15",
+      "event_type": "HYPOTHESIS_WITHHELD",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-010"
+      ],
+      "input_artifact_refs": [
+        "reports/ood_boundary_biographies.md"
+      ],
+      "output_artifact_refs": [
+        "reports/ood_boundary_biographies.md"
+      ],
+      "pre_state": "SCALE_DRIVEN_CANDIDATE",
+      "post_state": "SCALE_SENSITIVE_WITHHELD",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "REGISTERED_SCALE_NULLS_DISAGREED",
+      "evidence_refs": [
+        "reports/ood_boundary_biographies.md"
+      ],
+      "content_digest": "d6ae8f6efefb3bdc4b438c78aec5e9a4884820794abd8a56faf77bdda19609a5"
+    },
+    {
+      "event_id": "BIO-012",
+      "timestamp": "2026-07-15",
+      "event_type": "CLAIM_REJECTED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-011"
+      ],
+      "input_artifact_refs": [
+        "reports/DECISION_LOG.md"
+      ],
+      "output_artifact_refs": [
+        "reports/DECISION_LOG.md"
+      ],
+      "pre_state": "CONFLICT_V0.1",
+      "post_state": "CONFLICT_SCOPE_REJECTED",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "LOCAL_NODE_USED_WRONG_REPRESENTATION_SCOPE",
+      "evidence_refs": [
+        "reports/DECISION_LOG.md"
+      ],
+      "content_digest": "3576e2f96f0169a9ed98619592326b4b382b45cbe31aaad153ed9be9e1cf2041"
+    },
+    {
+      "event_id": "BIO-013",
+      "timestamp": "2026-07-15",
+      "event_type": "CLAIM_QUALIFIED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-012"
+      ],
+      "input_artifact_refs": [
+        "reports/conflict_topology_population.md"
+      ],
+      "output_artifact_refs": [
+        "reports/conflict_topology_population.md"
+      ],
+      "pre_state": "CONFLICT_SCOPE_REJECTED",
+      "post_state": "RELATIONAL_BOUNDARY_QUALIFIED",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "V0.3_POPULATION_TEST_PASSED_REGISTERED_CRITERIA",
+      "evidence_refs": [
+        "reports/conflict_topology_population.md"
+      ],
+      "content_digest": "546af2e54727f1ec6c62106294c90b9fa7f28673db101e197f66339d50dc5985"
+    },
+    {
+      "event_id": "BIO-014",
+      "timestamp": "2026-07-16",
+      "event_type": "CLAIM_REASSESSMENT",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-013"
+      ],
+      "input_artifact_refs": [
+        "reports/system_null_ladder_v0.1_reframed.md"
+      ],
+      "output_artifact_refs": [
+        "reports/system_null_ladder_v0.1_reframed.md"
+      ],
+      "pre_state": "GOVERNANCE_V0.1_CANDIDATE",
+      "post_state": "GOVERNANCE_V0.1_REASSESSMENT",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "16_SPECIFICATION_GAPS_OR_UNPROTECTED_TRANSITIONS_EXPOSED",
+      "evidence_refs": [
+        "reports/system_null_ladder_v0.1_reframed.md"
+      ],
+      "content_digest": "53ab60157967402bf8753483ff90d0c2feef904e9b1dd8a76b1fc586d09b7980"
+    },
+    {
+      "event_id": "BIO-015",
+      "timestamp": "2026-07-16",
+      "event_type": "CLAIM_QUALIFIED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-014"
+      ],
+      "input_artifact_refs": [
+        "reports/system_null_ladder_v0.2.md"
+      ],
+      "output_artifact_refs": [
+        "reports/system_null_ladder_v0.2.md"
+      ],
+      "pre_state": "GOVERNANCE_V0.1_REASSESSMENT",
+      "post_state": "GOVERNANCE_V0.2_QUALIFIED",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "SAME_16_ATTACKS_REJECTED_BY_PROOF-CARRYING_CANDIDATE",
+      "evidence_refs": [
+        "reports/system_null_ladder_v0.2.md"
+      ],
+      "content_digest": "e7b668313e6d8ec15308dc75c6fb23b3c7eecc8db9e4c2a594283f3d39aa9ac5"
+    },
+    {
+      "event_id": "BIO-016",
+      "timestamp": "2026-07-16",
+      "event_type": "CLAIM_REASSESSMENT",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-015"
+      ],
+      "input_artifact_refs": [
+        "reports/system_null_ladder_v0.2.1.md"
+      ],
+      "output_artifact_refs": [
+        "reports/system_null_ladder_v0.2.1.md"
+      ],
+      "pre_state": "GOVERNANCE_V0.2_QUALIFIED",
+      "post_state": "PIPELINE_GAP_FOUND",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "FAILED_GATE_MASKED_BY_LATER_SHELL_SUCCESS",
+      "evidence_refs": [
+        "reports/system_null_ladder_v0.2.1.md"
+      ],
+      "content_digest": "248d60575c5693ae585ecef378cd9a05181e79f039efc82acd997b185ef56719"
+    },
+    {
+      "event_id": "BIO-017",
+      "timestamp": "2026-07-16",
+      "event_type": "CLAIM_QUALIFIED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-016"
+      ],
+      "input_artifact_refs": [
+        "reports/system_null_ladder_v0.2.1.md"
+      ],
+      "output_artifact_refs": [
+        "reports/system_null_ladder_v0.2.1.md"
+      ],
+      "pre_state": "PIPELINE_GAP_FOUND",
+      "post_state": "GOVERNANCE_V0.2.1_QUALIFIED",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "FAIL-FAST_GATE_PASSED_AND_17_REGISTERED_ATTACKS_REJECTED",
+      "evidence_refs": [
+        "reports/system_null_ladder_v0.2.1.md"
+      ],
+      "content_digest": "7928298cb9f720a71e3a40136a845b8e619a595f13b959a902e732f94f0f552f"
+    },
+    {
+      "event_id": "BIO-018",
+      "timestamp": "2026-07-16",
+      "event_type": "CLAIM_RELEASED",
+      "actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "claim_ids": [
+        "MATERIALSWORLD-PILOT"
+      ],
+      "parent_event_ids": [
+        "BIO-017"
+      ],
+      "input_artifact_refs": [
+        "reports/FINAL_RECOMMENDATIONS_RU.md"
+      ],
+      "output_artifact_refs": [
+        "reports/FINAL_RECOMMENDATIONS_RU.md"
+      ],
+      "pre_state": "RECOMMENDATIONS_DRAFT",
+      "post_state": "RECOMMENDATIONS_RELEASED",
+      "decision_timing": "POST_RESULT",
+      "reason_code": "FINAL_SCOPED_RECOMMENDATIONS_PREPARED",
+      "evidence_refs": [
+        "reports/FINAL_RECOMMENDATIONS_RU.md"
+      ],
+      "content_digest": "43d08f01c53447c61a79ae138f15bcc17a723cefcc0181b899a0c3e0a91fe090"
+    }
+  ],
+  "withheld_register": [
+    {
+      "claim_id": "LITERATURE_CROSS_MAPPING",
+      "release_state": "WITHHELD",
+      "reason": "literature mapping not independently qualified",
+      "pending_gates": [
+        "Mapping Provenance",
+        "Mapping Stability",
+        "counterexample search",
+        "Cross Mapping Asymmetry audit"
+      ],
+      "available_evidence_refs": [
+        "derived/relation_pattern_registry_v0.1.json"
+      ],
+      "reconsideration_condition": "post hoc mapping protocol admitted",
+      "responsible_actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "next_review_trigger": "independent literature mapping study",
+      "interpretation_boundary": "CROSS_MAPPING_CONTRACT.md"
+    },
+    {
+      "claim_id": "PHYSICAL_MECHANISM",
+      "release_state": "WITHHELD",
+      "reason": "organizational geometry does not transfer mechanism evidence",
+      "pending_gates": [
+        "independent physical evidence",
+        "mechanism-specific Nulls",
+        "Interpretation Admission"
+      ],
+      "available_evidence_refs": [
+        "reports/ceos_structural_family_report.md"
+      ],
+      "reconsideration_condition": "mechanism protocol and independent evidence admitted",
+      "responsible_actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "next_review_trigger": "mechanism-specific study",
+      "interpretation_boundary": "reports/ceos_structural_family_report.md"
+    },
+    {
+      "claim_id": "GOVERNANCE_ADMISSION",
+      "release_state": "WITHHELD",
+      "reason": "v0.2.1 is qualified by self-authored regression only",
+      "pending_gates": [
+        "independent Red Team",
+        "unregistered mutation attacks",
+        "real claim graph audit"
+      ],
+      "available_evidence_refs": [
+        "reports/system_null_ladder_v0.2.1.md"
+      ],
+      "reconsideration_condition": "independent governance review passes",
+      "responsible_actor_id": "COLLAB-ALEX2704GO-ARENA-AGENT",
+      "next_review_trigger": "independent Red Team",
+      "interpretation_boundary": "GOVERNANCE_V0.2.md"
+    }
+  ],
+  "interpretation_boundary": {
+    "supports": [
+      "documented claim lifecycle and critical turning points"
+    ],
+    "does_not_support": [
+      "complete record of every exploratory action",
+      "physical mechanism",
+      "thermodynamic phase",
+      "prediction of untested properties"
+    ]
+  }
+}

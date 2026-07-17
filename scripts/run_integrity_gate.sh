@@ -12,6 +12,8 @@ python3 scripts/audit_assignment_passports.py
 python3 scripts/audit_assignment_explanations.py
 python3 scripts/audit_conflict_topology.py
 python3 scripts/audit_relation_pattern_registry.py
+python3 scripts/build_result_biography.py
+python3 scripts/audit_result_biography.py
 python3 scripts/apply_interpretation_boundaries.py
 python3 scripts/lint_ceos_documents.py
 

@@ -56,6 +56,12 @@ States a mechanism, phase semantics, causal account or microscopic model.
 
 It requires independent domain evidence and a dedicated Interpretation Admission protocol. It cannot be admitted by vocabulary correspondence alone.
 
+## Result Biography
+
+Every claim may be accompanied by a Result Biography: an event-sourced DAG of proposed, rejected, withheld, admitted, reassessed and released states. Biography events reference the same content-addressed evidence and antecedent artifacts as the Claim Passport.
+
+A biography is not merely an action log. It records the evolution of claim type, scope and admissibility.
+
 ## Non-inheritance rule
 
 Evidence does not automatically propagate through claim transitions.

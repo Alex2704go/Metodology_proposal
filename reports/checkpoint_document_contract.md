@@ -2,9 +2,9 @@
 
 > **Status:** structural lint only. Semantic enforcement is `REASSESSMENT_REQUIRED` after System Null Ladder v0.1 accepted a contradictory boundary.
 
-- Documents: **62**
-- Checks: **310**
-- Passed: **310**
+- Documents: **65**
+- Checks: **325**
+- Passed: **325**
 - Failed: **0**
 
 | Document | Contract | Result |
@@ -84,6 +84,11 @@
 | `RELATION_PATTERNS.md` | `does_not_support_section` | PASS |
 | `RELATION_PATTERNS.md` | `untested_property_prediction_prohibited` | PASS |
 | `RELATION_PATTERNS.md` | `cross_mapping_asymmetry` | PASS |
+| `RESULT_BIOGRAPHY.md` | `one_boundary_marker` | PASS |
+| `RESULT_BIOGRAPHY.md` | `supports_section` | PASS |
+| `RESULT_BIOGRAPHY.md` | `does_not_support_section` | PASS |
+| `RESULT_BIOGRAPHY.md` | `untested_property_prediction_prohibited` | PASS |
+| `RESULT_BIOGRAPHY.md` | `cross_mapping_asymmetry` | PASS |
 | `SCIENTIFIC_NULL_LADDER.md` | `one_boundary_marker` | PASS |
 | `SCIENTIFIC_NULL_LADDER.md` | `supports_section` | PASS |
 | `SCIENTIFIC_NULL_LADDER.md` | `does_not_support_section` | PASS |
@@ -109,6 +114,11 @@
 | `reports/FINAL_RECOMMENDATIONS_RU.md` | `does_not_support_section` | PASS |
 | `reports/FINAL_RECOMMENDATIONS_RU.md` | `untested_property_prediction_prohibited` | PASS |
 | `reports/FINAL_RECOMMENDATIONS_RU.md` | `cross_mapping_asymmetry` | PASS |
+| `reports/MATERIALSWORLD_RESULT_BIOGRAPHY.md` | `one_boundary_marker` | PASS |
+| `reports/MATERIALSWORLD_RESULT_BIOGRAPHY.md` | `supports_section` | PASS |
+| `reports/MATERIALSWORLD_RESULT_BIOGRAPHY.md` | `does_not_support_section` | PASS |
+| `reports/MATERIALSWORLD_RESULT_BIOGRAPHY.md` | `untested_property_prediction_prohibited` | PASS |
+| `reports/MATERIALSWORLD_RESULT_BIOGRAPHY.md` | `cross_mapping_asymmetry` | PASS |
 | `reports/MATERIALS_PROJECT_RECOMMENDATIONS_ONE_PAGE.md` | `one_boundary_marker` | PASS |
 | `reports/MATERIALS_PROJECT_RECOMMENDATIONS_ONE_PAGE.md` | `supports_section` | PASS |
 | `reports/MATERIALS_PROJECT_RECOMMENDATIONS_ONE_PAGE.md` | `does_not_support_section` | PASS |
@@ -219,6 +229,11 @@
 | `reports/checkpoint_relation_pattern_registry.md` | `does_not_support_section` | PASS |
 | `reports/checkpoint_relation_pattern_registry.md` | `untested_property_prediction_prohibited` | PASS |
 | `reports/checkpoint_relation_pattern_registry.md` | `cross_mapping_asymmetry` | PASS |
+| `reports/checkpoint_result_biography.md` | `one_boundary_marker` | PASS |
+| `reports/checkpoint_result_biography.md` | `supports_section` | PASS |
+| `reports/checkpoint_result_biography.md` | `does_not_support_section` | PASS |
+| `reports/checkpoint_result_biography.md` | `untested_property_prediction_prohibited` | PASS |
+| `reports/checkpoint_result_biography.md` | `cross_mapping_asymmetry` | PASS |
 | `reports/checkpoint_vector_qc.md` | `one_boundary_marker` | PASS |
 | `reports/checkpoint_vector_qc.md` | `supports_section` | PASS |
 | `reports/checkpoint_vector_qc.md` | `does_not_support_section` | PASS |

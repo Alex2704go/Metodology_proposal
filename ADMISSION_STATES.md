@@ -70,6 +70,27 @@ BOUNDARY :: RELATIONAL_BOUNDARY
 
 The left side records whether a family assignment is admissible. The right side records how independent channels agree or conflict. `RELATIONAL_BOUNDARY` is not a sixth state and does not alter state precedence.
 
+## Orthogonal Release State
+
+Admission and publication release are separate axes:
+
+```text
+Admission State:
+    ADMITTED | CANDIDATE | BOUNDARY | OOD | REJECTED | REASSESSMENT_REQUIRED
+
+Release State:
+    DRAFT | WITHHELD | RELEASED | RETIRED
+```
+
+`WITHHELD` means that a claim is consciously not released because named gates remain incomplete. It is not equivalent to `REJECTED`.
+
+```text
+CANDIDATE :: WITHHELD
+BOUNDARY :: WITHHELD
+ADMITTED :: RELEASED
+REJECTED :: RETIRED
+```
+
 ## Evidence Passport
 
 Every assignment stores:

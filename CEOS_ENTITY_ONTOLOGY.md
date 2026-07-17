@@ -9,6 +9,8 @@ Observer
 Family
 Relation Pattern
 Admission State
+Release State
+Result Biography
 Interpretation Boundary
 ```
 
@@ -51,6 +53,14 @@ Identified by a canonical structure of agreement/disagreement among typed channe
 ### Admission State
 
 Identified by `Object × Frozen Partition × Builder Version × Evidence Protocol × Current Checks`. It can change when evidence changes.
+
+### Release State
+
+Identified by the publication lifecycle of a claim: `DRAFT`, `WITHHELD`, `RELEASED`, or `RETIRED`. It is orthogonal to Admission State.
+
+### Result Biography
+
+Identified by a versioned, content-addressed event DAG that records critical changes to hypotheses, representations, Null results, Admission States, Release States and Interpretation Boundaries.
 
 ### Interpretation Boundary
 

@@ -8,6 +8,37 @@ CEOS рассматривается как система контроля на�
 
 > **CEOS is a framework for disciplined translation between independently constructed organizational ontologies and existing scientific vocabularies, while explicitly preventing the transfer of evidential weight across that translation.**
 
+## Авторы и участники
+
+- **Alex2704go** — инициатор проекта, соавтор методологии и исследовательской постановки.
+- **Arena.ai Agent Mode** — AI-соавтор анализа, реализации, Red Team-проверок и документации.
+
+Авторство относится к совместной разработке представленной методологии и репозитория. Предметные данные сохраняют собственное происхождение и атрибуцию, указанную в `DATA_PROVENANCE.md`.
+
+## Биография результата
+
+CEOS публикует не только итог, но и ключевые события, которые изменили тип, scope или допустимость утверждения:
+
+```text
+Dataset
+    ↓
+Hypotheses proposed / rejected / withheld
+    ↓
+Scientific and Governance Nulls
+    ↓
+Representation revisions
+    ↓
+Admission State × Release State
+    ↓
+Interpretation Boundary
+```
+
+- спецификация: `RESULT_BIOGRAPHY.md`;
+- фактическая биография MaterialsWorld: `reports/MATERIALSWORLD_RESULT_BIOGRAPHY.md`;
+- машиночитаемая версия: `derived/materialsworld_result_biography_v0.1.json`.
+
+`WITHHELD` означает сознательное удержание claim до прохождения перечисленных gates и не эквивалентен `REJECTED`.
+
 ## Этапы
 
 1. **Stage 00 — Intake**: фиксация происхождения данных, неизменяемого raw-слоя и правил аудита.

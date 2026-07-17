@@ -4,7 +4,7 @@ project:
   timezone: Asia/Vladivostok
 
 stages:
-  current: final_recommendations_materials_project_and_community
+  current: result_biography_v0.1_and_github_update
   partition_admission: admitted
   assignment_admission: active_v0.1
   literature_admission_unlocked: false
